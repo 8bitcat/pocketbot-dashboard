@@ -1,0 +1,1367 @@
+[
+ {
+  "datum": "2026-08-07",
+  "efterhand": true,
+  "resultat": {
+   "godis": 130.35,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 9053.26,
+   "basen": -0.0
+  },
+  "svept": 23.86,
+  "total": 9077.12,
+  "takt": {
+   "godis": -229.42,
+   "basen": 0.0
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-10",
+  "efterhand": true,
+  "resultat": {
+   "godis": 0.0,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 9053.26,
+   "basen": -0.0
+  },
+  "svept": 23.86,
+  "total": 9077.12,
+  "takt": {
+   "godis": -191.19,
+   "basen": 0.0
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-11",
+  "efterhand": true,
+  "resultat": {
+   "godis": 271.33,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 9324.59,
+   "basen": -0.0
+  },
+  "svept": 23.86,
+  "total": 9348.45,
+  "takt": {
+   "godis": -125.11,
+   "basen": 0.0
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-12",
+  "efterhand": true,
+  "resultat": {
+   "godis": 56.36,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 9380.95,
+   "basen": -0.0
+  },
+  "svept": 23.86,
+  "total": 9404.81,
+  "takt": {
+   "godis": -102.43,
+   "basen": 0.0
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-13",
+  "efterhand": true,
+  "resultat": {
+   "godis": -28.62,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 9352.33,
+   "basen": -0.0
+  },
+  "svept": 23.86,
+  "total": 9376.19,
+  "takt": {
+   "godis": -94.23,
+   "basen": 0.0
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-14",
+  "efterhand": true,
+  "resultat": {
+   "godis": -110.83,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 9241.5,
+   "basen": -0.0
+  },
+  "svept": 23.86,
+  "total": 9265.36,
+  "takt": {
+   "godis": -95.89,
+   "basen": 0.0
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-17",
+  "efterhand": true,
+  "resultat": {
+   "godis": 58.33,
+   "basen": 82.86
+  },
+  "saldo": {
+   "godis": 9299.83,
+   "basen": 10000.0
+  },
+  "svept": 106.72,
+  "total": 19406.55,
+  "takt": {
+   "godis": -81.87,
+   "basen": 7.53
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 0,
+    "datum": "2026-08-18"
+   },
+   "hink_10k": {
+    "dagar": 1314,
+    "datum": "2031-09-01"
+   },
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-18",
+  "efterhand": true,
+  "resultat": {
+   "godis": 6.49,
+   "basen": -15.83
+  },
+  "saldo": {
+   "godis": 9306.32,
+   "basen": 9984.17
+  },
+  "svept": 106.72,
+  "total": 19397.21,
+  "takt": {
+   "godis": -74.5,
+   "basen": 5.59
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 3,
+    "datum": "2026-08-24"
+   },
+   "hink_10k": {
+    "dagar": 1774,
+    "datum": "2033-06-07"
+   },
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-19",
+  "efterhand": true,
+  "resultat": {
+   "godis": -645.79,
+   "basen": -519.88
+  },
+  "saldo": {
+   "godis": 8660.53,
+   "basen": 9464.29
+  },
+  "svept": 106.72,
+  "total": 18231.54,
+  "takt": {
+   "godis": -118.45,
+   "basen": -34.83
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-20",
+  "efterhand": true,
+  "resultat": {
+   "godis": 489.16,
+   "basen": -251.81
+  },
+  "saldo": {
+   "godis": 9149.69,
+   "basen": 9212.48
+  },
+  "svept": 106.72,
+  "total": 18468.89,
+  "takt": {
+   "godis": -75.05,
+   "basen": -50.33
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-21",
+  "efterhand": true,
+  "resultat": {
+   "godis": -341.08,
+   "basen": 128.7
+  },
+  "saldo": {
+   "godis": 8808.61,
+   "basen": 9341.18
+  },
+  "svept": 106.72,
+  "total": 18256.51,
+  "takt": {
+   "godis": -92.78,
+   "basen": -38.4
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-24",
+  "efterhand": true,
+  "resultat": {
+   "godis": -435.25,
+   "basen": 301.67
+  },
+  "saldo": {
+   "godis": 8373.36,
+   "basen": 9642.85
+  },
+  "svept": 106.72,
+  "total": 18122.93,
+  "takt": {
+   "godis": -114.19,
+   "basen": -17.14
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-25",
+  "efterhand": true,
+  "resultat": {
+   "godis": 155.41,
+   "basen": -406.41
+  },
+  "saldo": {
+   "godis": 8528.77,
+   "basen": 9236.44
+  },
+  "svept": 106.72,
+  "total": 17871.93,
+  "takt": {
+   "godis": -98.33,
+   "basen": -40.04
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-26",
+  "efterhand": true,
+  "resultat": {
+   "godis": -191.33,
+   "basen": 303.61
+  },
+  "saldo": {
+   "godis": 8337.44,
+   "basen": 9540.05
+  },
+  "svept": 106.72,
+  "total": 17984.21,
+  "takt": {
+   "godis": -103.5,
+   "basen": -20.95
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-27",
+  "efterhand": true,
+  "resultat": {
+   "godis": 122.55,
+   "basen": 167.14
+  },
+  "saldo": {
+   "godis": 8459.99,
+   "basen": 9707.19
+  },
+  "svept": 106.72,
+  "total": 18273.9,
+  "takt": {
+   "godis": -91.6,
+   "basen": -11.05
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-28",
+  "efterhand": true,
+  "resultat": {
+   "godis": -746.95,
+   "basen": 53.94
+  },
+  "saldo": {
+   "godis": 7713.04,
+   "basen": 9761.13
+  },
+  "svept": 106.72,
+  "total": 17580.89,
+  "takt": {
+   "godis": -124.37,
+   "basen": -7.8
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-08-31",
+  "efterhand": true,
+  "resultat": {
+   "godis": -696.89,
+   "basen": 208.14
+  },
+  "saldo": {
+   "godis": 7016.15,
+   "basen": 9969.27
+  },
+  "svept": 106.72,
+  "total": 17092.14,
+  "takt": {
+   "godis": -161.69,
+   "basen": 2.61
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 12,
+    "datum": "2026-09-17"
+   },
+   "hink_10k": {
+    "dagar": 3808,
+    "datum": "2041-04-05"
+   },
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-01",
+  "efterhand": true,
+  "resultat": {
+   "godis": 47.75,
+   "basen": 173.28
+  },
+  "saldo": {
+   "godis": 7063.9,
+   "basen": 10000.01
+  },
+  "svept": 249.26,
+  "total": 17313.17,
+  "takt": {
+   "godis": -92.16,
+   "basen": 11.27
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 0,
+    "datum": "2026-09-02"
+   },
+   "hink_10k": {
+    "dagar": 866,
+    "datum": "2029-12-27"
+   },
+   "total_100k": {
+    "dagar": 7967,
+    "datum": "2057-03-16"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-02",
+  "efterhand": true,
+  "resultat": {
+   "godis": -184.7,
+   "basen": 84.0
+  },
+  "saldo": {
+   "godis": 6879.2,
+   "basen": 10000.0
+  },
+  "svept": 333.27,
+  "total": 17212.47,
+  "takt": {
+   "godis": -99.4,
+   "basen": 15.47
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 0,
+    "datum": "2026-09-03"
+   },
+   "hink_10k": {
+    "dagar": 625,
+    "datum": "2029-01-25"
+   },
+   "total_100k": {
+    "dagar": 5802,
+    "datum": "2048-11-30"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-03",
+  "efterhand": true,
+  "resultat": {
+   "godis": 1077.8,
+   "basen": 111.49
+  },
+  "saldo": {
+   "godis": 7957.0,
+   "basen": 10000.01
+  },
+  "svept": 444.75,
+  "total": 18401.76,
+  "takt": {
+   "godis": -48.3,
+   "basen": 21.04
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 0,
+    "datum": "2026-09-04"
+   },
+   "hink_10k": {
+    "dagar": 455,
+    "datum": "2028-06-02"
+   },
+   "total_100k": {
+    "dagar": 4256,
+    "datum": "2042-12-29"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-04",
+  "efterhand": true,
+  "resultat": {
+   "godis": 391.54,
+   "basen": -2502.52
+  },
+  "saldo": {
+   "godis": 8348.54,
+   "basen": 7497.49
+  },
+  "svept": 444.75,
+  "total": 16290.78,
+  "takt": {
+   "godis": -35.24,
+   "basen": -104.08
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-07",
+  "efterhand": true,
+  "resultat": {
+   "godis": -758.9,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 7589.64,
+   "basen": 7497.49
+  },
+  "svept": 444.75,
+  "total": 15531.88,
+  "takt": {
+   "godis": -73.18,
+   "basen": -104.08
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-08",
+  "efterhand": true,
+  "resultat": {
+   "godis": 727.49,
+   "basen": 47.16
+  },
+  "saldo": {
+   "godis": 8317.13,
+   "basen": 7544.65
+  },
+  "svept": 444.75,
+  "total": 16306.53,
+  "takt": {
+   "godis": -50.37,
+   "basen": -101.72
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-09",
+  "efterhand": true,
+  "resultat": {
+   "godis": 178.95,
+   "basen": 519.63
+  },
+  "saldo": {
+   "godis": 8496.08,
+   "basen": 8064.28
+  },
+  "svept": 444.75,
+  "total": 17005.11,
+  "takt": {
+   "godis": -44.24,
+   "basen": -75.74
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-10",
+  "efterhand": true,
+  "resultat": {
+   "godis": 371.55,
+   "basen": -254.04
+  },
+  "saldo": {
+   "godis": 8867.63,
+   "basen": 7810.24
+  },
+  "svept": 444.75,
+  "total": 17122.62,
+  "takt": {
+   "godis": -24.23,
+   "basen": -88.44
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-11",
+  "efterhand": true,
+  "resultat": {
+   "godis": 22.5,
+   "basen": -220.32
+  },
+  "saldo": {
+   "godis": 8890.13,
+   "basen": 7589.92
+  },
+  "svept": 444.75,
+  "total": 16924.8,
+  "takt": {
+   "godis": -17.57,
+   "basen": -99.46
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-14",
+  "efterhand": true,
+  "resultat": {
+   "godis": -447.16,
+   "basen": -123.33
+  },
+  "saldo": {
+   "godis": 8442.97,
+   "basen": 7466.59
+  },
+  "svept": 444.75,
+  "total": 16354.31,
+  "takt": {
+   "godis": -42.84,
+   "basen": -109.77
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-15",
+  "efterhand": true,
+  "resultat": {
+   "godis": 373.91,
+   "basen": -438.34
+  },
+  "saldo": {
+   "godis": 8816.88,
+   "basen": 7028.25
+  },
+  "svept": 444.75,
+  "total": 16289.88,
+  "takt": {
+   "godis": -24.47,
+   "basen": -130.89
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-16",
+  "efterhand": true,
+  "resultat": {
+   "godis": -1.03,
+   "basen": 4.26
+  },
+  "saldo": {
+   "godis": 8815.85,
+   "basen": 7032.51
+  },
+  "svept": 444.75,
+  "total": 16293.11,
+  "takt": {
+   "godis": 7.77,
+   "basen": -104.69
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 153,
+    "datum": "2027-04-20"
+   },
+   "breakeven_basen": null,
+   "hink_10k": {
+    "dagar": 1383,
+    "datum": "2032-01-06"
+   },
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-17",
+  "efterhand": true,
+  "resultat": {
+   "godis": -213.44,
+   "basen": -108.71
+  },
+  "saldo": {
+   "godis": 8602.41,
+   "basen": 6923.8
+  },
+  "svept": 444.75,
+  "total": 15970.96,
+  "takt": {
+   "godis": -27.36,
+   "basen": -97.53
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-18",
+  "efterhand": true,
+  "resultat": {
+   "godis": -247.38,
+   "basen": 105.73
+  },
+  "saldo": {
+   "godis": 8355.03,
+   "basen": 7029.53
+  },
+  "svept": 444.75,
+  "total": 15829.31,
+  "takt": {
+   "godis": -22.68,
+   "basen": -98.68
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-21",
+  "efterhand": true,
+  "resultat": {
+   "godis": 303.72,
+   "basen": -72.33
+  },
+  "saldo": {
+   "godis": 8658.75,
+   "basen": 6957.2
+  },
+  "svept": 444.75,
+  "total": 16060.7,
+  "takt": {
+   "godis": 14.27,
+   "basen": -117.38
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 94,
+    "datum": "2027-02-01"
+   },
+   "breakeven_basen": null,
+   "hink_10k": {
+    "dagar": 764,
+    "datum": "2029-08-27"
+   },
+   "total_100k": {
+    "dagar": 6376,
+    "datum": "2051-03-01"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-22",
+  "efterhand": true,
+  "resultat": {
+   "godis": -263.83,
+   "basen": 259.92
+  },
+  "saldo": {
+   "godis": 8394.92,
+   "basen": 7217.12
+  },
+  "svept": 444.75,
+  "total": 16056.79,
+  "takt": {
+   "godis": -6.69,
+   "basen": -84.06
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-23",
+  "efterhand": true,
+  "resultat": {
+   "godis": 371.01,
+   "basen": -126.43
+  },
+  "saldo": {
+   "godis": 8765.93,
+   "basen": 7090.69
+  },
+  "svept": 444.75,
+  "total": 16301.37,
+  "takt": {
+   "godis": 21.42,
+   "basen": -105.57
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 58,
+    "datum": "2026-12-15"
+   },
+   "breakeven_basen": null,
+   "hink_10k": {
+    "dagar": 504,
+    "datum": "2028-08-30"
+   },
+   "total_100k": {
+    "dagar": 4242,
+    "datum": "2042-12-29"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-24",
+  "efterhand": true,
+  "resultat": {
+   "godis": 100.54,
+   "basen": 106.62
+  },
+  "saldo": {
+   "godis": 8866.47,
+   "basen": 7197.31
+  },
+  "svept": 444.75,
+  "total": 16508.53,
+  "takt": {
+   "godis": 20.32,
+   "basen": -108.59
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 56,
+    "datum": "2026-12-14"
+   },
+   "breakeven_basen": null,
+   "hink_10k": {
+    "dagar": 526,
+    "datum": "2028-10-02"
+   },
+   "total_100k": {
+    "dagar": 4467,
+    "datum": "2043-11-10"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-25",
+  "efterhand": true,
+  "resultat": {
+   "godis": -310.64,
+   "basen": 13.6
+  },
+  "saldo": {
+   "godis": 8555.83,
+   "basen": 7210.91
+  },
+  "svept": 444.75,
+  "total": 16211.49,
+  "takt": {
+   "godis": 42.14,
+   "basen": -110.61
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 35,
+    "datum": "2026-11-16"
+   },
+   "breakeven_basen": null,
+   "hink_10k": {
+    "dagar": 262,
+    "datum": "2027-09-29"
+   },
+   "total_100k": {
+    "dagar": 2162,
+    "datum": "2035-01-10"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-28",
+  "efterhand": true,
+  "resultat": {
+   "godis": -84.28,
+   "basen": 62.82
+  },
+  "saldo": {
+   "godis": 8471.55,
+   "basen": 7273.73
+  },
+  "svept": 444.75,
+  "total": 16190.03,
+  "takt": {
+   "godis": 72.77,
+   "basen": -117.88
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 22,
+    "datum": "2026-10-29"
+   },
+   "breakeven_basen": null,
+   "hink_10k": {
+    "dagar": 153,
+    "datum": "2027-04-30"
+   },
+   "total_100k": {
+    "dagar": 1253,
+    "datum": "2031-07-18"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-29",
+  "efterhand": true,
+  "resultat": {
+   "godis": -529.99,
+   "basen": 43.03
+  },
+  "saldo": {
+   "godis": 7941.56,
+   "basen": 7316.76
+  },
+  "svept": 444.75,
+  "total": 15703.07,
+  "takt": {
+   "godis": 43.88,
+   "basen": -124.39
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 47,
+    "datum": "2026-12-04"
+   },
+   "breakeven_basen": null,
+   "hink_10k": {
+    "dagar": 265,
+    "datum": "2027-10-06"
+   },
+   "total_100k": {
+    "dagar": 2089,
+    "datum": "2034-10-03"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-09-30",
+  "efterhand": true,
+  "resultat": {
+   "godis": 103.08,
+   "basen": 16.75
+  },
+  "saldo": {
+   "godis": 8044.64,
+   "basen": 7333.51
+  },
+  "svept": 444.75,
+  "total": 15822.9,
+  "takt": {
+   "godis": 58.27,
+   "basen": -127.75
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 34,
+    "datum": "2026-11-18"
+   },
+   "breakeven_basen": null,
+   "hink_10k": {
+    "dagar": 198,
+    "datum": "2027-07-06"
+   },
+   "total_100k": {
+    "dagar": 1572,
+    "datum": "2032-10-11"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-10-01",
+  "efterhand": true,
+  "resultat": {
+   "godis": -11.59,
+   "basen": 232.18
+  },
+  "saldo": {
+   "godis": 8033.05,
+   "basen": 7565.69
+  },
+  "svept": 444.75,
+  "total": 16043.49,
+  "takt": {
+   "godis": 3.8,
+   "basen": -121.72
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 518,
+    "datum": "2028-09-27"
+   },
+   "breakeven_basen": null,
+   "hink_10k": {
+    "dagar": 3031,
+    "datum": "2038-05-17"
+   },
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-10-02",
+  "efterhand": true,
+  "resultat": {
+   "godis": -49.11,
+   "basen": 318.79
+  },
+  "saldo": {
+   "godis": 7983.94,
+   "basen": 7884.48
+  },
+  "svept": 444.75,
+  "total": 16313.17,
+  "takt": {
+   "godis": -18.23,
+   "basen": 19.35
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 110,
+    "datum": "2027-03-08"
+   },
+   "hink_10k": {
+    "dagar": 604,
+    "datum": "2029-01-26"
+   },
+   "total_100k": {
+    "dagar": 4738,
+    "datum": "2044-12-01"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-10-05",
+  "efterhand": true,
+  "resultat": {
+   "godis": 121.25,
+   "basen": 54.18
+  },
+  "saldo": {
+   "godis": 8105.19,
+   "basen": 7938.66
+  },
+  "svept": 444.75,
+  "total": 16488.6,
+  "takt": {
+   "godis": 25.78,
+   "basen": 22.06
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": {
+    "dagar": 74,
+    "datum": "2027-01-18"
+   },
+   "breakeven_basen": {
+    "dagar": 94,
+    "datum": "2027-02-15"
+   },
+   "hink_10k": {
+    "dagar": 283,
+    "datum": "2027-11-05"
+   },
+   "total_100k": {
+    "dagar": 1746,
+    "datum": "2033-06-15"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-10-06",
+  "efterhand": true,
+  "resultat": {
+   "godis": -335.7,
+   "basen": -106.14
+  },
+  "saldo": {
+   "godis": 7769.49,
+   "basen": 7832.52
+  },
+  "svept": 444.75,
+  "total": 16046.76,
+  "takt": {
+   "godis": -27.38,
+   "basen": 14.39
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 151,
+    "datum": "2027-05-06"
+   },
+   "hink_10k": {
+    "dagar": 815,
+    "datum": "2029-11-21"
+   },
+   "total_100k": {
+    "dagar": 6373,
+    "datum": "2051-03-13"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-10-07",
+  "efterhand": true,
+  "resultat": {
+   "godis": -224.92,
+   "basen": 57.04
+  },
+  "saldo": {
+   "godis": 7544.57,
+   "basen": 7889.56
+  },
+  "svept": 444.75,
+  "total": 15878.88,
+  "takt": {
+   "godis": -47.58,
+   "basen": -8.74
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-10-08",
+  "efterhand": true,
+  "resultat": {
+   "godis": 139.44,
+   "basen": 243.64
+  },
+  "saldo": {
+   "godis": 7684.01,
+   "basen": 8133.2
+  },
+  "svept": 444.75,
+  "total": 16261.96,
+  "takt": {
+   "godis": -59.18,
+   "basen": 16.15
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 116,
+    "datum": "2027-03-22"
+   },
+   "hink_10k": {
+    "dagar": 708,
+    "datum": "2029-06-27"
+   },
+   "total_100k": {
+    "dagar": 5663,
+    "datum": "2048-06-24"
+   },
+   "total_1m": null
+  }
+ },
+ {
+  "datum": "2026-10-09",
+  "korning": "2026-10-10T11:08",
+  "resultat": {
+   "godis": 75.57,
+   "basen": 128.48
+  },
+  "saldo": {
+   "godis": 7759.58,
+   "basen": 8261.68,
+   "hink": 7.76
+  },
+  "svept": 444.75,
+  "total": 16466.01,
+  "takt": {
+   "godis": -56.53,
+   "basen": 33.59
+  },
+  "fonster": 20,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 52,
+    "datum": "2026-12-22"
+   },
+   "hink_10k": {
+    "dagar": 337,
+    "datum": "2028-01-25"
+   },
+   "total_100k": {
+    "dagar": 2720,
+    "datum": "2037-03-13"
+   },
+   "total_1m": null
+  }
+ }
+]

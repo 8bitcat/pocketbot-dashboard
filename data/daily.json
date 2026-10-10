@@ -1,0 +1,1552 @@
+[
+ {
+  "datum": "2026-08-03",
+  "godis": {
+   "resultat": 49.63,
+   "kassa": 5299.63,
+   "flytt": 5250.0,
+   "affarer": 8,
+   "oppet": 0,
+   "saldo": 10253.5,
+   "varde": 10253.5
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 3.37,
+   "varde": 3.37
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "svept": 0.0
+ },
+ {
+  "datum": "2026-08-04",
+  "godis": {
+   "resultat": -1342.95,
+   "kassa": -1346.45,
+   "flytt": -3.5,
+   "affarer": 14,
+   "oppet": 0,
+   "saldo": 8907.05,
+   "varde": 8907.05
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": -3.37,
+   "flytt": -3.37,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 6.87,
+   "flytt": 6.87,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 6.87,
+   "varde": 6.87
+  },
+  "svept": 23.86
+ },
+ {
+  "datum": "2026-08-05",
+  "godis": {
+   "resultat": -39.94,
+   "kassa": -39.94,
+   "flytt": 0.0,
+   "affarer": 6,
+   "oppet": 0,
+   "saldo": 8867.11,
+   "varde": 8867.11
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 6.87,
+   "varde": 6.87
+  },
+  "svept": 23.86
+ },
+ {
+  "datum": "2026-08-06",
+  "godis": {
+   "resultat": 55.8,
+   "kassa": 55.8,
+   "flytt": 0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 8922.91,
+   "varde": 8922.91
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 6.87,
+   "varde": 6.87
+  },
+  "svept": 23.86
+ },
+ {
+  "datum": "2026-08-07",
+  "godis": {
+   "resultat": 130.35,
+   "kassa": 130.35,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 9053.26,
+   "varde": 9053.26
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 6.87,
+   "varde": 6.87
+  },
+  "svept": 23.86
+ },
+ {
+  "datum": "2026-08-10",
+  "godis": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 9053.26,
+   "varde": 9053.26
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 6.87,
+   "varde": 6.87
+  },
+  "svept": 23.86
+ },
+ {
+  "datum": "2026-08-11",
+  "godis": {
+   "resultat": 271.33,
+   "kassa": 271.33,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 9324.59,
+   "varde": 9324.59
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 6.87,
+   "varde": 6.87
+  },
+  "svept": 23.86
+ },
+ {
+  "datum": "2026-08-12",
+  "godis": {
+   "resultat": 56.36,
+   "kassa": 56.36,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 9380.95,
+   "varde": 9380.95
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 6.87,
+   "varde": 6.87
+  },
+  "svept": 23.86
+ },
+ {
+  "datum": "2026-08-13",
+  "godis": {
+   "resultat": -28.62,
+   "kassa": -28.62,
+   "flytt": 0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 9352.33,
+   "varde": 9352.33
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 6.87,
+   "varde": 6.87
+  },
+  "svept": 23.86
+ },
+ {
+  "datum": "2026-08-14",
+  "godis": {
+   "resultat": -110.83,
+   "kassa": -110.83,
+   "flytt": 0,
+   "affarer": 2,
+   "oppet": 0,
+   "saldo": 9241.5,
+   "varde": 9241.5
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": -0.0,
+   "varde": -0.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 6.87,
+   "varde": 6.87
+  },
+  "svept": 23.86
+ },
+ {
+  "datum": "2026-08-17",
+  "godis": {
+   "resultat": 58.33,
+   "kassa": 58.33,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 9299.83,
+   "varde": 9299.83
+  },
+  "basen": {
+   "resultat": 82.86,
+   "kassa": 10000.0,
+   "flytt": 9917.14,
+   "affarer": 9,
+   "oppet": 0,
+   "saldo": 10000.0,
+   "varde": 10000.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 82.86,
+   "flytt": 82.86,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-18",
+  "godis": {
+   "resultat": 6.49,
+   "kassa": 6.49,
+   "flytt": 0,
+   "affarer": 7,
+   "oppet": 0,
+   "saldo": 9306.32,
+   "varde": 9306.32
+  },
+  "basen": {
+   "resultat": -15.83,
+   "kassa": -15.83,
+   "flytt": 0.0,
+   "affarer": 9,
+   "oppet": 0,
+   "saldo": 9984.17,
+   "varde": 9984.17
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-19",
+  "godis": {
+   "resultat": -645.79,
+   "kassa": -645.79,
+   "flytt": 0,
+   "affarer": 8,
+   "oppet": 0,
+   "saldo": 8660.53,
+   "varde": 8660.53
+  },
+  "basen": {
+   "resultat": -519.88,
+   "kassa": -519.88,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 9464.29,
+   "varde": 9464.29
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-20",
+  "godis": {
+   "resultat": 489.16,
+   "kassa": 489.16,
+   "flytt": 0,
+   "affarer": 13,
+   "oppet": 0,
+   "saldo": 9149.69,
+   "varde": 9149.69
+  },
+  "basen": {
+   "resultat": -251.81,
+   "kassa": -251.81,
+   "flytt": 0,
+   "affarer": 6,
+   "oppet": 0,
+   "saldo": 9212.48,
+   "varde": 9212.48
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-21",
+  "godis": {
+   "resultat": -341.08,
+   "kassa": -341.08,
+   "flytt": 0,
+   "affarer": 9,
+   "oppet": 0,
+   "saldo": 8808.61,
+   "varde": 8808.61
+  },
+  "basen": {
+   "resultat": 128.7,
+   "kassa": 128.7,
+   "flytt": 0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 9341.18,
+   "varde": 9341.18
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-24",
+  "godis": {
+   "resultat": -435.25,
+   "kassa": -435.25,
+   "flytt": 0,
+   "affarer": 3,
+   "oppet": 0,
+   "saldo": 8373.36,
+   "varde": 8373.36
+  },
+  "basen": {
+   "resultat": 301.67,
+   "kassa": 301.67,
+   "flytt": 0.0,
+   "affarer": 17,
+   "oppet": 0,
+   "saldo": 9642.85,
+   "varde": 9642.85
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-25",
+  "godis": {
+   "resultat": 155.41,
+   "kassa": 155.41,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 8528.77,
+   "varde": 8528.77
+  },
+  "basen": {
+   "resultat": -406.41,
+   "kassa": -406.41,
+   "flytt": 0,
+   "affarer": 6,
+   "oppet": 0,
+   "saldo": 9236.44,
+   "varde": 9236.44
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-26",
+  "godis": {
+   "resultat": -191.33,
+   "kassa": -191.33,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 8337.44,
+   "varde": 8337.44
+  },
+  "basen": {
+   "resultat": 303.61,
+   "kassa": 303.61,
+   "flytt": 0,
+   "affarer": 7,
+   "oppet": 0,
+   "saldo": 9540.05,
+   "varde": 9540.05
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-27",
+  "godis": {
+   "resultat": 122.55,
+   "kassa": 122.55,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 8459.99,
+   "varde": 8459.99
+  },
+  "basen": {
+   "resultat": 167.14,
+   "kassa": 167.14,
+   "flytt": 0,
+   "affarer": 6,
+   "oppet": 0,
+   "saldo": 9707.19,
+   "varde": 9707.19
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-28",
+  "godis": {
+   "resultat": -746.95,
+   "kassa": -746.95,
+   "flytt": 0,
+   "affarer": 13,
+   "oppet": 0,
+   "saldo": 7713.04,
+   "varde": 7713.04
+  },
+  "basen": {
+   "resultat": 53.94,
+   "kassa": -1939.75,
+   "flytt": 0,
+   "affarer": 2,
+   "oppet": 1993.69,
+   "saldo": 7767.44,
+   "varde": 9761.13
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-08-31",
+  "godis": {
+   "resultat": -696.89,
+   "kassa": -696.89,
+   "flytt": 0,
+   "affarer": 7,
+   "oppet": 0,
+   "saldo": 7016.15,
+   "varde": 7016.15
+  },
+  "basen": {
+   "resultat": 208.14,
+   "kassa": 2201.83,
+   "flytt": 0,
+   "affarer": 2,
+   "oppet": 0,
+   "saldo": 9969.27,
+   "varde": 9969.27
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 89.73,
+   "varde": 89.73
+  },
+  "svept": 106.72
+ },
+ {
+  "datum": "2026-09-01",
+  "godis": {
+   "resultat": 47.75,
+   "kassa": 47.75,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 7063.9,
+   "varde": 7063.9
+  },
+  "basen": {
+   "resultat": 173.28,
+   "kassa": 30.74,
+   "flytt": -142.54,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 10000.01,
+   "varde": 10000.01
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 142.54,
+   "flytt": 142.54,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 232.27,
+   "varde": 232.27
+  },
+  "svept": 249.26
+ },
+ {
+  "datum": "2026-09-02",
+  "godis": {
+   "resultat": -184.7,
+   "kassa": -184.7,
+   "flytt": 0,
+   "affarer": 10,
+   "oppet": 0,
+   "saldo": 6879.2,
+   "varde": 6879.2
+  },
+  "basen": {
+   "resultat": 84.0,
+   "kassa": -0.01,
+   "flytt": -84.01,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 10000.0,
+   "varde": 10000.0
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 84.01,
+   "flytt": 84.01,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 316.28,
+   "varde": 316.28
+  },
+  "svept": 333.27
+ },
+ {
+  "datum": "2026-09-03",
+  "godis": {
+   "resultat": 1077.8,
+   "kassa": 1077.8,
+   "flytt": 0,
+   "affarer": 14,
+   "oppet": 0,
+   "saldo": 7957.0,
+   "varde": 7957.0
+  },
+  "basen": {
+   "resultat": 111.49,
+   "kassa": 0.01,
+   "flytt": -111.48,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 10000.01,
+   "varde": 10000.01
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 111.48,
+   "flytt": 111.48,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-04",
+  "godis": {
+   "resultat": 391.54,
+   "kassa": 391.54,
+   "flytt": 0,
+   "affarer": 10,
+   "oppet": 0,
+   "saldo": 8348.54,
+   "varde": 8348.54
+  },
+  "basen": {
+   "resultat": -2502.52,
+   "kassa": -2502.52,
+   "flytt": 0.0,
+   "affarer": 9,
+   "oppet": 0,
+   "saldo": 7497.49,
+   "varde": 7497.49
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-07",
+  "godis": {
+   "resultat": -758.9,
+   "kassa": -2486.99,
+   "flytt": 0,
+   "affarer": 11,
+   "oppet": 1728.09,
+   "saldo": 5861.55,
+   "varde": 7589.64
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 7497.49,
+   "varde": 7497.49
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-08",
+  "godis": {
+   "resultat": 727.49,
+   "kassa": 2455.58,
+   "flytt": 0,
+   "affarer": 16,
+   "oppet": 0,
+   "saldo": 8317.13,
+   "varde": 8317.13
+  },
+  "basen": {
+   "resultat": 47.16,
+   "kassa": 47.16,
+   "flytt": 0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 7544.65,
+   "varde": 7544.65
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-09",
+  "godis": {
+   "resultat": 178.95,
+   "kassa": 178.95,
+   "flytt": 0,
+   "affarer": 6,
+   "oppet": 0,
+   "saldo": 8496.08,
+   "varde": 8496.08
+  },
+  "basen": {
+   "resultat": 519.63,
+   "kassa": 519.63,
+   "flytt": 0,
+   "affarer": 7,
+   "oppet": 0,
+   "saldo": 8064.28,
+   "varde": 8064.28
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-10",
+  "godis": {
+   "resultat": 371.55,
+   "kassa": 371.55,
+   "flytt": 0,
+   "affarer": 10,
+   "oppet": 0,
+   "saldo": 8867.63,
+   "varde": 8867.63
+  },
+  "basen": {
+   "resultat": -254.04,
+   "kassa": -254.04,
+   "flytt": 0,
+   "affarer": 8,
+   "oppet": 0,
+   "saldo": 7810.24,
+   "varde": 7810.24
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-11",
+  "godis": {
+   "resultat": 22.5,
+   "kassa": 22.5,
+   "flytt": 0,
+   "affarer": 11,
+   "oppet": 0,
+   "saldo": 8890.13,
+   "varde": 8890.13
+  },
+  "basen": {
+   "resultat": -220.32,
+   "kassa": -220.32,
+   "flytt": 0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 7589.92,
+   "varde": 7589.92
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-14",
+  "godis": {
+   "resultat": -447.16,
+   "kassa": -447.16,
+   "flytt": 0,
+   "affarer": 12,
+   "oppet": 0,
+   "saldo": 8442.97,
+   "varde": 8442.97
+  },
+  "basen": {
+   "resultat": -123.33,
+   "kassa": -123.33,
+   "flytt": 0,
+   "affarer": 3,
+   "oppet": 0,
+   "saldo": 7466.59,
+   "varde": 7466.59
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-15",
+  "godis": {
+   "resultat": 373.91,
+   "kassa": 373.91,
+   "flytt": 0,
+   "affarer": 10,
+   "oppet": 0,
+   "saldo": 8816.88,
+   "varde": 8816.88
+  },
+  "basen": {
+   "resultat": -438.34,
+   "kassa": -438.34,
+   "flytt": 0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 7028.25,
+   "varde": 7028.25
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-16",
+  "godis": {
+   "resultat": -1.03,
+   "kassa": -1.03,
+   "flytt": 0,
+   "affarer": 6,
+   "oppet": 0,
+   "saldo": 8815.85,
+   "varde": 8815.85
+  },
+  "basen": {
+   "resultat": 4.26,
+   "kassa": 4.26,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 7032.51,
+   "varde": 7032.51
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-17",
+  "godis": {
+   "resultat": -213.44,
+   "kassa": -213.44,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 8602.41,
+   "varde": 8602.41
+  },
+  "basen": {
+   "resultat": -108.71,
+   "kassa": -108.71,
+   "flytt": 0,
+   "affarer": 2,
+   "oppet": 0,
+   "saldo": 6923.8,
+   "varde": 6923.8
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-18",
+  "godis": {
+   "resultat": -247.38,
+   "kassa": -247.38,
+   "flytt": 0,
+   "affarer": 3,
+   "oppet": 0,
+   "saldo": 8355.03,
+   "varde": 8355.03
+  },
+  "basen": {
+   "resultat": 105.73,
+   "kassa": 105.73,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 7029.53,
+   "varde": 7029.53
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-21",
+  "godis": {
+   "resultat": 303.72,
+   "kassa": 303.72,
+   "flytt": 0,
+   "affarer": 2,
+   "oppet": 0,
+   "saldo": 8658.75,
+   "varde": 8658.75
+  },
+  "basen": {
+   "resultat": -72.33,
+   "kassa": -72.33,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 6957.2,
+   "varde": 6957.2
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-22",
+  "godis": {
+   "resultat": -263.83,
+   "kassa": -263.83,
+   "flytt": 0,
+   "affarer": 3,
+   "oppet": 0,
+   "saldo": 8394.92,
+   "varde": 8394.92
+  },
+  "basen": {
+   "resultat": 259.92,
+   "kassa": 259.92,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 7217.12,
+   "varde": 7217.12
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-23",
+  "godis": {
+   "resultat": 371.01,
+   "kassa": 371.01,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 8765.93,
+   "varde": 8765.93
+  },
+  "basen": {
+   "resultat": -126.43,
+   "kassa": -126.43,
+   "flytt": 0,
+   "affarer": 6,
+   "oppet": 0,
+   "saldo": 7090.69,
+   "varde": 7090.69
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-24",
+  "godis": {
+   "resultat": 100.54,
+   "kassa": 100.54,
+   "flytt": 0,
+   "affarer": 9,
+   "oppet": 0,
+   "saldo": 8866.47,
+   "varde": 8866.47
+  },
+  "basen": {
+   "resultat": 106.62,
+   "kassa": 106.62,
+   "flytt": 0,
+   "affarer": 3,
+   "oppet": 0,
+   "saldo": 7197.31,
+   "varde": 7197.31
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-25",
+  "godis": {
+   "resultat": -310.64,
+   "kassa": -310.64,
+   "flytt": 0,
+   "affarer": 8,
+   "oppet": 0,
+   "saldo": 8555.83,
+   "varde": 8555.83
+  },
+  "basen": {
+   "resultat": 13.6,
+   "kassa": 13.6,
+   "flytt": 0,
+   "affarer": 2,
+   "oppet": 0,
+   "saldo": 7210.91,
+   "varde": 7210.91
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-28",
+  "godis": {
+   "resultat": -84.28,
+   "kassa": -84.28,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 8471.55,
+   "varde": 8471.55
+  },
+  "basen": {
+   "resultat": 62.82,
+   "kassa": 62.82,
+   "flytt": 0,
+   "affarer": 2,
+   "oppet": 0,
+   "saldo": 7273.73,
+   "varde": 7273.73
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-29",
+  "godis": {
+   "resultat": -529.99,
+   "kassa": -529.99,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 7941.56,
+   "varde": 7941.56
+  },
+  "basen": {
+   "resultat": 43.03,
+   "kassa": 43.03,
+   "flytt": 0,
+   "affarer": 3,
+   "oppet": 0,
+   "saldo": 7316.76,
+   "varde": 7316.76
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-09-30",
+  "godis": {
+   "resultat": 103.08,
+   "kassa": 103.08,
+   "flytt": 0,
+   "affarer": 2,
+   "oppet": 0,
+   "saldo": 8044.64,
+   "varde": 8044.64
+  },
+  "basen": {
+   "resultat": 16.75,
+   "kassa": 16.75,
+   "flytt": 0.0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 7333.51,
+   "varde": 7333.51
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-10-01",
+  "godis": {
+   "resultat": -11.59,
+   "kassa": -11.59,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 8033.05,
+   "varde": 8033.05
+  },
+  "basen": {
+   "resultat": 232.18,
+   "kassa": 232.18,
+   "flytt": 0,
+   "affarer": 3,
+   "oppet": 0,
+   "saldo": 7565.69,
+   "varde": 7565.69
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-10-02",
+  "godis": {
+   "resultat": -49.11,
+   "kassa": -49.11,
+   "flytt": 0,
+   "affarer": 9,
+   "oppet": 0,
+   "saldo": 7983.94,
+   "varde": 7983.94
+  },
+  "basen": {
+   "resultat": 318.79,
+   "kassa": 318.79,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 7884.48,
+   "varde": 7884.48
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-10-05",
+  "godis": {
+   "resultat": 121.25,
+   "kassa": 121.25,
+   "flytt": 0,
+   "affarer": 8,
+   "oppet": 0,
+   "saldo": 8105.19,
+   "varde": 8105.19
+  },
+  "basen": {
+   "resultat": 54.18,
+   "kassa": 54.18,
+   "flytt": 0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 7938.66,
+   "varde": 7938.66
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-10-06",
+  "godis": {
+   "resultat": -335.7,
+   "kassa": -2305.8,
+   "flytt": 0,
+   "affarer": 6,
+   "oppet": 1970.1,
+   "saldo": 5799.39,
+   "varde": 7769.49
+  },
+  "basen": {
+   "resultat": -106.14,
+   "kassa": -106.14,
+   "flytt": 0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 7832.52,
+   "varde": 7832.52
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-10-07",
+  "godis": {
+   "resultat": -224.92,
+   "kassa": 1745.18,
+   "flytt": 0,
+   "affarer": 7,
+   "oppet": 0,
+   "saldo": 7544.57,
+   "varde": 7544.57
+  },
+  "basen": {
+   "resultat": 57.04,
+   "kassa": 57.04,
+   "flytt": 0,
+   "affarer": 1,
+   "oppet": 0,
+   "saldo": 7889.56,
+   "varde": 7889.56
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-10-08",
+  "godis": {
+   "resultat": 139.44,
+   "kassa": 139.44,
+   "flytt": 0,
+   "affarer": 12,
+   "oppet": 0,
+   "saldo": 7684.01,
+   "varde": 7684.01
+  },
+  "basen": {
+   "resultat": 243.64,
+   "kassa": 243.64,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 8133.2,
+   "varde": 8133.2
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 427.76,
+   "varde": 427.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-10-09",
+  "godis": {
+   "resultat": 75.57,
+   "kassa": 75.57,
+   "flytt": 0,
+   "affarer": 7,
+   "oppet": 0,
+   "saldo": 7759.58,
+   "varde": 7759.58
+  },
+  "basen": {
+   "resultat": 128.48,
+   "kassa": 128.48,
+   "flytt": 0,
+   "affarer": 2,
+   "oppet": 0,
+   "saldo": 8261.68,
+   "varde": 8261.68
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": -420.0,
+   "flytt": -420.0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 7.76,
+   "varde": 7.76
+  },
+  "svept": 444.75
+ }
+]

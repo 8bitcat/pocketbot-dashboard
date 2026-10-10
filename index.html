@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PocketBot – läget</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>PocketBot</h1>
+    <p class="sub">Godispåsen, Basen och hinken (Vinstöverskott) · uppdateras varje natt 05:00 ur Avanzas transaktioner</p>
+  </div>
+  <p class="stamp" id="stamp">Laddar…</p>
+</header>
+
+<main>
+  <section class="kort-rad" id="konton"></section>
+
+  <section class="panel">
+    <div class="panel-huvud">
+      <h2>Prognos</h2>
+      <p class="hint" id="prognos-hint"></p>
+    </div>
+    <div class="mal-rad" id="mal"></div>
+    <div class="framsteg" id="framsteg"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-huvud">
+      <h2>Simulera</h2>
+      <button type="button" id="aterstall" class="lank">Återställ</button>
+    </div>
+    <form class="sim" id="sim" onsubmit="return false">
+      <label>Kapital per handelskonto
+        <span class="falt"><input type="number" id="kapital" min="1000" step="1000" value="10000"> kr</span>
+      </label>
+      <label>Insats per affär (lot)
+        <span class="falt"><input type="number" id="lot" min="100" step="100" value="2000"> kr</span>
+      </label>
+      <label>Takt räknad på
+        <select id="fonster">
+          <option value="5">senaste 5 handelsdagarna</option>
+          <option value="10">senaste 10 handelsdagarna</option>
+          <option value="20" selected>senaste 20 handelsdagarna</option>
+          <option value="0">alla dagar sedan start</option>
+        </select>
+      </label>
+      <label class="kryss"><input type="checkbox" id="ater"> Återinvestera vinsten (stäng av svepet, insatsen växer med kontot)</label>
+    </form>
+    <p class="hint" id="sim-hint"></p>
+  </section>
+
+  <section class="panel">
+    <div class="panel-huvud"><h2>Kontovärde</h2></div>
+    <div class="graf"><canvas id="graf-varde"></canvas></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-huvud"><h2>Resultat per dag</h2></div>
+    <div class="graf liten"><canvas id="graf-dag"></canvas></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-huvud">
+      <h2>Prognosen dag för dag</h2>
+      <p class="hint">Varje rad är prognosen som den såg ut efter den handelsdagen (takt 20 dagar, kapital 10 000 kr, lot 2 000 kr). Δ = ändring mot dagen före, i handelsdagar.</p>
+    </div>
+    <div class="tabell-ram"><table id="historik"></table></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-huvud"><h2>Händelser i live-setet</h2><p class="hint">Genom som motorn valt in, kastat ut eller flyttat mellan kontona.</p></div>
+    <ul class="handelser" id="handelser"></ul>
+  </section>
+</main>
+
+<footer>Prognosen förlänger den senaste takten rakt fram. Den säger var vi hamnar om de senaste veckorna upprepar sig, inte vad som kommer att hända.</footer>
+<script src="app.js"></script>
+</body>
+</html>

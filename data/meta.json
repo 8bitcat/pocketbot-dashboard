@@ -1,0 +1,26 @@
+{
+ "uppdaterad": "2026-10-10T11:08",
+ "konton": {
+  "godis": "Godispåsen",
+  "basen": "Basen",
+  "hink": "Vinstöverskott"
+ },
+ "handel": [
+  "godis",
+  "basen"
+ ],
+ "hink": "hink",
+ "golv": 10000.0,
+ "lot": 2000.0,
+ "fonster": 20,
+ "saldo": {
+  "godis": 7759.58,
+  "basen": 8261.68,
+  "hink": 7.76
+ },
+ "svept": 444.75,
+ "total": 16466.01,
+ "malHink": 10000.0,
+ "mal100k": 100000.0,
+ "mal1m": 1000000.0
+}
