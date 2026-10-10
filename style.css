@@ -12,19 +12,22 @@
   --c-basen: #7c3aed;
   --c-hink: #0f9d8a;
   --c-total: #16191d;
+  --c-1v: #d97706;
+  --c-2v: #7c3aed;
+  --c-1m: #2b6cb0;
   --skugga: 0 1px 2px rgba(16, 24, 40, .06);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0f1216; --yta: #171b21; --text: #e8eaed; --dampad: #9aa3ae; --linje: #2a3038;
     --accent: #6ea8ff; --plus: #4ade80; --minus: #fb923c; --spar: #232a33;
-    --c-godis: #6ea8ff; --c-basen: #b794f6; --c-hink: #34d3bb; --c-total: #e8eaed; --skugga: none;
+    --c-godis: #6ea8ff; --c-basen: #b794f6; --c-hink: #34d3bb; --c-total: #e8eaed; --c-1v: #fbbf24; --c-2v: #c4b5fd; --c-1m: #6ea8ff; --skugga: none;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0f1216; --yta: #171b21; --text: #e8eaed; --dampad: #9aa3ae; --linje: #2a3038;
   --accent: #6ea8ff; --plus: #4ade80; --minus: #fb923c; --spar: #232a33;
-  --c-godis: #6ea8ff; --c-basen: #b794f6; --c-hink: #34d3bb; --c-total: #e8eaed; --skugga: none;
+  --c-godis: #6ea8ff; --c-basen: #b794f6; --c-hink: #34d3bb; --c-total: #e8eaed; --c-1v: #fbbf24; --c-2v: #c4b5fd; --c-1m: #6ea8ff; --skugga: none;
 }
 * { box-sizing: border-box; }
 body {
@@ -74,6 +77,15 @@ h2 { margin: 0; font-size: 17px; }
 .lank { background: none; border: 0; color: var(--accent); font: inherit; cursor: pointer; padding: 0; }
 .varning { color: var(--minus); }
 
+h3 { margin: 22px 0 0; font-size: 15px; }
+.horisont { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--dampad); }
+.horisont select { font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--linje); border-radius: 8px; padding: 6px 8px; }
+.flikar { display: inline-flex; border: 1px solid var(--linje); border-radius: 8px; overflow: hidden; }
+.flikar button { font: inherit; font-size: 13px; background: none; border: 0; color: var(--dampad); padding: 6px 12px; cursor: pointer; }
+.flikar button + button { border-left: 1px solid var(--linje); }
+.flikar button.vald { background: var(--accent); color: #fff; }
+#jamfor td small, #historik td small { display: block; color: var(--dampad); font-size: 11px; }
+#jamfor tr.aktiv td { font-weight: 600; }
 .graf { position: relative; height: 300px; }
 .graf.liten { height: 220px; }
 

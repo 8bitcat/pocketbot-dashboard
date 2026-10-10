@@ -16,13 +16,50 @@
    "godis": -229.42,
    "basen": 0.0
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -229.42,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": -229.42,
+    "basen": 0.0
+   },
+   "1m": {
+    "godis": -229.42,
+    "basen": 0.0
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -42,13 +79,50 @@
    "godis": -191.19,
    "basen": 0.0
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -239.35,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": -191.19,
+    "basen": 0.0
+   },
+   "1m": {
+    "godis": -191.19,
+    "basen": 0.0
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -68,13 +142,59 @@
    "godis": -125.11,
    "basen": 0.0
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 83.51,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": -125.11,
+    "basen": 0.0
+   },
+   "1m": {
+    "godis": -125.11,
+    "basen": 0.0
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 9,
+     "datum": "2026-08-25"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 128,
+     "datum": "2027-02-08"
+    },
+    "total_100k": {
+     "dagar": 1086,
+     "datum": "2030-10-10"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -94,13 +214,62 @@
    "godis": -102.43,
    "basen": 0.0
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 102.77,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": -102.43,
+    "basen": 0.0
+   },
+   "1m": {
+    "godis": -102.43,
+    "basen": 0.0
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 7,
+     "datum": "2026-08-24"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 104,
+     "datum": "2027-01-06"
+    },
+    "total_100k": {
+     "dagar": 882,
+     "datum": "2029-12-31"
+    },
+    "total_1m": {
+     "dagar": 9640,
+     "datum": "2063-07-26"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -120,13 +289,59 @@
    "godis": -94.23,
    "basen": 0.0
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 85.88,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": -94.23,
+    "basen": 0.0
+   },
+   "1m": {
+    "godis": -94.23,
+    "basen": 0.0
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 8,
+     "datum": "2026-08-26"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 124,
+     "datum": "2027-02-04"
+    },
+    "total_100k": {
+     "dagar": 1056,
+     "datum": "2030-09-02"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -146,13 +361,59 @@
    "godis": -95.89,
    "basen": 0.0
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 37.65,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": -95.89,
+    "basen": 0.0
+   },
+   "1m": {
+    "godis": -95.89,
+    "basen": 0.0
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 21,
+     "datum": "2026-09-15"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 286,
+     "datum": "2027-09-21"
+    },
+    "total_100k": {
+     "dagar": 2411,
+     "datum": "2035-11-13"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -172,7 +433,7 @@
    "godis": -81.87,
    "basen": 7.53
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": {
@@ -185,6 +446,67 @@
    },
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 49.31,
+    "basen": 16.57
+   },
+   "2v": {
+    "godis": -95.02,
+    "basen": 8.29
+   },
+   "1m": {
+    "godis": -81.87,
+    "basen": 7.53
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 15,
+     "datum": "2026-09-08"
+    },
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-08-18"
+    },
+    "hink_10k": {
+     "dagar": 161,
+     "datum": "2027-03-31"
+    },
+    "total_100k": {
+     "dagar": 1224,
+     "datum": "2031-04-28"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-08-18"
+    },
+    "hink_10k": {
+     "dagar": 1194,
+     "datum": "2031-03-17"
+    },
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-08-18"
+    },
+    "hink_10k": {
+     "dagar": 1314,
+     "datum": "2031-09-01"
+    },
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -204,7 +526,7 @@
    "godis": -74.5,
    "basen": 5.59
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": {
@@ -217,6 +539,70 @@
    },
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -3.65,
+    "basen": 13.41
+   },
+   "2v": {
+    "godis": 39.93,
+    "basen": 6.7
+   },
+   "1m": {
+    "godis": -74.5,
+    "basen": 5.59
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 2,
+     "datum": "2026-08-21"
+    },
+    "hink_10k": {
+     "dagar": 740,
+     "datum": "2029-06-20"
+    },
+    "total_100k": {
+     "dagar": 6707,
+     "datum": "2052-05-03"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 18,
+     "datum": "2026-09-14"
+    },
+    "breakeven_basen": {
+     "dagar": 3,
+     "datum": "2026-08-24"
+    },
+    "hink_10k": {
+     "dagar": 228,
+     "datum": "2027-07-05"
+    },
+    "total_100k": {
+     "dagar": 1729,
+     "datum": "2033-04-05"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 3,
+     "datum": "2026-08-24"
+    },
+    "hink_10k": {
+     "dagar": 1774,
+     "datum": "2033-06-07"
+    },
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -236,13 +622,50 @@
    "godis": -118.45,
    "basen": -34.83
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -144.08,
+    "basen": -90.57
+   },
+   "2v": {
+    "godis": -20.66,
+    "basen": -45.29
+   },
+   "1m": {
+    "godis": -118.45,
+    "basen": -34.83
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -262,13 +685,59 @@
    "godis": -75.05,
    "basen": -50.33
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -40.53,
+    "basen": -140.93
+   },
+   "2v": {
+    "godis": 22.68,
+    "basen": -70.47
+   },
+   "1m": {
+    "godis": -75.05,
+    "basen": -50.33
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 38,
+     "datum": "2026-10-14"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 474,
+     "datum": "2028-06-15"
+    },
+    "total_100k": {
+     "dagar": 4003,
+     "datum": "2041-12-25"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -288,13 +757,50 @@
    "godis": -92.78,
    "basen": -38.4
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -86.58,
+    "basen": -115.19
+   },
+   "2v": {
+    "godis": -24.46,
+    "basen": -57.6
+   },
+   "1m": {
+    "godis": -92.78,
+    "basen": -38.4
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -314,13 +820,50 @@
    "godis": -114.19,
    "basen": -17.14
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -185.29,
+    "basen": -71.43
+   },
+   "2v": {
+    "godis": -67.99,
+    "basen": -27.43
+   },
+   "1m": {
+    "godis": -114.19,
+    "basen": -17.14
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -340,13 +883,50 @@
    "godis": -98.33,
    "basen": -40.04
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -155.51,
+    "basen": -149.55
+   },
+   "2v": {
+    "godis": -79.58,
+    "basen": -68.07
+   },
+   "1m": {
+    "godis": -98.33,
+    "basen": -40.04
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -366,13 +946,59 @@
    "godis": -103.5,
    "basen": -20.95
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -64.62,
+    "basen": 15.15
+   },
+   "2v": {
+    "godis": -104.35,
+    "basen": -37.71
+   },
+   "1m": {
+    "godis": -103.5,
+    "basen": -20.95
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 31,
+     "datum": "2026-10-09"
+    },
+    "hink_10k": {
+     "dagar": 684,
+     "datum": "2029-04-11"
+    },
+    "total_100k": {
+     "dagar": 5968,
+     "datum": "2049-07-13"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -392,13 +1018,62 @@
    "godis": -91.6,
    "basen": -11.05
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -137.94,
+    "basen": 98.94
+   },
+   "2v": {
+    "godis": -89.23,
+    "basen": -21.0
+   },
+   "1m": {
+    "godis": -91.6,
+    "basen": -11.05
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 3,
+     "datum": "2026-09-02"
+    },
+    "hink_10k": {
+     "dagar": 103,
+     "datum": "2027-01-20"
+    },
+    "total_100k": {
+     "dagar": 913,
+     "datum": "2030-02-27"
+    },
+    "total_1m": {
+     "dagar": 10009,
+     "datum": "2065-01-08"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -418,13 +1093,59 @@
    "godis": -124.37,
    "basen": -7.8
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -219.11,
+    "basen": 83.99
+   },
+   "2v": {
+    "godis": -152.85,
+    "basen": -15.6
+   },
+   "1m": {
+    "godis": -124.37,
+    "basen": -7.8
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 3,
+     "datum": "2026-09-03"
+    },
+    "hink_10k": {
+     "dagar": 121,
+     "datum": "2027-02-16"
+    },
+    "total_100k": {
+     "dagar": 1076,
+     "datum": "2030-10-15"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -441,22 +1162,74 @@
   "svept": 106.72,
   "total": 17092.14,
   "takt": {
-   "godis": -161.69,
-   "basen": 2.61
+   "godis": -151.63,
+   "basen": 2.48
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": {
-    "dagar": 12,
-    "datum": "2026-09-17"
+    "dagar": 13,
+    "datum": "2026-09-18"
    },
    "hink_10k": {
-    "dagar": 3808,
-    "datum": "2041-04-05"
+    "dagar": 3998,
+    "datum": "2041-12-27"
    },
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -271.44,
+    "basen": 65.28
+   },
+   "2v": {
+    "godis": -228.37,
+    "basen": -3.07
+   },
+   "1m": {
+    "godis": -151.63,
+    "basen": 2.48
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 1,
+     "datum": "2026-09-02"
+    },
+    "hink_10k": {
+     "dagar": 153,
+     "datum": "2027-04-02"
+    },
+    "total_100k": {
+     "dagar": 1379,
+     "datum": "2031-12-15"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 13,
+     "datum": "2026-09-18"
+    },
+    "hink_10k": {
+     "dagar": 3998,
+     "datum": "2041-12-27"
+    },
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -473,10 +1246,10 @@
   "svept": 249.26,
   "total": 17313.17,
   "takt": {
-   "godis": -92.16,
-   "basen": 11.27
+   "godis": -151.72,
+   "basen": 10.73
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": {
@@ -484,14 +1257,81 @@
     "datum": "2026-09-02"
    },
    "hink_10k": {
-    "dagar": 866,
-    "datum": "2029-12-27"
+    "dagar": 909,
+    "datum": "2030-02-26"
    },
    "total_100k": {
-    "dagar": 7967,
-    "datum": "2057-03-16"
+    "dagar": 8368,
+    "datum": "2058-09-30"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -292.97,
+    "basen": 181.22
+   },
+   "2v": {
+    "godis": -224.24,
+    "basen": 15.84
+   },
+   "1m": {
+    "godis": -151.72,
+    "basen": 10.73
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-09-02"
+    },
+    "hink_10k": {
+     "dagar": 54,
+     "datum": "2026-11-17"
+    },
+    "total_100k": {
+     "dagar": 497,
+     "datum": "2028-07-28"
+    },
+    "total_1m": {
+     "dagar": 5463,
+     "datum": "2047-08-12"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-09-02"
+    },
+    "hink_10k": {
+     "dagar": 616,
+     "datum": "2029-01-11"
+    },
+    "total_100k": {
+     "dagar": 5674,
+     "datum": "2048-06-02"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-09-02"
+    },
+    "hink_10k": {
+     "dagar": 909,
+     "datum": "2030-02-26"
+    },
+    "total_100k": {
+     "dagar": 8368,
+     "datum": "2058-09-30"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -508,10 +1348,10 @@
   "svept": 333.27,
   "total": 17212.47,
   "takt": {
-   "godis": -99.4,
-   "basen": 15.47
+   "godis": -96.56,
+   "basen": 14.73
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": {
@@ -519,14 +1359,81 @@
     "datum": "2026-09-03"
    },
    "hink_10k": {
-    "dagar": 625,
-    "datum": "2029-01-25"
+    "dagar": 657,
+    "datum": "2029-03-12"
    },
    "total_100k": {
-    "dagar": 5802,
-    "datum": "2048-11-30"
+    "dagar": 6091,
+    "datum": "2050-01-07"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -291.65,
+    "basen": 137.3
+   },
+   "2v": {
+    "godis": -178.13,
+    "basen": 76.23
+   },
+   "1m": {
+    "godis": -96.56,
+    "basen": 14.73
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-09-03"
+    },
+    "hink_10k": {
+     "dagar": 71,
+     "datum": "2026-12-11"
+    },
+    "total_100k": {
+     "dagar": 654,
+     "datum": "2029-03-07"
+    },
+    "total_1m": {
+     "dagar": 7209,
+     "datum": "2054-04-22"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-09-03"
+    },
+    "hink_10k": {
+     "dagar": 127,
+     "datum": "2027-03-01"
+    },
+    "total_100k": {
+     "dagar": 1178,
+     "datum": "2031-03-11"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-09-03"
+    },
+    "hink_10k": {
+     "dagar": 657,
+     "datum": "2029-03-12"
+    },
+    "total_100k": {
+     "dagar": 6091,
+     "datum": "2050-01-07"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -543,10 +1450,10 @@
   "svept": 444.75,
   "total": 18401.76,
   "takt": {
-   "godis": -48.3,
-   "basen": 21.04
+   "godis": -43.34,
+   "basen": 20.04
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": {
@@ -554,14 +1461,84 @@
     "datum": "2026-09-04"
    },
    "hink_10k": {
-    "dagar": 455,
-    "datum": "2028-06-02"
+    "dagar": 477,
+    "datum": "2028-07-04"
    },
    "total_100k": {
-    "dagar": 4256,
-    "datum": "2042-12-29"
+    "dagar": 4470,
+    "datum": "2043-10-23"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -100.6,
+    "basen": 126.17
+   },
+   "2v": {
+    "godis": -119.27,
+    "basen": 112.56
+   },
+   "1m": {
+    "godis": -43.34,
+    "basen": 20.04
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-09-04"
+    },
+    "hink_10k": {
+     "dagar": 76,
+     "datum": "2026-12-21"
+    },
+    "total_100k": {
+     "dagar": 711,
+     "datum": "2029-05-28"
+    },
+    "total_1m": {
+     "dagar": 7844,
+     "datum": "2056-09-28"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-09-04"
+    },
+    "hink_10k": {
+     "dagar": 85,
+     "datum": "2027-01-01"
+    },
+    "total_100k": {
+     "dagar": 796,
+     "datum": "2029-09-24"
+    },
+    "total_1m": {
+     "dagar": 8792,
+     "datum": "2060-05-18"
+    }
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 0,
+     "datum": "2026-09-04"
+    },
+    "hink_10k": {
+     "dagar": 477,
+     "datum": "2028-07-04"
+    },
+    "total_100k": {
+     "dagar": 4470,
+     "datum": "2043-10-23"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -578,16 +1555,65 @@
   "svept": 444.75,
   "total": 16290.78,
   "takt": {
-   "godis": -35.24,
-   "basen": -104.08
+   "godis": -27.35,
+   "basen": -99.12
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 127.1,
+    "basen": -385.12
+   },
+   "2v": {
+    "godis": -46.01,
+    "basen": -150.57
+   },
+   "1m": {
+    "godis": -27.35,
+    "basen": -99.12
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 13,
+     "datum": "2026-09-24"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 89,
+     "datum": "2027-01-08"
+    },
+    "total_100k": {
+     "dagar": 720,
+     "datum": "2029-06-11"
+    },
+    "total_1m": {
+     "dagar": 7801,
+     "datum": "2056-08-01"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -604,16 +1630,65 @@
   "svept": 444.75,
   "total": 15531.88,
   "takt": {
-   "godis": -73.18,
-   "basen": -104.08
+   "godis": -69.7,
+   "basen": -99.12
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 114.7,
+    "basen": -426.75
+   },
+   "2v": {
+    "godis": -78.37,
+    "basen": -180.73
+   },
+   "1m": {
+    "godis": -69.7,
+    "basen": -99.12
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 22,
+     "datum": "2026-10-08"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 105,
+     "datum": "2027-02-02"
+    },
+    "total_100k": {
+     "dagar": 804,
+     "datum": "2029-10-08"
+    },
+    "total_1m": {
+     "dagar": 8651,
+     "datum": "2059-11-05"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -630,16 +1705,65 @@
   "svept": 444.75,
   "total": 16306.53,
   "takt": {
-   "godis": -50.37,
-   "basen": -101.72
+   "godis": -35.05,
+   "basen": -96.88
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 250.65,
+    "basen": -451.97
+   },
+   "2v": {
+    "godis": -21.16,
+    "basen": -135.38
+   },
+   "1m": {
+    "godis": -35.05,
+    "basen": -96.88
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 7,
+     "datum": "2026-09-18"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 45,
+     "datum": "2026-11-11"
+    },
+    "total_100k": {
+     "dagar": 365,
+     "datum": "2028-02-02"
+    },
+    "total_1m": {
+     "dagar": 3956,
+     "datum": "2041-11-07"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -656,16 +1780,74 @@
   "svept": 444.75,
   "total": 17005.11,
   "takt": {
-   "godis": -44.24,
-   "basen": -75.74
+   "godis": -39.45,
+   "basen": -72.13
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 323.38,
+    "basen": -364.85
+   },
+   "2v": {
+    "godis": 15.86,
+    "basen": -113.77
+   },
+   "1m": {
+    "godis": -39.45,
+    "basen": -72.13
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 5,
+     "datum": "2026-09-17"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 35,
+     "datum": "2026-10-29"
+    },
+    "total_100k": {
+     "dagar": 283,
+     "datum": "2027-10-12"
+    },
+    "total_1m": {
+     "dagar": 3066,
+     "datum": "2038-06-11"
+    }
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 95,
+     "datum": "2027-01-21"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 698,
+     "datum": "2029-05-15"
+    },
+    "total_100k": {
+     "dagar": 5741,
+     "datum": "2048-09-11"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -682,16 +1864,74 @@
   "svept": 444.75,
   "total": 17122.62,
   "takt": {
-   "godis": -24.23,
-   "basen": -88.44
+   "godis": -24.44,
+   "basen": -84.23
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 182.13,
+    "basen": -437.95
+   },
+   "2v": {
+    "godis": 40.76,
+    "basen": -155.89
+   },
+   "1m": {
+    "godis": -24.44,
+    "basen": -84.23
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 7,
+     "datum": "2026-09-22"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 59,
+     "datum": "2026-12-03"
+    },
+    "total_100k": {
+     "dagar": 499,
+     "datum": "2028-08-10"
+    },
+    "total_1m": {
+     "dagar": 5440,
+     "datum": "2047-07-19"
+    }
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 28,
+     "datum": "2026-10-21"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 263,
+     "datum": "2027-09-15"
+    },
+    "total_100k": {
+     "dagar": 2229,
+     "datum": "2035-03-29"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -708,16 +1948,80 @@
   "svept": 444.75,
   "total": 16924.8,
   "takt": {
-   "godis": -17.57,
-   "basen": -99.46
+   "godis": -22.01,
+   "basen": -94.72
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 108.32,
+    "basen": 18.49
+   },
+   "2v": {
+    "godis": 117.71,
+    "basen": -183.32
+   },
+   "1m": {
+    "godis": -22.01,
+    "basen": -94.72
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 11,
+     "datum": "2026-09-29"
+    },
+    "breakeven_basen": {
+     "dagar": 131,
+     "datum": "2027-03-16"
+    },
+    "hink_10k": {
+     "dagar": 99,
+     "datum": "2027-01-29"
+    },
+    "total_100k": {
+     "dagar": 656,
+     "datum": "2029-03-20"
+    },
+    "total_1m": {
+     "dagar": 7753,
+     "datum": "2056-06-01"
+    }
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 10,
+     "datum": "2026-09-28"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 91,
+     "datum": "2027-01-19"
+    },
+    "total_100k": {
+     "dagar": 772,
+     "datum": "2029-08-29"
+    },
+    "total_1m": {
+     "dagar": 8418,
+     "datum": "2058-12-19"
+    }
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -734,16 +2038,77 @@
   "svept": 444.75,
   "total": 16354.31,
   "takt": {
-   "godis": -42.84,
-   "basen": -109.77
+   "godis": -38.03,
+   "basen": -100.6
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 170.67,
+    "basen": -6.18
+   },
+   "2v": {
+    "godis": 142.68,
+    "basen": -216.47
+   },
+   "1m": {
+    "godis": -38.03,
+    "basen": -100.6
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 10,
+     "datum": "2026-09-29"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 66,
+     "datum": "2026-12-16"
+    },
+    "total_100k": {
+     "dagar": 509,
+     "datum": "2028-08-28"
+    },
+    "total_1m": {
+     "dagar": 5808,
+     "datum": "2048-12-18"
+    }
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 11,
+     "datum": "2026-09-30"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 78,
+     "datum": "2027-01-01"
+    },
+    "total_100k": {
+     "dagar": 640,
+     "datum": "2029-02-27"
+    },
+    "total_1m": {
+     "dagar": 6948,
+     "datum": "2053-05-02"
+    }
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -760,16 +2125,77 @@
   "svept": 444.75,
   "total": 16289.88,
   "takt": {
-   "godis": -24.47,
-   "basen": -130.89
+   "godis": -23.0,
+   "basen": -125.42
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 99.95,
+    "basen": -103.28
+   },
+   "2v": {
+    "godis": 175.3,
+    "basen": -277.63
+   },
+   "1m": {
+    "godis": -23.0,
+    "basen": -125.42
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 12,
+     "datum": "2026-10-02"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 108,
+     "datum": "2027-02-15"
+    },
+    "total_100k": {
+     "dagar": 909,
+     "datum": "2030-03-12"
+    },
+    "total_1m": {
+     "dagar": 9914,
+     "datum": "2064-09-16"
+    }
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 7,
+     "datum": "2026-09-25"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 62,
+     "datum": "2026-12-11"
+    },
+    "total_100k": {
+     "dagar": 519,
+     "datum": "2028-09-12"
+    },
+    "total_1m": {
+     "dagar": 5653,
+     "datum": "2048-05-18"
+    }
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -786,22 +2212,74 @@
   "svept": 444.75,
   "total": 16293.11,
   "takt": {
-   "godis": 7.77,
-   "basen": -104.69
+   "godis": -23.36,
+   "basen": -124.46
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
-   "breakeven_godis": {
-    "dagar": 153,
-    "datum": "2027-04-20"
-   },
+   "breakeven_godis": null,
    "breakeven_basen": null,
-   "hink_10k": {
-    "dagar": 1383,
-    "datum": "2032-01-06"
-   },
+   "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 63.95,
+    "basen": -206.35
+   },
+   "2v": {
+    "godis": 193.67,
+    "basen": -285.6
+   },
+   "1m": {
+    "godis": -23.36,
+    "basen": -124.46
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 19,
+     "datum": "2026-10-14"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 168,
+     "datum": "2027-05-11"
+    },
+    "total_100k": {
+     "dagar": 1422,
+     "datum": "2032-03-01"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 7,
+     "datum": "2026-09-28"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 56,
+     "datum": "2026-12-04"
+    },
+    "total_100k": {
+     "dagar": 470,
+     "datum": "2028-07-06"
+    },
+    "total_1m": {
+     "dagar": 5117,
+     "datum": "2046-04-30"
+    }
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -818,16 +2296,62 @@
   "svept": 444.75,
   "total": 15970.96,
   "takt": {
-   "godis": -27.36,
-   "basen": -97.53
+   "godis": -2.77,
+   "basen": -104.88
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -53.04,
+    "basen": -177.29
+   },
+   "2v": {
+    "godis": 64.54,
+    "basen": -307.62
+   },
+   "1m": {
+    "godis": -2.77,
+    "basen": -104.88
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 22,
+     "datum": "2026-10-20"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 170,
+     "datum": "2027-05-14"
+    },
+    "total_100k": {
+     "dagar": 1412,
+     "datum": "2032-02-17"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -844,16 +2368,56 @@
   "svept": 444.75,
   "total": 15829.31,
   "takt": {
-   "godis": -22.68,
-   "basen": -98.68
+   "godis": -37.84,
+   "basen": -87.85
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -107.02,
+    "basen": -112.08
+   },
+   "2v": {
+    "godis": 0.65,
+    "basen": -46.8
+   },
+   "1m": {
+    "godis": -37.84,
+    "basen": -87.85
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 2535,
+     "datum": "2036-06-09"
+    },
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -870,25 +2434,74 @@
   "svept": 444.75,
   "total": 16060.7,
   "takt": {
-   "godis": 14.27,
-   "basen": -117.38
+   "godis": -7.14,
+   "basen": -97.43
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
-   "breakeven_godis": {
-    "dagar": 94,
-    "datum": "2027-02-01"
-   },
+   "breakeven_godis": null,
    "breakeven_basen": null,
-   "hink_10k": {
-    "dagar": 764,
-    "datum": "2029-08-27"
-   },
-   "total_100k": {
-    "dagar": 6376,
-    "datum": "2051-03-01"
-   },
+   "hink_10k": null,
+   "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 43.16,
+    "basen": -101.88
+   },
+   "2v": {
+    "godis": 106.91,
+    "basen": -54.03
+   },
+   "1m": {
+    "godis": -7.14,
+    "basen": -97.43
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 32,
+     "datum": "2026-11-05"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 253,
+     "datum": "2027-09-10"
+    },
+    "total_100k": {
+     "dagar": 2108,
+     "datum": "2034-10-20"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 13,
+     "datum": "2026-10-09"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 102,
+     "datum": "2027-02-11"
+    },
+    "total_100k": {
+     "dagar": 851,
+     "datum": "2029-12-26"
+    },
+    "total_1m": {
+     "dagar": 9269,
+     "datum": "2062-04-03"
+    }
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -905,16 +2518,74 @@
   "svept": 444.75,
   "total": 16056.79,
   "takt": {
-   "godis": -6.69,
-   "basen": -84.06
+   "godis": 1.03,
+   "basen": -99.41
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
-   "breakeven_godis": null,
+   "breakeven_godis": {
+    "dagar": 1564,
+    "datum": "2032-09-21"
+   },
    "breakeven_basen": null,
    "hink_10k": null,
    "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -84.39,
+    "basen": 37.77
+   },
+   "2v": {
+    "godis": 7.78,
+    "basen": -32.75
+   },
+   "1m": {
+    "godis": 1.03,
+    "basen": -99.41
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 74,
+     "datum": "2027-01-05"
+    },
+    "hink_10k": {
+     "dagar": 327,
+     "datum": "2027-12-24"
+    },
+    "total_100k": {
+     "dagar": 2446,
+     "datum": "2036-02-07"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 207,
+     "datum": "2027-07-09"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 1435,
+     "datum": "2032-03-24"
+    },
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 1564,
+     "datum": "2032-09-21"
+    },
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -931,25 +2602,89 @@
   "svept": 444.75,
   "total": 16301.37,
   "takt": {
-   "godis": 21.42,
-   "basen": -105.57
+   "godis": 11.29,
+   "basen": -86.08
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": {
-    "dagar": 58,
-    "datum": "2026-12-15"
+    "dagar": 110,
+    "datum": "2027-02-25"
    },
    "breakeven_basen": null,
    "hink_10k": {
-    "dagar": 504,
-    "datum": "2028-08-30"
+    "dagar": 956,
+    "datum": "2030-05-24"
    },
    "total_100k": {
-    "dagar": 4242,
-    "datum": "2042-12-29"
+    "dagar": 8044,
+    "datum": "2057-07-25"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -9.98,
+    "basen": 11.64
+   },
+   "2v": {
+    "godis": 26.99,
+    "basen": -97.36
+   },
+   "1m": {
+    "godis": 11.29,
+    "basen": -86.08
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 251,
+     "datum": "2027-09-10"
+    },
+    "hink_10k": {
+     "dagar": 1072,
+     "datum": "2030-11-04"
+    },
+    "total_100k": {
+     "dagar": 7947,
+     "datum": "2057-03-12"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 46,
+     "datum": "2026-11-27"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 400,
+     "datum": "2028-04-06"
+    },
+    "total_100k": {
+     "dagar": 3366,
+     "datum": "2039-08-19"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 110,
+     "datum": "2027-02-25"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 956,
+     "datum": "2030-05-24"
+    },
+    "total_100k": {
+     "dagar": 8044,
+     "datum": "2057-07-25"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -966,25 +2701,86 @@
   "svept": 444.75,
   "total": 16508.53,
   "takt": {
-   "godis": 20.32,
-   "basen": -108.59
+   "godis": 25.19,
+   "basen": -95.46
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": {
-    "dagar": 56,
-    "datum": "2026-12-14"
+    "dagar": 45,
+    "datum": "2026-11-27"
    },
    "breakeven_basen": null,
    "hink_10k": {
-    "dagar": 526,
-    "datum": "2028-10-02"
+    "dagar": 425,
+    "datum": "2028-05-12"
    },
    "total_100k": {
-    "dagar": 4467,
-    "datum": "2043-11-10"
+    "dagar": 3603,
+    "datum": "2040-07-18"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 52.81,
+    "basen": 54.7
+   },
+   "2v": {
+    "godis": -0.12,
+    "basen": -61.29
+   },
+   "1m": {
+    "godis": 25.19,
+    "basen": -95.46
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 22,
+     "datum": "2026-10-27"
+    },
+    "breakeven_basen": {
+     "dagar": 52,
+     "datum": "2026-12-08"
+    },
+    "hink_10k": {
+     "dagar": 126,
+     "datum": "2027-03-22"
+    },
+    "total_100k": {
+     "dagar": 777,
+     "datum": "2029-09-18"
+    },
+    "total_1m": {
+     "dagar": 9148,
+     "datum": "2061-10-19"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 45,
+     "datum": "2026-11-27"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 425,
+     "datum": "2028-05-12"
+    },
+    "total_100k": {
+     "dagar": 3603,
+     "datum": "2040-07-18"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -1001,25 +2797,77 @@
   "svept": 444.75,
   "total": 16211.49,
   "takt": {
-   "godis": 42.14,
-   "basen": -110.61
+   "godis": 4.56,
+   "basen": -102.77
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": {
-    "dagar": 35,
-    "datum": "2026-11-16"
+    "dagar": 317,
+    "datum": "2027-12-15"
    },
    "breakeven_basen": null,
    "hink_10k": {
-    "dagar": 262,
-    "datum": "2027-09-29"
+    "dagar": 2411,
+    "datum": "2035-12-25"
    },
-   "total_100k": {
-    "dagar": 2162,
-    "datum": "2035-01-10"
-   },
+   "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 40.16,
+    "basen": 36.28
+   },
+   "2v": {
+    "godis": -33.43,
+    "basen": -37.9
+   },
+   "1m": {
+    "godis": 4.56,
+    "basen": -102.77
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": {
+     "dagar": 36,
+     "datum": "2026-11-17"
+    },
+    "breakeven_basen": {
+     "dagar": 77,
+     "datum": "2027-01-13"
+    },
+    "hink_10k": {
+     "dagar": 181,
+     "datum": "2027-06-08"
+    },
+    "total_100k": {
+     "dagar": 1097,
+     "datum": "2030-12-11"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 317,
+     "datum": "2027-12-15"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 2411,
+     "datum": "2035-12-25"
+    },
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -1036,25 +2884,86 @@
   "svept": 444.75,
   "total": 16190.03,
   "takt": {
-   "godis": 72.77,
-   "basen": -117.88
+   "godis": 36.12,
+   "basen": -102.35
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": {
-    "dagar": 22,
-    "datum": "2026-10-29"
+    "dagar": 43,
+    "datum": "2026-11-27"
    },
    "breakeven_basen": null,
    "hink_10k": {
-    "dagar": 153,
-    "datum": "2027-04-30"
+    "dagar": 307,
+    "datum": "2027-12-02"
    },
    "total_100k": {
-    "dagar": 1253,
-    "datum": "2031-07-18"
+    "dagar": 2525,
+    "datum": "2036-06-03"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -37.44,
+    "basen": 63.31
+   },
+   "2v": {
+    "godis": 2.86,
+    "basen": -19.29
+   },
+   "1m": {
+    "godis": 36.12,
+    "basen": -102.35
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 44,
+     "datum": "2026-11-30"
+    },
+    "hink_10k": {
+     "dagar": 195,
+     "datum": "2027-06-29"
+    },
+    "total_100k": {
+     "dagar": 1459,
+     "datum": "2032-05-03"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": {
+     "dagar": 535,
+     "datum": "2028-10-17"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 3879,
+     "datum": "2041-08-12"
+    },
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 43,
+     "datum": "2026-11-27"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 307,
+     "datum": "2027-12-02"
+    },
+    "total_100k": {
+     "dagar": 2525,
+     "datum": "2036-06-03"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -1071,10 +2980,10 @@
   "svept": 444.75,
   "total": 15703.07,
   "takt": {
-   "godis": 43.88,
-   "basen": -124.39
+   "godis": 44.07,
+   "basen": -110.21
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": {
     "dagar": 47,
@@ -1082,14 +2991,78 @@
    },
    "breakeven_basen": null,
    "hink_10k": {
-    "dagar": 265,
-    "datum": "2027-10-06"
+    "dagar": 264,
+    "datum": "2027-10-05"
    },
    "total_100k": {
-    "dagar": 2089,
-    "datum": "2034-10-03"
+    "dagar": 2081,
+    "datum": "2034-09-21"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -90.67,
+    "basen": 19.93
+   },
+   "2v": {
+    "godis": -87.53,
+    "basen": 28.85
+   },
+   "1m": {
+    "godis": 44.07,
+    "basen": -110.21
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 135,
+     "datum": "2027-04-07"
+    },
+    "hink_10k": {
+     "dagar": 615,
+     "datum": "2029-02-07"
+    },
+    "total_100k": {
+     "dagar": 4631,
+     "datum": "2044-06-30"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 94,
+     "datum": "2027-02-09"
+    },
+    "hink_10k": {
+     "dagar": 425,
+     "datum": "2028-05-17"
+    },
+    "total_100k": {
+     "dagar": 3198,
+     "datum": "2039-01-03"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 47,
+     "datum": "2026-12-04"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 264,
+     "datum": "2027-10-05"
+    },
+    "total_100k": {
+     "dagar": 2081,
+     "datum": "2034-09-21"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -1106,25 +3079,89 @@
   "svept": 444.75,
   "total": 15822.9,
   "takt": {
-   "godis": 58.27,
-   "basen": -127.75
+   "godis": 46.7,
+   "basen": -117.67
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": {
-    "dagar": 34,
-    "datum": "2026-11-18"
+    "dagar": 42,
+    "datum": "2026-11-30"
    },
    "breakeven_basen": null,
    "hink_10k": {
-    "dagar": 198,
-    "datum": "2027-07-06"
+    "dagar": 247,
+    "datum": "2027-09-13"
    },
    "total_100k": {
-    "dagar": 1572,
-    "datum": "2032-10-11"
+    "dagar": 1962,
+    "datum": "2034-04-10"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -144.26,
+    "basen": 48.56
+   },
+   "2v": {
+    "godis": -77.12,
+    "basen": 30.1
+   },
+   "1m": {
+    "godis": 46.7,
+    "basen": -117.67
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 55,
+     "datum": "2026-12-17"
+    },
+    "hink_10k": {
+     "dagar": 252,
+     "datum": "2027-09-20"
+    },
+    "total_100k": {
+     "dagar": 1900,
+     "datum": "2034-01-12"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 89,
+     "datum": "2027-02-03"
+    },
+    "hink_10k": {
+     "dagar": 407,
+     "datum": "2028-04-24"
+    },
+    "total_100k": {
+     "dagar": 3066,
+     "datum": "2038-07-02"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 42,
+     "datum": "2026-11-30"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 247,
+     "datum": "2027-09-13"
+    },
+    "total_100k": {
+     "dagar": 1962,
+     "datum": "2034-04-10"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -1141,22 +3178,89 @@
   "svept": 444.75,
   "total": 16043.49,
   "takt": {
-   "godis": 3.8,
-   "basen": -121.72
+   "godis": 54.95,
+   "basen": -110.61
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": {
-    "dagar": 518,
-    "datum": "2028-09-27"
+    "dagar": 36,
+    "datum": "2026-11-23"
    },
    "breakeven_basen": null,
    "hink_10k": {
-    "dagar": 3031,
-    "datum": "2038-05-17"
+    "dagar": 210,
+    "datum": "2027-07-23"
    },
-   "total_100k": null,
+   "total_100k": {
+    "dagar": 1667,
+    "datum": "2033-02-22"
+   },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -166.68,
+    "basen": 73.68
+   },
+   "2v": {
+    "godis": -56.94,
+    "basen": 64.19
+   },
+   "1m": {
+    "godis": 54.95,
+    "basen": -110.61
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 34,
+     "datum": "2026-11-19"
+    },
+    "hink_10k": {
+     "dagar": 163,
+     "datum": "2027-05-19"
+    },
+    "total_100k": {
+     "dagar": 1251,
+     "datum": "2031-07-21"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 38,
+     "datum": "2026-11-25"
+    },
+    "hink_10k": {
+     "dagar": 187,
+     "datum": "2027-06-22"
+    },
+    "total_100k": {
+     "dagar": 1434,
+     "datum": "2032-04-01"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 36,
+     "datum": "2026-11-23"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 210,
+     "datum": "2027-07-23"
+    },
+    "total_100k": {
+     "dagar": 1667,
+     "datum": "2033-02-22"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -1173,25 +3277,86 @@
   "svept": 444.75,
   "total": 16313.17,
   "takt": {
-   "godis": -18.23,
-   "basen": 19.35
+   "godis": 1.28,
+   "basen": -100.74
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
-   "breakeven_godis": null,
-   "breakeven_basen": {
-    "dagar": 110,
-    "datum": "2027-03-08"
+   "breakeven_godis": {
+    "dagar": 1572,
+    "datum": "2032-10-13"
    },
+   "breakeven_basen": null,
    "hink_10k": {
-    "dagar": 604,
-    "datum": "2029-01-26"
+    "dagar": 9020,
+    "datum": "2061-05-02"
    },
-   "total_100k": {
-    "dagar": 4738,
-    "datum": "2044-12-01"
-   },
+   "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -114.38,
+    "basen": 134.71
+   },
+   "2v": {
+    "godis": -37.11,
+    "basen": 85.5
+   },
+   "1m": {
+    "godis": 1.28,
+    "basen": -100.74
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 16,
+     "datum": "2026-10-27"
+    },
+    "hink_10k": {
+     "dagar": 87,
+     "datum": "2027-02-03"
+    },
+    "total_100k": {
+     "dagar": 681,
+     "datum": "2029-05-15"
+    },
+    "total_1m": {
+     "dagar": 7362,
+     "datum": "2054-12-23"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 25,
+     "datum": "2026-11-09"
+    },
+    "hink_10k": {
+     "dagar": 137,
+     "datum": "2027-04-14"
+    },
+    "total_100k": {
+     "dagar": 1073,
+     "datum": "2030-11-14"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 1572,
+     "datum": "2032-10-13"
+    },
+    "breakeven_basen": null,
+    "hink_10k": {
+     "dagar": 9020,
+     "datum": "2061-05-02"
+    },
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
@@ -1208,28 +3373,92 @@
   "svept": 444.75,
   "total": 16488.6,
   "takt": {
-   "godis": 25.78,
-   "basen": 22.06
+   "godis": -11.59,
+   "basen": 21.01
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
-   "breakeven_godis": {
-    "dagar": 74,
-    "datum": "2027-01-18"
-   },
+   "breakeven_godis": null,
    "breakeven_basen": {
-    "dagar": 94,
-    "datum": "2027-02-15"
+    "dagar": 99,
+    "datum": "2027-02-22"
    },
    "hink_10k": {
-    "dagar": 283,
-    "datum": "2027-11-05"
+    "dagar": 553,
+    "datum": "2028-11-17"
    },
    "total_100k": {
-    "dagar": 1746,
-    "datum": "2033-06-15"
+    "dagar": 4362,
+    "datum": "2043-06-25"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -73.27,
+    "basen": 132.99
+   },
+   "2v": {
+    "godis": -55.36,
+    "basen": 98.15
+   },
+   "1m": {
+    "godis": -11.59,
+    "basen": 21.01
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 16,
+     "datum": "2026-10-28"
+    },
+    "hink_10k": {
+     "dagar": 88,
+     "datum": "2027-02-05"
+    },
+    "total_100k": {
+     "dagar": 690,
+     "datum": "2029-05-29"
+    },
+    "total_1m": {
+     "dagar": 7457,
+     "datum": "2055-05-06"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 22,
+     "datum": "2026-11-05"
+    },
+    "hink_10k": {
+     "dagar": 119,
+     "datum": "2027-03-22"
+    },
+    "total_100k": {
+     "dagar": 934,
+     "datum": "2030-05-06"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 99,
+     "datum": "2027-02-22"
+    },
+    "hink_10k": {
+     "dagar": 553,
+     "datum": "2028-11-17"
+    },
+    "total_100k": {
+     "dagar": 4362,
+     "datum": "2043-06-25"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -1246,25 +3475,98 @@
   "svept": 444.75,
   "total": 16046.76,
   "takt": {
-   "godis": -27.38,
-   "basen": 14.39
+   "godis": 8.56,
+   "basen": 15.95
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
-   "breakeven_godis": null,
+   "breakeven_godis": {
+    "dagar": 261,
+    "datum": "2027-10-07"
+   },
    "breakeven_basen": {
-    "dagar": 151,
-    "datum": "2027-05-06"
+    "dagar": 136,
+    "datum": "2027-04-15"
    },
    "hink_10k": {
-    "dagar": 815,
-    "datum": "2029-11-21"
+    "dagar": 570,
+    "datum": "2028-12-13"
    },
    "total_100k": {
-    "dagar": 6373,
-    "datum": "2051-03-13"
+    "dagar": 3425,
+    "datum": "2039-11-23"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -34.41,
+    "basen": 103.15
+   },
+   "2v": {
+    "godis": -62.54,
+    "basen": 61.54
+   },
+   "1m": {
+    "godis": 8.56,
+    "basen": 15.95
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 22,
+     "datum": "2026-11-06"
+    },
+    "hink_10k": {
+     "dagar": 114,
+     "datum": "2027-03-16"
+    },
+    "total_100k": {
+     "dagar": 890,
+     "datum": "2030-03-06"
+    },
+    "total_1m": {
+     "dagar": 9615,
+     "datum": "2063-08-15"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 36,
+     "datum": "2026-11-26"
+    },
+    "hink_10k": {
+     "dagar": 191,
+     "datum": "2027-07-01"
+    },
+    "total_100k": {
+     "dagar": 1492,
+     "datum": "2032-06-25"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": {
+     "dagar": 261,
+     "datum": "2027-10-07"
+    },
+    "breakeven_basen": {
+     "dagar": 136,
+     "datum": "2027-04-15"
+    },
+    "hink_10k": {
+     "dagar": 570,
+     "datum": "2028-12-13"
+    },
+    "total_100k": {
+     "dagar": 3425,
+     "datum": "2039-11-23"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -1281,16 +3583,92 @@
   "svept": 444.75,
   "total": 15878.88,
   "takt": {
-   "godis": -47.58,
-   "basen": -8.74
+   "godis": -36.79,
+   "basen": 16.42
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
-   "breakeven_basen": null,
-   "hink_10k": null,
-   "total_100k": null,
+   "breakeven_basen": {
+    "dagar": 129,
+    "datum": "2027-04-07"
+   },
+   "hink_10k": {
+    "dagar": 711,
+    "datum": "2029-06-29"
+   },
+   "total_100k": {
+    "dagar": 5584,
+    "datum": "2048-03-04"
+   },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -100.01,
+    "basen": 111.21
+   },
+   "2v": {
+    "godis": -122.14,
+    "basen": 79.89
+   },
+   "1m": {
+    "godis": -36.79,
+    "basen": 16.42
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 19,
+     "datum": "2026-11-04"
+    },
+    "hink_10k": {
+     "dagar": 105,
+     "datum": "2027-03-04"
+    },
+    "total_100k": {
+     "dagar": 825,
+     "datum": "2029-12-06"
+    },
+    "total_1m": {
+     "dagar": 8918,
+     "datum": "2060-12-14"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 27,
+     "datum": "2026-11-16"
+    },
+    "hink_10k": {
+     "dagar": 147,
+     "datum": "2027-05-03"
+    },
+    "total_100k": {
+     "dagar": 1148,
+     "datum": "2031-03-04"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 129,
+     "datum": "2027-04-07"
+    },
+    "hink_10k": {
+     "dagar": 711,
+     "datum": "2029-06-29"
+    },
+    "total_100k": {
+     "dagar": 5584,
+     "datum": "2048-03-04"
+    },
+    "total_1m": null
+   }
   }
  },
  {
@@ -1307,30 +3685,91 @@
   "svept": 444.75,
   "total": 16261.96,
   "takt": {
-   "godis": -59.18,
-   "basen": 16.15
+   "godis": -38.67,
+   "basen": 3.28
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": {
-    "dagar": 116,
-    "datum": "2027-03-22"
+    "dagar": 569,
+    "datum": "2028-12-14"
    },
    "hink_10k": {
-    "dagar": 708,
-    "datum": "2029-06-27"
+    "dagar": 3481,
+    "datum": "2040-02-13"
    },
-   "total_100k": {
-    "dagar": 5663,
-    "datum": "2048-06-24"
-   },
+   "total_100k": null,
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -69.81,
+    "basen": 113.5
+   },
+   "2v": {
+    "godis": -118.25,
+    "basen": 93.59
+   },
+   "1m": {
+    "godis": -38.67,
+    "basen": 3.28
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 17,
+     "datum": "2026-11-03"
+    },
+    "hink_10k": {
+     "dagar": 101,
+     "datum": "2027-03-01"
+    },
+    "total_100k": {
+     "dagar": 807,
+     "datum": "2029-11-13"
+    },
+    "total_1m": {
+     "dagar": 8736,
+     "datum": "2060-04-05"
+    }
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 20,
+     "datum": "2026-11-06"
+    },
+    "hink_10k": {
+     "dagar": 123,
+     "datum": "2027-03-31"
+    },
+    "total_100k": {
+     "dagar": 977,
+     "datum": "2030-07-09"
+    },
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 569,
+     "datum": "2028-12-14"
+    },
+    "hink_10k": {
+     "dagar": 3481,
+     "datum": "2040-02-13"
+    },
+    "total_100k": null,
+    "total_1m": null
+   }
   }
  },
  {
   "datum": "2026-10-09",
-  "korning": "2026-10-10T11:09",
+  "korning": "2026-10-10T15:22",
   "resultat": {
    "godis": 75.57,
    "basen": 128.48
@@ -1343,25 +3782,92 @@
   "svept": 444.75,
   "total": 16466.01,
   "takt": {
-   "godis": -56.53,
-   "basen": 33.59
+   "godis": -52.76,
+   "basen": 21.5
   },
-  "fonster": 20,
+  "fonster": 21,
   "mal": {
    "breakeven_godis": null,
    "breakeven_basen": {
-    "dagar": 52,
-    "datum": "2026-12-22"
+    "dagar": 81,
+    "datum": "2027-02-01"
    },
    "hink_10k": {
-    "dagar": 337,
-    "datum": "2028-01-25"
+    "dagar": 526,
+    "datum": "2028-10-16"
    },
    "total_100k": {
-    "dagar": 2720,
-    "datum": "2037-03-13"
+    "dagar": 4250,
+    "datum": "2043-01-23"
    },
    "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -44.87,
+    "basen": 75.44
+   },
+   "2v": {
+    "godis": -79.62,
+    "basen": 105.08
+   },
+   "1m": {
+    "godis": -52.76,
+    "basen": 21.5
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 24,
+     "datum": "2026-11-12"
+    },
+    "hink_10k": {
+     "dagar": 150,
+     "datum": "2027-05-07"
+    },
+    "total_100k": {
+     "dagar": 1211,
+     "datum": "2031-06-02"
+    },
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 17,
+     "datum": "2026-11-03"
+    },
+    "hink_10k": {
+     "dagar": 108,
+     "datum": "2027-03-10"
+    },
+    "total_100k": {
+     "dagar": 870,
+     "datum": "2030-02-08"
+    },
+    "total_1m": {
+     "dagar": 9435,
+     "datum": "2062-12-08"
+    }
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 81,
+     "datum": "2027-02-01"
+    },
+    "hink_10k": {
+     "dagar": 526,
+     "datum": "2028-10-16"
+    },
+    "total_100k": {
+     "dagar": 4250,
+     "datum": "2043-01-23"
+    },
+    "total_1m": null
+   }
   }
  }
 ]

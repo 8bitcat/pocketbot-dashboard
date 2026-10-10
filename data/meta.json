@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-10-10T11:09",
+ "uppdaterad": "2026-10-10T15:22",
  "konton": {
   "godis": "Godispåsen",
   "basen": "Basen",
@@ -12,7 +12,12 @@
  "hink": "hink",
  "golv": 10000.0,
  "lot": 2000.0,
- "fonster": 20,
+ "fonster": 21,
+ "fonstren": {
+  "1v": 5,
+  "2v": 10,
+  "1m": 21
+ },
  "saldo": {
   "godis": 7759.58,
   "basen": 8261.68,

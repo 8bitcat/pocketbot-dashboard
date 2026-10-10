@@ -3,6 +3,9 @@
 "use strict";
 
 const LOT_BAS = 2000, GOLV_BAS = 10000, MAX_DAGAR = 252 * 40;
+// Carl 10/10: "se framtiden om vi bara räknar en månad tillbaka, två veckor tillbaka och en vecka bakåt".
+const FONSTREN = [["1v", 5, "1 vecka"], ["2v", 10, "2 veckor"], ["1m", 21, "1 månad"]];
+let histFonster = "1m";
 const kr = (v, dec = 0) => (v == null || isNaN(v)) ? "—" :
   v.toLocaleString("sv-SE", { minimumFractionDigits: dec, maximumFractionDigits: dec }) + " kr";
 const krTecken = (v, dec = 0) => (v > 0 ? "+" : v < 0 ? "−" : "") + kr(Math.abs(v), dec);
@@ -22,7 +25,9 @@ function takt(rader, konto, n) {
 }
 
 // saldo: {konto: kr} för handelskontona + hink (svept hittills). taktK: kr/handelsdag vid LOT_BAS.
-function projektion(handel, hinkKonto, saldo, taktK, { golv = GOLV_BAS, lot = LOT_BAS, ater = false, fran, mal }) {
+// horisont > 0: spara totalen per handelsdag i serie[] (för framtidsgrafen) och räkna minst så långt.
+function projektion(handel, hinkKonto, saldo, taktK, { golv = GOLV_BAS, lot = LOT_BAS, ater = false, fran, mal, horisont = 0 }) {
+  const serie = [];
   const skala = lot / LOT_BAS;
   const b = {}, p = {};
   for (const k of handel) { b[k] = saldo[k] + (golv - GOLV_BAS); p[k] = taktK[k] * skala; }
@@ -46,9 +51,10 @@ function projektion(handel, hinkKonto, saldo, taktK, { golv = GOLV_BAS, lot = LO
     for (const [namn, klar] of klara) {
       if (klar && res[namn] == null) { datum = datum || handelsdagPlus(fran, d); res[namn] = { dagar: d, datum }; }
     }
-    if (Object.values(res).every(v => v != null)) break;
+    if (d <= horisont) serie.push(total());
+    if (d >= horisont && Object.values(res).every(v => v != null)) break;
   }
-  return { mal: res, slut: { ...b, hink } };
+  return { mal: res, slut: { ...b, hink }, serie };
 }
 
 let D = null, grafer = {};
@@ -157,12 +163,51 @@ function rakna() {
     + (s.ater ? " Vinsten återinvesteras." : " Allt över kapitalet sveps till hinken.");
 
   const hint = [];
-  if (s.kapital !== GOLV_BAS || s.lot !== LOT_BAS || s.ater || s.n !== 20) hint.push("Simulerat läge – nattens ögonblicksbild i tabellen nedan använder 10 000 kr, lot 2 000 kr, 20 dagar.");
+  if (s.kapital !== GOLV_BAS || s.lot !== LOT_BAS || s.ater) hint.push("Simulerat läge – historiktabellen längst ned visar nattens ögonblicksbild (10 000 kr, lot 2 000 kr).");
   if (s.kapital !== GOLV_BAS) hint.push(`Utökat kapital: ${krTecken(s.kapital - GOLV_BAS)} insatt per handelskonto.`);
   const platser = Math.floor(s.kapital / s.lot);
   if (platser < 3) hint.push(`<span class="varning">Kapitalet räcker bara till ${platser} samtidiga positioner – boten håller upp till 3 per konto.</span>`);
   if (s.lot !== LOT_BAS) hint.push(`Antar att varje affär ger samma procent som hittills, så kronorna skalar med insatsen (×${skala.toLocaleString("sv-SE", { maximumFractionDigits: 2 })}).`);
   document.getElementById("sim-hint").innerHTML = hint.join(" ");
+
+  // ── TRE TAKTER sida vid sida + FRAMTIDEN ──
+  const horisont = +document.getElementById("horisont").value;
+  const malNycklar = [...handel.map(k => ["breakeven_" + k, `${meta.konton[k]} ${kr(s.kapital)}`]),
+    ["hink_10k", `Hinken ${kr(meta.malHink)}`], ["total_100k", "100 000 kr"], ["total_1m", "1 000 000 kr"]];
+  const perF = FONSTREN.map(([f, n, namn]) => {
+    const t = {}; for (const k of handel) t[k] = takt(daily, k, n);
+    const r = projektion(handel, hink, saldo, t, { golv: s.kapital, lot: s.lot, ater: s.ater, fran: idag, horisont,
+      mal: { hink: meta.malHink, m100k: meta.mal100k, m1m: meta.mal1m } });
+    return { f, n, namn, t, ...r };
+  });
+  const cell = v => !v ? `<td title="Nås inte i den takten">nås inte</td>`
+    : v.dagar === 0 ? `<td class="plus">uppnått</td>`
+    : `<td>${datumTxt(v.datum)}<small>${v.dagar} handelsdagar</small></td>`;
+  document.getElementById("jamfor").innerHTML =
+    `<thead><tr><th>Takt räknad på</th><th>kr/dag</th>${malNycklar.map(m => `<th>${m[1]}</th>`).join("")}</tr></thead><tbody>`
+    + perF.map(p => {
+      const sum = handel.reduce((a, k) => a + p.t[k] * skala, 0);
+      return `<tr class="${p.n === s.n ? "aktiv" : ""}"><td>${p.namn}<small>${p.n} handelsdagar</small></td>
+        <td class="${sum >= 0 ? "plus" : "minus"}">${krTecken(sum)}<small>${handel.map(k => `${meta.konton[k][0]} ${krTecken(p.t[k] * skala)}`).join(" · ")}</small></td>
+        ${malNycklar.map(m => cell(p.mal[m[0]])).join("")}</tr>`;
+    }).join("") + "</tbody>";
+
+  const startTot = handel.reduce((a, k) => a + saldo[k] + (s.kapital - GOLV_BAS), 0) + saldo[hink];
+  const steg = Math.max(1, Math.round(horisont / 60));
+  const etik = [], idx = [];
+  for (let d = 0; d <= horisont; d += steg) { idx.push(d); etik.push(kortDatum(d ? handelsdagPlus(idag, d) : idag) + (horisont > 300 ? " " + (d ? handelsdagPlus(idag, d) : idag).slice(2, 4) : "")); }
+  const fargF = { "1v": css("--c-1v"), "2v": css("--c-2v"), "1m": css("--c-1m") };
+  if (grafer.framtid) grafer.framtid.destroy();
+  const text = css("--dampad");
+  grafer.framtid = new Chart(document.getElementById("graf-framtid"), {
+    type: "line",
+    data: { labels: etik, datasets: perF.map(p => ({ label: p.namn, data: idx.map(d => d === 0 ? startTot : p.serie[d - 1]),
+      borderColor: fargF[p.f], backgroundColor: fargF[p.f], borderWidth: p.n === s.n ? 3 : 2, pointRadius: 0, tension: .15 })) },
+    options: { responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+      plugins: { legend: { labels: { color: text, boxWidth: 12 } }, tooltip: { callbacks: { label: c => `${c.dataset.label}: ${kr(c.parsed.y)}` } } },
+      scales: { x: { ticks: { color: text, maxTicksLimit: 8 }, grid: { display: false } },
+        y: { ticks: { color: text, callback: v => v.toLocaleString("sv-SE") }, grid: { color: css("--linje") } } } },
+  });
 }
 
 function ritaGrafer() {
@@ -176,7 +221,7 @@ function ritaGrafer() {
     scales: { x: { ticks: { color: text, maxTicksLimit: 10 }, grid: { display: false } },
       y: { ticks: { color: text, callback: v => v.toLocaleString("sv-SE") }, grid: { color: rutnat } } },
   };
-  for (const g of Object.values(grafer)) g.destroy();
+  for (const n of ["varde", "dag"]) if (grafer[n]) grafer[n].destroy();
   const ds = meta.handel.map(k => ({ label: meta.konton[k], data: daily.map(r => r[k].varde), borderColor: kontoFarg(k), backgroundColor: kontoFarg(k), borderWidth: 2, pointRadius: 0, tension: .2 }));
   ds.push({ label: "Hinken (svept)", data: daily.map(r => r.svept), borderColor: kontoFarg(meta.hink), backgroundColor: kontoFarg(meta.hink), borderWidth: 2, pointRadius: 0, tension: .2 });
   ds.push({ label: "Totalt", data: daily.map(r => meta.handel.reduce((s, k) => s + r[k].varde, 0) + r.svept), borderColor: css("--c-total"), backgroundColor: css("--c-total"), borderWidth: 2.5, pointRadius: 0, tension: .2 });
@@ -193,15 +238,21 @@ function ritaHistorik() {
   const kol = [...meta.handel.map(k => ["breakeven_" + k, meta.konton[k] + " 10 000"]), ["hink_10k", "Hinken 10 000"],
     ["total_100k", "100 000 kr"], ["total_1m", "1 000 000 kr"]];
   let html = `<thead><tr><th>Handelsdag</th><th>Resultat</th><th>Takt/dag</th>${kol.map(c => `<th>${c[1]}</th>`).join("")}</tr></thead><tbody>`;
+  const fInfo = FONSTREN.find(x => x[0] === histFonster);
+  document.getElementById("hist-hint").textContent = `Varje rad är prognosen som den såg ut efter den handelsdagen – takt ${fInfo[2]} `
+    + `(${fInfo[1]} handelsdagar), kapital 10 000 kr, lot 2 000 kr. Siffran är handelsdagar kvar; Δ = ändring mot dagen före `
+    + "(rött = längre bort, grönt = närmare). Håll muspekaren över för datum.";
+  const malFor = h => (h.malF && h.malF[histFonster]) || h.mal;
+  const taktFor = h => (h.taktF && h.taktF[histFonster]) || h.takt;
   const rader = [...history].reverse();
   rader.forEach((h, i) => {
     const forra = rader[i + 1];
     const res = Object.values(h.resultat || {}).reduce((a, b) => a + b, 0);
-    const tk = Object.values(h.takt || {}).reduce((a, b) => a + b, 0);
+    const tk = Object.values(taktFor(h) || {}).reduce((a, b) => a + b, 0);
     html += `<tr class="${h.efterhand ? "efterhand" : ""}"><td>${datumTxt(h.datum)}${h.efterhand ? '<span class="tagg" title="Beräknad i efterhand ur Avanzas transaktioner">efterhand</span>' : ""}</td>
       <td class="${res >= 0 ? "plus" : "minus"}">${krTecken(res)}</td><td>${krTecken(tk)}</td>`;
     for (const [nyckel] of kol) {
-      const v = h.mal[nyckel], f = forra && forra.mal[nyckel];
+      const v = malFor(h)[nyckel], f = forra && malFor(forra)[nyckel];
       if (!v) { html += `<td title="Nås inte i den takten">—</td>`; continue; }
       if (v.dagar === 0) { html += `<td class="plus">uppnått</td>`; continue; }
       let delta = "";
@@ -226,12 +277,19 @@ function ritaHandelser() {
     ${e.skal ? `<span class="skal">${e.skal}</span>` : ""}</li>`).join("");
 }
 
-for (const id of ["kapital", "lot", "fonster", "ater"]) {
+for (const id of ["kapital", "lot", "fonster", "ater", "horisont"]) {
   document.getElementById(id).addEventListener("input", () => { if (D) { rakna(); ritaKonton(); } });
 }
 document.getElementById("aterstall").addEventListener("click", () => {
   document.getElementById("kapital").value = 10000; document.getElementById("lot").value = 2000;
-  document.getElementById("fonster").value = "20"; document.getElementById("ater").checked = false;
+  document.getElementById("fonster").value = "21"; document.getElementById("ater").checked = false;
   rakna(); ritaKonton();
+});
+document.getElementById("hist-flikar").addEventListener("click", e => {
+  const f = e.target.dataset && e.target.dataset.f;
+  if (!f || !D) return;
+  histFonster = f;
+  for (const b of document.querySelectorAll("#hist-flikar button")) b.classList.toggle("vald", b.dataset.f === f);
+  ritaHistorik();
 });
 ladda().catch(e => { document.getElementById("stamp").textContent = "Kunde inte läsa datan (" + e.message + ")"; });

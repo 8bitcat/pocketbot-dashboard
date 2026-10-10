@@ -26,6 +26,26 @@
     </div>
     <div class="mal-rad" id="mal"></div>
     <div class="framsteg" id="framsteg"></div>
+    <h3>Tre takter</h3>
+    <p class="hint">Samma mål räknat på senaste veckans, två veckornas och månadens takt – så syns det om det senaste lyfter eller drar ner.</p>
+    <div class="tabell-ram"><table id="jamfor"></table></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-huvud">
+      <h2>Framtiden</h2>
+      <label class="horisont">Visa
+        <select id="horisont">
+          <option value="63">3 månader</option>
+          <option value="126">6 månader</option>
+          <option value="252" selected>1 år</option>
+          <option value="756">3 år</option>
+          <option value="2520">10 år</option>
+        </select>
+      </label>
+      <p class="hint">Totalen (handelskonton + hinken) framåt med varje takt, enligt inställningarna i simulatorn. Knyck i en kurva = ett konto når 10 000 kr (då börjar svepet) eller töms (då slutar det handla i modellen).</p>
+    </div>
+    <div class="graf"><canvas id="graf-framtid"></canvas></div>
   </section>
 
   <section class="panel">
@@ -42,9 +62,9 @@
       </label>
       <label>Takt räknad på
         <select id="fonster">
-          <option value="5">senaste 5 handelsdagarna</option>
-          <option value="10">senaste 10 handelsdagarna</option>
-          <option value="20" selected>senaste 20 handelsdagarna</option>
+          <option value="5">senaste veckan (5 handelsdagar)</option>
+          <option value="10">senaste 2 veckorna (10 handelsdagar)</option>
+          <option value="21" selected>senaste månaden (21 handelsdagar)</option>
           <option value="0">alla dagar sedan start</option>
         </select>
       </label>
@@ -66,7 +86,12 @@
   <section class="panel">
     <div class="panel-huvud">
       <h2>Prognosen dag för dag</h2>
-      <p class="hint">Varje rad är prognosen som den såg ut efter den handelsdagen (takt 20 dagar, kapital 10 000 kr, lot 2 000 kr). Δ = ändring mot dagen före, i handelsdagar.</p>
+      <div class="flikar" id="hist-flikar" role="tablist">
+        <button type="button" data-f="1v">1 vecka</button>
+        <button type="button" data-f="2v">2 veckor</button>
+        <button type="button" data-f="1m" class="vald">1 månad</button>
+      </div>
+      <p class="hint" id="hist-hint"></p>
     </div>
     <div class="tabell-ram"><table id="historik"></table></div>
   </section>
