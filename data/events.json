@@ -1,5 +1,19 @@
 [
  {
+  "tid": "2026-10-12T07:00",
+  "typ": "in",
+  "id": "statL-SILVER-15m-S-739807",
+  "konto": "Godispåsen",
+  "skal": "ersätter stat-SILVER-1h-S-852566 · n 11 (6 dgr), +3,82 % [+1,19 … +6,46]"
+ },
+ {
+  "tid": "2026-10-12T07:00",
+  "typ": "ut",
+  "id": "stat-SILVER-1h-S-852566",
+  "konto": "Godispåsen",
+  "skal": "utkonkurrerad av statL-SILVER-15m-S-739807: nedre gräns +1,19 % mot +0,37 % (krav +0,5 pe), och 1 live-affärer (byts bara under 5)"
+ },
+ {
   "tid": "2026-10-09T07:00",
   "typ": "in",
   "id": "statL-SILVER-5m-S-431359",
