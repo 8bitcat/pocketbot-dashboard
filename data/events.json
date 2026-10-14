@@ -1,5 +1,26 @@
 [
  {
+  "tid": "2026-10-13T07:00",
+  "typ": "in",
+  "id": "statL-SILVER-5m-S-171306",
+  "konto": "Godispåsen",
+  "skal": "ersätter statL-SILVER-5m-S-917330 · n 16 (10 dgr), +3,88 % [+0,68 … +7,07]"
+ },
+ {
+  "tid": "2026-10-13T07:00",
+  "typ": "in",
+  "id": "statL-DAX-15m-S-807566",
+  "konto": "Godispåsen",
+  "skal": "test på Godispåsen · n 26 (5 dgr), +1,70 % [+0,32 … +3,08]"
+ },
+ {
+  "tid": "2026-10-13T07:00",
+  "typ": "ut",
+  "id": "statL-SILVER-5m-S-917330",
+  "konto": "Godispåsen",
+  "skal": "utkonkurrerad av statL-SILVER-5m-S-171306: sämst på kontot i platsen — 4 live-affärer, −21 kr · nedre gräns +0,68 % mot +1,37 % (förlorat på kontot — kandidaten behöver bara klara ribban)"
+ },
+ {
   "tid": "2026-10-12T07:00",
   "typ": "in",
   "id": "statL-SILVER-15m-S-739807",
