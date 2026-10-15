@@ -1610,5 +1610,36 @@
    "varde": 7.76
   },
   "svept": 444.75
+ },
+ {
+  "datum": "2026-10-14",
+  "godis": {
+   "resultat": -330.87,
+   "kassa": -330.87,
+   "flytt": 0,
+   "affarer": 8,
+   "oppet": 0,
+   "saldo": 7224.93,
+   "varde": 7224.93
+  },
+  "basen": {
+   "resultat": -299.97,
+   "kassa": -299.97,
+   "flytt": 0,
+   "affarer": 9,
+   "oppet": 0,
+   "saldo": 7707.54,
+   "varde": 7707.54
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 7.76,
+   "varde": 7.76
+  },
+  "svept": 444.75
  }
 ]

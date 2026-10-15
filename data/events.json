@@ -1,5 +1,40 @@
 [
  {
+  "tid": "2026-10-14T21:10",
+  "typ": "ut",
+  "id": "trendL-OLJA-1h-S-544498",
+  "konto": "Godispåsen",
+  "skal": "3 affärer, -158 kr på kontot (regel: netto-stopp −150 kr oavsett antal)"
+ },
+ {
+  "tid": "2026-10-14T21:10",
+  "typ": "ut",
+  "id": "statL-DAX-15m-S-807566",
+  "konto": "Godispåsen",
+  "skal": "klon av statL-DAX-15m-S-933186 (entries sammanfaller) — två per plats (14/10), +29 kr/aff på pappret"
+ },
+ {
+  "tid": "2026-10-14T18:03",
+  "typ": "ut",
+  "id": "stat-SILVER-15m-L-948260",
+  "konto": "Godispåsen",
+  "skal": "ut 14/10 (live-netto -462 kr på 9 aff, 3 utstoppningar — netto-regeln per genom)"
+ },
+ {
+  "tid": "2026-10-14T07:00",
+  "typ": "in",
+  "id": "statL-DAX-15m-S-933186",
+  "konto": "Godispåsen",
+  "skal": "test på Godispåsen · n 21 (6 dgr), +1,90 % [+0,22 … +3,59]"
+ },
+ {
+  "tid": "2026-10-14T07:00",
+  "typ": "ut",
+  "id": "trendL-OLJA-5m-L-529067",
+  "konto": "Godispåsen",
+  "skal": "gallrad ur arenan 14/10 12:20 — bokförs ut"
+ },
+ {
   "tid": "2026-10-13T07:00",
   "typ": "in",
   "id": "statL-SILVER-5m-S-171306",
