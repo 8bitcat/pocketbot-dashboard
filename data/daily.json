@@ -1641,5 +1641,67 @@
    "varde": 7.76
   },
   "svept": 444.75
+ },
+ {
+  "datum": "2026-10-15",
+  "godis": {
+   "resultat": -334.9,
+   "kassa": -334.9,
+   "flytt": 0,
+   "affarer": 9,
+   "oppet": 0,
+   "saldo": 6890.03,
+   "varde": 6890.03
+  },
+  "basen": {
+   "resultat": -34.29,
+   "kassa": -34.29,
+   "flytt": 0,
+   "affarer": 5,
+   "oppet": 0,
+   "saldo": 7673.25,
+   "varde": 7673.25
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 7.76,
+   "varde": 7.76
+  },
+  "svept": 444.75
+ },
+ {
+  "datum": "2026-10-16",
+  "godis": {
+   "resultat": 36.72,
+   "kassa": 36.72,
+   "flytt": 0,
+   "affarer": 4,
+   "oppet": 0,
+   "saldo": 6926.75,
+   "varde": 6926.75
+  },
+  "basen": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 7673.25,
+   "varde": 7673.25
+  },
+  "hink": {
+   "resultat": 0.0,
+   "kassa": 0,
+   "flytt": 0,
+   "affarer": 0,
+   "oppet": 0,
+   "saldo": 7.76,
+   "varde": 7.76
+  },
+  "svept": 444.75
  }
 ]

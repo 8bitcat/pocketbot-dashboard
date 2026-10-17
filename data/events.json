@@ -1,5 +1,117 @@
 [
  {
+  "tid": "2026-10-15T23:01",
+  "typ": "in",
+  "id": "stat-GULD-1h-L-971447",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +118 kr, P(E>0) 1.00, n 15, riktning 100 %"
+ },
+ {
+  "tid": "2026-10-15T23:01",
+  "typ": "in",
+  "id": "abl-NASDAQ-15m-L-1a83e61e",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +83 kr, P(E>0) 1.00, n 10, riktning 100 %"
+ },
+ {
+  "tid": "2026-10-15T23:01",
+  "typ": "in",
+  "id": "stat-SILVER-1h-S-852566",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +76 kr, P(E>0) 1.00, n 17, riktning 100 %"
+ },
+ {
+  "tid": "2026-10-15T23:01",
+  "typ": "in",
+  "id": "statL-OLJA-1h-L-703931",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +71 kr, P(E>0) 1.00, n 14, riktning 86 %"
+ },
+ {
+  "tid": "2026-10-15T23:01",
+  "typ": "in",
+  "id": "evo-OMX-15m-S-768351",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +69 kr, P(E>0) 1.00, n 26, riktning 100 %"
+ },
+ {
+  "tid": "2026-10-15T23:01",
+  "typ": "ut",
+  "id": "spec-GULD-1h-S-399167",
+  "konto": "Basen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-10-15T21:04",
+  "typ": "ut",
+  "id": "statL-SILVER-5m-S-431359",
+  "konto": "Godispåsen",
+  "skal": "stoppdjup i bruset: stopp 0,37 % i underliggande = 0,9 σ₁ₕ (silver 0,40 %); 15/10 två förluster −132 kr på exakt stoppet (−3,4 % cert på 9x), −123 kr sedan 9/10 (Carl 15/10 19:55: ta ut de tre)"
+ },
+ {
+  "tid": "2026-10-15T20:27",
+  "typ": "ut",
+  "id": "spec-OLJA-1h-S-298189",
+  "konto": "Basen",
+  "skal": "stoppdjup i bruset: stopp 0,30 % i underliggande = 0,7 σ₁ₕ (olja 0,42 %) — 48 % risk per timme att nuddas; −163 kr på 16 affärer sedan 9/10, 15/10 +31/−35/−10 (Carl 15/10 19:55: ta ut de tre)"
+ },
+ {
+  "tid": "2026-10-15T20:01",
+  "typ": "ut",
+  "id": "statL-SILVER-15m-S-739807",
+  "konto": "Godispåsen",
+  "skal": "stoppdjup i bruset: ATR-stoppet ≈0,33 % i underliggande = 0,8 σ₁ₕ (silver 0,40 %) — bruset ensamt nuddar det i var tredje timme; 15/10 fyra förluster på fyra affärer (−115 kr) när silver steg 1,9 % (Carl 15/10 19:55: ta ut de tre)"
+ },
+ {
+  "tid": "2026-10-15T08:02",
+  "typ": "ut",
+  "id": "evo-NASDAQ-1h-L-121294",
+  "konto": "Basen",
+  "skal": "räckvidd UNDER BRUSET: median-topp 0,14 % i underliggande mot kravet 0,21 % (½ σ₁ₕ 0,41 %), 31 affärer, implicit 23x — genomets rörelse räcker inte upp till trappan vid brussäker hävstång (regel 14/10)"
+ },
+ {
+  "tid": "2026-10-15T08:02",
+  "typ": "ut",
+  "id": "statL-GULD-15m-S-294341",
+  "konto": "Godispåsen",
+  "skal": "räckvidd UNDER BRUSET: median-topp 0,09 % i underliggande mot kravet 0,15 % (½ σ₁ₕ 0,30 %), 19 affärer, implicit 40x — genomets rörelse räcker inte upp till trappan vid brussäker hävstång (regel 14/10)"
+ },
+ {
+  "tid": "2026-10-15T08:02",
+  "typ": "ut",
+  "id": "evo-OLJA-1h-L-427948",
+  "konto": "Godispåsen",
+  "skal": "räckvidd UNDER BRUSET: median-topp 0,16 % i underliggande mot kravet 0,29 % (½ σ₁ₕ 0,57 %), 59 affärer, implicit 19x — genomets rörelse räcker inte upp till trappan vid brussäker hävstång (regel 14/10)"
+ },
+ {
+  "tid": "2026-10-15T08:02",
+  "typ": "ut",
+  "id": "statL-DAX-15m-S-933186",
+  "konto": "Godispåsen",
+  "skal": "räckvidd UNDER BRUSET: median-topp 0,10 % i underliggande mot kravet 0,17 % (½ σ₁ₕ 0,35 %), 23 affärer, implicit 45x — genomets rörelse räcker inte upp till trappan vid brussäker hävstång (regel 14/10)"
+ },
+ {
+  "tid": "2026-10-15T08:02",
+  "typ": "ut",
+  "id": "statL-DAX-15m-S-807566",
+  "konto": "Godispåsen",
+  "skal": "räckvidd UNDER BRUSET: median-topp 0,08 % i underliggande mot kravet 0,17 % (½ σ₁ₕ 0,35 %), 33 affärer, implicit 39x — genomets rörelse räcker inte upp till trappan vid brussäker hävstång (regel 14/10)"
+ },
+ {
+  "tid": "2026-10-15T07:00",
+  "typ": "in",
+  "id": "statL-DAX-15m-S-807566",
+  "konto": "Godispåsen",
+  "skal": "tillbaka — tidigare 2 aff, +15 kr på kontot · n 34 (7 dgr), +1,38 % [+0,32 … +2,45]"
+ },
+ {
+  "tid": "2026-10-15T07:00",
+  "typ": "ut",
+  "id": "statL-SILVER-5m-S-171306",
+  "konto": "Godispåsen",
+  "skal": "dubblett på Godispåsen: statL-SILVER-15m-S-739807, statL-SILVER-5m-S-431359 har redan SILVER SHORT där (högst 2 per symbol+riktning)"
+ },
+ {
   "tid": "2026-10-14T21:10",
   "typ": "ut",
   "id": "trendL-OLJA-1h-S-544498",
