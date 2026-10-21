@@ -1,5 +1,26 @@
 [
  {
+  "tid": "2026-10-20T06:50",
+  "typ": "in",
+  "id": "evo-OLJA-1h-L-195539",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +37 kr, P(E>0) 1.00, n 17, riktning 100 %"
+ },
+ {
+  "tid": "2026-10-20T06:50",
+  "typ": "ut",
+  "id": "trend-SP500-5m-S-998662",
+  "konto": "Godispåsen",
+  "skal": ""
+ },
+ {
+  "tid": "2026-10-20T06:50",
+  "typ": "ut",
+  "id": "trend-OLJA-5m-L-697532",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
   "tid": "2026-10-17T06:50",
   "typ": "in",
   "id": "trend-SP500-5m-S-998662",
