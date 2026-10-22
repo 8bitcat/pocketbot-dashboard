@@ -1,5 +1,166 @@
 [
  {
+  "tid": "2026-10-21T21:05",
+  "typ": "in",
+  "id": "abl-GULD-5m-L-8c6d1cbb",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +9 kr, P(E>0) 0.99, n 93, riktning 69 %"
+ },
+ {
+  "tid": "2026-10-21T21:05",
+  "typ": "in",
+  "id": "statL-SILVER-1h-S-786073",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +3 kr, P(E>0) 0.92, n 12, riktning 75 %"
+ },
+ {
+  "tid": "2026-10-21T21:05",
+  "typ": "ut",
+  "id": "spec-SILVER-5m-S-667790",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-10-21T21:05",
+  "typ": "ut",
+  "id": "spec-GULD-5m-S-859511",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-10-21T21:05",
+  "typ": "ut",
+  "id": "abl-GULD-5m-L-b74b61b4",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-10-21T21:05",
+  "typ": "ut",
+  "id": "evo-OMX-1h-S-911513",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-10-21T17:48",
+  "typ": "ut",
+  "id": "statL-GULD-15m-S-294341",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10: inte bland de valda, platt efter vinst 17:46"
+ },
+ {
+  "tid": "2026-10-21T17:31",
+  "typ": "in",
+  "id": "statL-SILVER-1h-S-341432",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10: E_lo +25 kr, P(E>0) 1.00, n 13, riktning 100 %"
+ },
+ {
+  "tid": "2026-10-21T17:31",
+  "typ": "in",
+  "id": "stat-GULD-1h-L-971447",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10: E_lo +80 kr, P(E>0) 1.00, n 12, riktning 92 %"
+ },
+ {
+  "tid": "2026-10-21T17:31",
+  "typ": "in",
+  "id": "statL-OLJA-15m-S-479043",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10: E_lo +23 kr, P(E>0) 0.99, n 15, riktning 73 %"
+ },
+ {
+  "tid": "2026-10-21T17:31",
+  "typ": "in",
+  "id": "stat-OLJA-15m-S-526819",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10: E_lo +13 kr, P(E>0) 0.96, n 18, riktning 83 %"
+ },
+ {
+  "tid": "2026-10-21T17:31",
+  "typ": "in",
+  "id": "abl-GULD-5m-L-b74b61b4",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10: E_lo +9 kr, P(E>0) 0.99, n 96, riktning 70 %"
+ },
+ {
+  "tid": "2026-10-21T17:31",
+  "typ": "in",
+  "id": "evo-OMX-1h-S-911513",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10: E_lo +27 kr, P(E>0) 1.00, n 8, riktning 100 %"
+ },
+ {
+  "tid": "2026-10-21T17:31",
+  "typ": "ut",
+  "id": "trend-OLJA-15m-L-802477",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10 (15 dgr, ≥ 6 vinster, plus senaste 5 dgr): inte bland de valda"
+ },
+ {
+  "tid": "2026-10-21T17:31",
+  "typ": "ut",
+  "id": "stat-SILVER-1h-S-335450",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10 (15 dgr, ≥ 6 vinster, plus senaste 5 dgr): inte bland de valda"
+ },
+ {
+  "tid": "2026-10-21T17:31",
+  "typ": "ut",
+  "id": "trend-OLJA-5m-L-697532",
+  "konto": "Godispåsen",
+  "skal": "hårdare urval 21/10 (15 dgr, ≥ 6 vinster, plus senaste 5 dgr): inte bland de valda"
+ },
+ {
+  "tid": "2026-10-21T06:50",
+  "typ": "in",
+  "id": "stat-SILVER-1h-S-335450",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +31 kr, P(E>0) 1.00, n 16, riktning 93 %"
+ },
+ {
+  "tid": "2026-10-21T06:50",
+  "typ": "in",
+  "id": "statL-GULD-15m-S-294341",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +36 kr, P(E>0) 1.00, n 24, riktning 94 %"
+ },
+ {
+  "tid": "2026-10-21T06:50",
+  "typ": "in",
+  "id": "trend-OLJA-5m-L-697532",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +27 kr, P(E>0) 1.00, n 133, riktning 86 %"
+ },
+ {
+  "tid": "2026-10-21T06:50",
+  "typ": "in",
+  "id": "spec-GULD-5m-S-859511",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +54 kr, P(E>0) 1.00, n 24, riktning 90 %"
+ },
+ {
+  "tid": "2026-10-21T06:50",
+  "typ": "ut",
+  "id": "stat-GULD-1h-L-971447",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-10-21T06:50",
+  "typ": "ut",
+  "id": "spec-SILVER-5m-S-805651",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-10-21T06:50",
+  "typ": "ut",
+  "id": "evo-OLJA-1h-L-195539",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
   "tid": "2026-10-20T06:50",
   "typ": "in",
   "id": "evo-OLJA-1h-L-195539",
