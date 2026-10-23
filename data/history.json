@@ -4578,5 +4578,87 @@
     "total_1m": null
    }
   }
+ },
+ {
+  "datum": "2026-10-22",
+  "korning": "2026-10-23T05:00",
+  "resultat": {
+   "godis": -538.83,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 6361.8,
+   "basen": 7673.25,
+   "hink": 7.76
+  },
+  "svept": 444.75,
+  "total": 14479.8,
+  "takt": {
+   "godis": -114.48,
+   "basen": 27.74
+  },
+  "fonster": 21,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 84,
+    "datum": "2027-02-18"
+   },
+   "hink_10k": {
+    "dagar": 429,
+    "datum": "2028-06-15"
+   },
+   "total_100k": {
+    "dagar": 3314,
+    "datum": "2039-07-07"
+   },
+   "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -105.65,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": -132.22,
+    "basen": -46.0
+   },
+   "1m": {
+    "godis": -114.48,
+    "basen": 27.74
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 84,
+     "datum": "2027-02-18"
+    },
+    "hink_10k": {
+     "dagar": 429,
+     "datum": "2028-06-15"
+    },
+    "total_100k": {
+     "dagar": 3314,
+     "datum": "2039-07-07"
+    },
+    "total_1m": null
+   }
+  }
  }
 ]
