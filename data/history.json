@@ -4663,7 +4663,7 @@
  },
  {
   "datum": "2026-10-23",
-  "korning": "2026-10-25T05:00",
+  "korning": "2026-10-26T05:00",
   "resultat": {
    "godis": 239.99,
    "basen": 0.0
@@ -4684,15 +4684,15 @@
    "breakeven_godis": null,
    "breakeven_basen": {
     "dagar": 103,
-    "datum": "2027-03-17"
+    "datum": "2027-03-18"
    },
    "hink_10k": {
     "dagar": 525,
-    "datum": "2028-10-27"
+    "datum": "2028-10-30"
    },
    "total_100k": {
     "dagar": 4058,
-    "datum": "2042-05-14"
+    "datum": "2042-05-15"
    },
    "total_1m": null
   },
@@ -4729,15 +4729,15 @@
     "breakeven_godis": null,
     "breakeven_basen": {
      "dagar": 103,
-     "datum": "2027-03-17"
+     "datum": "2027-03-18"
     },
     "hink_10k": {
      "dagar": 525,
-     "datum": "2028-10-27"
+     "datum": "2028-10-30"
     },
     "total_100k": {
      "dagar": 4058,
-     "datum": "2042-05-14"
+     "datum": "2042-05-15"
     },
     "total_1m": null
    }

@@ -1,5 +1,19 @@
 [
  {
+  "tid": "2026-10-25T06:50",
+  "typ": "in",
+  "id": "trend-GULD-5m-S-993331",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +17 kr, P(E>0) 0.96, n 14, riktning 93 %"
+ },
+ {
+  "tid": "2026-10-25T06:50",
+  "typ": "ut",
+  "id": "spec-GULD-5m-S-859511",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
   "tid": "2026-10-24T10:53",
   "typ": "in",
   "id": "spec-GULD-5m-S-859511",
