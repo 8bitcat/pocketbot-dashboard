@@ -1,5 +1,19 @@
 [
  {
+  "tid": "2026-10-26T06:50",
+  "typ": "in",
+  "id": "spec-OLJA-1h-L-110404",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +35 kr, P(E>0) 1.00, n 11, riktning 100 %"
+ },
+ {
+  "tid": "2026-10-26T06:50",
+  "typ": "ut",
+  "id": "spec-OLJA-1h-L-3454",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
   "tid": "2026-10-25T06:50",
   "typ": "in",
   "id": "trend-GULD-5m-S-993331",
