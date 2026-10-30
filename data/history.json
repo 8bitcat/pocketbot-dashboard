@@ -4906,5 +4906,168 @@
     "total_1m": null
    }
   }
+ },
+ {
+  "datum": "2026-10-28",
+  "efterhand": true,
+  "resultat": {
+   "godis": 0.0,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 6322.14,
+   "basen": 7673.25
+  },
+  "svept": 444.75,
+  "total": 14440.14,
+  "takt": {
+   "godis": -77.12,
+   "basen": 16.98
+  },
+  "fonster": 21,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 138,
+    "datum": "2027-05-11"
+   },
+   "hink_10k": {
+    "dagar": 700,
+    "datum": "2029-07-05"
+   },
+   "total_100k": {
+    "dagar": 5413,
+    "datum": "2047-07-30"
+   },
+   "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -115.7,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": -90.28,
+    "basen": -3.43
+   },
+   "1m": {
+    "godis": -77.12,
+    "basen": 16.98
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 138,
+     "datum": "2027-05-11"
+    },
+    "hink_10k": {
+     "dagar": 700,
+     "datum": "2029-07-05"
+    },
+    "total_100k": {
+     "dagar": 5413,
+     "datum": "2047-07-30"
+    },
+    "total_1m": null
+   }
+  }
+ },
+ {
+  "datum": "2026-10-29",
+  "korning": "2026-10-30T05:00",
+  "resultat": {
+   "godis": 0.0,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 6322.14,
+   "basen": 7673.25,
+   "hink": 7.76
+  },
+  "svept": 444.75,
+  "total": 14440.14,
+  "takt": {
+   "godis": -82.02,
+   "basen": 16.18
+  },
+  "fonster": 21,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": {
+    "dagar": 144,
+    "datum": "2027-05-20"
+   },
+   "hink_10k": {
+    "dagar": 735,
+    "datum": "2029-08-24"
+   },
+   "total_100k": {
+    "dagar": 5685,
+    "datum": "2048-08-14"
+   },
+   "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -7.93,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": -56.79,
+    "basen": 0.0
+   },
+   "1m": {
+    "godis": -82.02,
+    "basen": 16.18
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": {
+     "dagar": 144,
+     "datum": "2027-05-20"
+    },
+    "hink_10k": {
+     "dagar": 735,
+     "datum": "2029-08-24"
+    },
+    "total_100k": {
+     "dagar": 5685,
+     "datum": "2048-08-14"
+    },
+    "total_1m": null
+   }
+  }
  }
 ]
