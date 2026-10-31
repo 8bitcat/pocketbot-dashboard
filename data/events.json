@@ -1,5 +1,47 @@
 [
  {
+  "tid": "2026-10-30T06:50",
+  "typ": "in",
+  "id": "statL-SILVER-1h-S-786073",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +6 kr, P(E>0) 0.95, n 15, riktning 80 %"
+ },
+ {
+  "tid": "2026-10-30T06:50",
+  "typ": "in",
+  "id": "stat-GULD-5m-S-273523",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +33 kr, P(E>0) 1.00, n 14, riktning 88 %"
+ },
+ {
+  "tid": "2026-10-30T06:50",
+  "typ": "in",
+  "id": "trend-GULD-1h-S-272938",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +10 kr, P(E>0) 0.99, n 15, riktning 100 %"
+ },
+ {
+  "tid": "2026-10-30T06:50",
+  "typ": "ut",
+  "id": "stat-SILVER-1h-L-742171",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-10-30T06:50",
+  "typ": "ut",
+  "id": "abl-GULD-1h-L-8b5309b9",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-10-30T06:50",
+  "typ": "ut",
+  "id": "stat-GULD-1h-L-971447",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
   "tid": "2026-10-29T11:39",
   "typ": "in",
   "id": "spec-OLJA-1h-L-110404",
