@@ -1,5 +1,19 @@
 [
  {
+  "tid": "2026-11-10T06:50",
+  "typ": "ut",
+  "id": "trend-OLJA-5m-S-548850",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-11-10T06:50",
+  "typ": "ut",
+  "id": "trendL-GULD-5m-L-761567",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
   "tid": "2026-11-08T06:50",
   "typ": "in",
   "id": "trend-OLJA-5m-S-548850",
