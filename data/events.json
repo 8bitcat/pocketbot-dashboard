@@ -1,5 +1,19 @@
 [
  {
+  "tid": "2026-11-15T06:51",
+  "typ": "in",
+  "id": "trendL-SILVER-15m-S-722392",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +51 kr, P(E>0) 1.00, n 12, riktning 100 %"
+ },
+ {
+  "tid": "2026-11-15T06:51",
+  "typ": "ut",
+  "id": "stat-SILVER-15m-S-85697",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
   "tid": "2026-11-14T06:51",
   "typ": "in",
   "id": "spec-GULD-5m-S-674959",
