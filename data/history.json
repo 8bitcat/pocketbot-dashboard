@@ -7,11 +7,11 @@
    "basen": 0.0
   },
   "saldo": {
-   "godis": 14712.54,
-   "basen": 6451.6
+   "godis": 13803.94,
+   "basen": 5129.02
   },
   "svept": 23.86,
-  "total": 21188.0,
+  "total": 18956.82,
   "takt": {
    "godis": -229.42,
    "basen": 0.0
@@ -82,11 +82,11 @@
    "basen": 0.0
   },
   "saldo": {
-   "godis": 14712.54,
-   "basen": 6451.6
+   "godis": 13803.94,
+   "basen": 5129.02
   },
   "svept": 23.86,
-  "total": 21188.0,
+  "total": 18956.82,
   "takt": {
    "godis": -191.19,
    "basen": 0.0
@@ -157,11 +157,11 @@
    "basen": 0.0
   },
   "saldo": {
-   "godis": 14983.87,
-   "basen": 6451.6
+   "godis": 14075.27,
+   "basen": 5129.02
   },
   "svept": 23.86,
-  "total": 21459.33,
+  "total": 19228.15,
   "takt": {
    "godis": -125.11,
    "basen": 0.0
@@ -199,12 +199,12 @@
     },
     "breakeven_basen": null,
     "hink_10k": {
-     "dagar": 60,
-     "datum": "2026-11-04"
+     "dagar": 71,
+     "datum": "2026-11-19"
     },
     "total_100k": {
-     "dagar": 941,
-     "datum": "2030-03-21"
+     "dagar": 968,
+     "datum": "2030-04-29"
     },
     "total_1m": null
    },
@@ -238,11 +238,11 @@
    "basen": 0.0
   },
   "saldo": {
-   "godis": 15040.23,
-   "basen": 6451.6
+   "godis": 14131.63,
+   "basen": 5129.02
   },
   "svept": 23.86,
-  "total": 21515.69,
+  "total": 19284.51,
   "takt": {
    "godis": -102.43,
    "basen": 0.0
@@ -280,16 +280,16 @@
     },
     "breakeven_basen": null,
     "hink_10k": {
-     "dagar": 49,
-     "datum": "2026-10-21"
+     "dagar": 57,
+     "datum": "2026-11-02"
     },
     "total_100k": {
-     "dagar": 764,
-     "datum": "2029-07-18"
+     "dagar": 786,
+     "datum": "2029-08-17"
     },
     "total_1m": {
-     "dagar": 9522,
-     "datum": "2063-02-12"
+     "dagar": 9544,
+     "datum": "2063-03-14"
     }
    },
    "2v": {
@@ -322,11 +322,11 @@
    "basen": 0.0
   },
   "saldo": {
-   "godis": 15011.61,
-   "basen": 6451.6
+   "godis": 14103.01,
+   "basen": 5129.02
   },
   "svept": 23.86,
-  "total": 21487.07,
+  "total": 19255.89,
   "takt": {
    "godis": -94.23,
    "basen": 0.0
@@ -364,12 +364,12 @@
     },
     "breakeven_basen": null,
     "hink_10k": {
-     "dagar": 58,
-     "datum": "2026-11-04"
+     "dagar": 69,
+     "datum": "2026-11-19"
     },
     "total_100k": {
-     "dagar": 915,
-     "datum": "2030-02-15"
+     "dagar": 941,
+     "datum": "2030-03-25"
     },
     "total_1m": null
    },
@@ -403,11 +403,11 @@
    "basen": 0.0
   },
   "saldo": {
-   "godis": 14900.78,
-   "basen": 6451.6
+   "godis": 13992.18,
+   "basen": 5129.02
   },
   "svept": 23.86,
-  "total": 21376.24,
+  "total": 19145.06,
   "takt": {
    "godis": -95.89,
    "basen": 0.0
@@ -445,12 +445,12 @@
     },
     "breakeven_basen": null,
     "hink_10k": {
-     "dagar": 135,
-     "datum": "2027-02-22"
+     "dagar": 159,
+     "datum": "2027-03-26"
     },
     "total_100k": {
-     "dagar": 2089,
-     "datum": "2034-08-18"
+     "dagar": 2148,
+     "datum": "2034-11-09"
     },
     "total_1m": null
    },
@@ -484,11 +484,11 @@
    "basen": 82.86
   },
   "saldo": {
-   "godis": 14959.11,
-   "basen": 16451.6
+   "godis": 14050.51,
+   "basen": 15129.02
   },
   "svept": 106.72,
-  "total": 31517.43,
+  "total": 29286.25,
   "takt": {
    "godis": -81.87,
    "basen": 7.53
@@ -504,8 +504,8 @@
     "datum": "2026-08-18"
    },
    "hink_10k": {
-    "dagar": 1,
-    "datum": "2026-08-19"
+    "dagar": 106,
+    "datum": "2027-01-13"
    },
    "total_100k": null,
    "total_1m": null
@@ -535,12 +535,12 @@
      "datum": "2026-08-18"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-19"
+     "dagar": 11,
+     "datum": "2026-09-02"
     },
     "total_100k": {
-     "dagar": 1040,
-     "datum": "2030-08-13"
+     "dagar": 1074,
+     "datum": "2030-09-30"
     },
     "total_1m": null
    },
@@ -554,12 +554,12 @@
      "datum": "2026-08-18"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-19"
+     "dagar": 98,
+     "datum": "2027-01-01"
     },
     "total_100k": {
-     "dagar": 9492,
-     "datum": "2063-01-04"
+     "dagar": 9762,
+     "datum": "2064-01-17"
     },
     "total_1m": null
    },
@@ -573,8 +573,8 @@
      "datum": "2026-08-18"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-19"
+     "dagar": 106,
+     "datum": "2027-01-13"
     },
     "total_100k": null,
     "total_1m": null
@@ -589,11 +589,11 @@
    "basen": -15.83
   },
   "saldo": {
-   "godis": 14965.6,
-   "basen": 16435.77
+   "godis": 14057.0,
+   "basen": 15113.19
   },
   "svept": 106.72,
-  "total": 31508.09,
+  "total": 29276.91,
   "takt": {
    "godis": -74.5,
    "basen": 5.59
@@ -609,8 +609,8 @@
     "datum": "2026-08-19"
    },
    "hink_10k": {
-    "dagar": 1,
-    "datum": "2026-08-20"
+    "dagar": 143,
+    "datum": "2027-03-08"
    },
    "total_100k": null,
    "total_1m": null
@@ -640,12 +640,12 @@
      "datum": "2026-08-19"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-20"
+     "dagar": 55,
+     "datum": "2026-11-04"
     },
     "total_100k": {
-     "dagar": 5856,
-     "datum": "2049-01-28"
+     "dagar": 6022,
+     "datum": "2049-09-17"
     },
     "total_1m": null
    },
@@ -659,12 +659,12 @@
      "datum": "2026-08-19"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-20"
+     "dagar": 16,
+     "datum": "2026-09-10"
     },
     "total_100k": {
-     "dagar": 1469,
-     "datum": "2032-04-06"
+     "dagar": 1517,
+     "datum": "2032-06-11"
     },
     "total_1m": null
    },
@@ -678,8 +678,8 @@
      "datum": "2026-08-19"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-20"
+     "dagar": 143,
+     "datum": "2027-03-08"
     },
     "total_100k": null,
     "total_1m": null
@@ -694,11 +694,11 @@
    "basen": -519.88
   },
   "saldo": {
-   "godis": 14319.81,
-   "basen": 15915.89
+   "godis": 13411.21,
+   "basen": 14593.31
   },
   "svept": 106.72,
-  "total": 30342.42,
+  "total": 28111.24,
   "takt": {
    "godis": -118.45,
    "basen": -34.83
@@ -713,10 +713,7 @@
     "dagar": 0,
     "datum": "2026-08-20"
    },
-   "hink_10k": {
-    "dagar": 1,
-    "datum": "2026-08-21"
-   },
+   "hink_10k": null,
    "total_100k": null,
    "total_1m": null
   },
@@ -744,10 +741,7 @@
      "dagar": 0,
      "datum": "2026-08-20"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-21"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    },
@@ -760,10 +754,7 @@
      "dagar": 0,
      "datum": "2026-08-20"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-21"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    },
@@ -776,10 +767,7 @@
      "dagar": 0,
      "datum": "2026-08-20"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-21"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    }
@@ -793,11 +781,11 @@
    "basen": -251.81
   },
   "saldo": {
-   "godis": 14808.97,
-   "basen": 15664.08
+   "godis": 13900.37,
+   "basen": 14341.5
   },
   "svept": 106.72,
-  "total": 30579.77,
+  "total": 28348.59,
   "takt": {
    "godis": -75.05,
    "basen": -50.33
@@ -812,10 +800,7 @@
     "dagar": 0,
     "datum": "2026-08-21"
    },
-   "hink_10k": {
-    "dagar": 1,
-    "datum": "2026-08-24"
-   },
+   "hink_10k": null,
    "total_100k": null,
    "total_1m": null
   },
@@ -843,10 +828,7 @@
      "dagar": 0,
      "datum": "2026-08-21"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-24"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    },
@@ -860,12 +842,12 @@
      "datum": "2026-08-21"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-24"
+     "dagar": 76,
+     "datum": "2026-12-07"
     },
     "total_100k": {
-     "dagar": 3506,
-     "datum": "2040-01-30"
+     "dagar": 3604,
+     "datum": "2040-06-14"
     },
     "total_1m": null
    },
@@ -878,10 +860,7 @@
      "dagar": 0,
      "datum": "2026-08-21"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-24"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    }
@@ -895,11 +874,11 @@
    "basen": 128.7
   },
   "saldo": {
-   "godis": 14467.89,
-   "basen": 15792.78
+   "godis": 13559.29,
+   "basen": 14470.2
   },
   "svept": 106.72,
-  "total": 30367.39,
+  "total": 28136.21,
   "takt": {
    "godis": -92.78,
    "basen": -38.4
@@ -914,10 +893,7 @@
     "dagar": 0,
     "datum": "2026-08-24"
    },
-   "hink_10k": {
-    "dagar": 1,
-    "datum": "2026-08-25"
-   },
+   "hink_10k": null,
    "total_100k": null,
    "total_1m": null
   },
@@ -945,10 +921,7 @@
      "dagar": 0,
      "datum": "2026-08-24"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-25"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    },
@@ -961,10 +934,7 @@
      "dagar": 0,
      "datum": "2026-08-24"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-25"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    },
@@ -977,10 +947,7 @@
      "dagar": 0,
      "datum": "2026-08-24"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-25"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    }
@@ -994,11 +961,11 @@
    "basen": 301.67
   },
   "saldo": {
-   "godis": 14032.64,
-   "basen": 16094.45
+   "godis": 13124.04,
+   "basen": 14771.87
   },
   "svept": 106.72,
-  "total": 30233.81,
+  "total": 28002.63,
   "takt": {
    "godis": -114.19,
    "basen": -17.14
@@ -1013,10 +980,7 @@
     "dagar": 0,
     "datum": "2026-08-25"
    },
-   "hink_10k": {
-    "dagar": 1,
-    "datum": "2026-08-26"
-   },
+   "hink_10k": null,
    "total_100k": null,
    "total_1m": null
   },
@@ -1057,10 +1021,7 @@
      "dagar": 0,
      "datum": "2026-08-25"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-26"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    },
@@ -1073,10 +1034,7 @@
      "dagar": 0,
      "datum": "2026-08-25"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-26"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    }
@@ -1090,11 +1048,11 @@
    "basen": -406.41
   },
   "saldo": {
-   "godis": 14188.05,
-   "basen": 15688.04
+   "godis": 13279.45,
+   "basen": 14365.46
   },
   "svept": 106.72,
-  "total": 29982.81,
+  "total": 27751.63,
   "takt": {
    "godis": -98.33,
    "basen": -40.04
@@ -1177,11 +1135,11 @@
    "basen": 303.61
   },
   "saldo": {
-   "godis": 13996.72,
-   "basen": 15991.65
+   "godis": 13088.12,
+   "basen": 14669.07
   },
   "svept": 106.72,
-  "total": 30095.09,
+  "total": 27863.91,
   "takt": {
    "godis": -103.5,
    "basen": -20.95
@@ -1225,12 +1183,12 @@
      "datum": "2026-08-27"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-28"
+     "dagar": 146,
+     "datum": "2027-03-19"
     },
     "total_100k": {
-     "dagar": 5279,
-     "datum": "2046-11-21"
+     "dagar": 5427,
+     "datum": "2047-06-17"
     },
     "total_1m": null
    },
@@ -1270,11 +1228,11 @@
    "basen": 167.14
   },
   "saldo": {
-   "godis": 14119.27,
-   "basen": 16158.79
+   "godis": 13210.67,
+   "basen": 14836.21
   },
   "svept": 106.72,
-  "total": 30384.78,
+  "total": 28153.6,
   "takt": {
    "godis": -91.6,
    "basen": -11.05
@@ -1289,10 +1247,7 @@
     "dagar": 0,
     "datum": "2026-08-28"
    },
-   "hink_10k": {
-    "dagar": 1,
-    "datum": "2026-08-31"
-   },
+   "hink_10k": null,
    "total_100k": null,
    "total_1m": null
   },
@@ -1321,16 +1276,16 @@
      "datum": "2026-08-28"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-31"
+     "dagar": 21,
+     "datum": "2026-09-28"
     },
     "total_100k": {
-     "dagar": 807,
-     "datum": "2029-10-02"
+     "dagar": 830,
+     "datum": "2029-11-02"
     },
     "total_1m": {
-     "dagar": 9904,
-     "datum": "2064-08-14"
+     "dagar": 9926,
+     "datum": "2064-09-15"
     }
    },
    "2v": {
@@ -1342,10 +1297,7 @@
      "dagar": 0,
      "datum": "2026-08-28"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-31"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    },
@@ -1358,10 +1310,7 @@
      "dagar": 0,
      "datum": "2026-08-28"
     },
-    "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-08-31"
-    },
+    "hink_10k": null,
     "total_100k": null,
     "total_1m": null
    }
@@ -1375,11 +1324,11 @@
    "basen": 53.94
   },
   "saldo": {
-   "godis": 13372.32,
-   "basen": 16212.73
+   "godis": 12463.72,
+   "basen": 14890.15
   },
   "svept": 106.72,
-  "total": 29691.77,
+  "total": 27460.59,
   "takt": {
    "godis": -124.37,
    "basen": -7.8
@@ -1423,12 +1372,12 @@
      "datum": "2026-08-31"
     },
     "hink_10k": {
-     "dagar": 7,
-     "datum": "2026-09-09"
+     "dagar": 33,
+     "datum": "2026-10-15"
     },
     "total_100k": {
-     "dagar": 960,
-     "datum": "2030-05-06"
+     "dagar": 987,
+     "datum": "2030-06-12"
     },
     "total_1m": null
    },
@@ -1468,11 +1417,11 @@
    "basen": 208.14
   },
   "saldo": {
-   "godis": 12675.43,
-   "basen": 16420.87
+   "godis": 11766.83,
+   "basen": 15098.29
   },
   "svept": 106.72,
-  "total": 29203.02,
+  "total": 26971.84,
   "takt": {
    "godis": -151.63,
    "basen": 2.48
@@ -1488,8 +1437,8 @@
     "datum": "2026-09-01"
    },
    "hink_10k": {
-    "dagar": 383,
-    "datum": "2028-02-18"
+    "dagar": 1281,
+    "datum": "2031-07-30"
    },
    "total_100k": null,
    "total_1m": null
@@ -1519,12 +1468,12 @@
      "datum": "2026-09-01"
     },
     "hink_10k": {
-     "dagar": 17,
-     "datum": "2026-09-24"
+     "dagar": 51,
+     "datum": "2026-11-11"
     },
     "total_100k": {
-     "dagar": 1243,
-     "datum": "2031-06-06"
+     "dagar": 1277,
+     "datum": "2031-07-24"
     },
     "total_1m": null
    },
@@ -1551,8 +1500,8 @@
      "datum": "2026-09-01"
     },
     "hink_10k": {
-     "dagar": 383,
-     "datum": "2028-02-18"
+     "dagar": 1281,
+     "datum": "2031-07-30"
     },
     "total_100k": null,
     "total_1m": null
@@ -1567,11 +1516,11 @@
    "basen": 173.28
   },
   "saldo": {
-   "godis": 12723.18,
-   "basen": 16451.61
+   "godis": 11814.58,
+   "basen": 15129.03
   },
   "svept": 249.26,
-  "total": 29424.05,
+  "total": 27192.87,
   "takt": {
    "godis": -151.72,
    "basen": 10.73
@@ -1587,12 +1536,12 @@
     "datum": "2026-09-02"
    },
    "hink_10k": {
-    "dagar": 68,
-    "datum": "2026-12-07"
+    "dagar": 276,
+    "datum": "2027-09-23"
    },
    "total_100k": {
-    "dagar": 7523,
-    "datum": "2055-07-05"
+    "dagar": 7730,
+    "datum": "2056-04-19"
    },
    "total_1m": null
   },
@@ -1621,16 +1570,16 @@
      "datum": "2026-09-02"
     },
     "hink_10k": {
-     "dagar": 5,
-     "datum": "2026-09-09"
+     "dagar": 18,
+     "datum": "2026-09-28"
     },
     "total_100k": {
-     "dagar": 448,
-     "datum": "2028-05-22"
+     "dagar": 460,
+     "datum": "2028-06-07"
     },
     "total_1m": {
-     "dagar": 5414,
-     "datum": "2047-06-04"
+     "dagar": 5427,
+     "datum": "2047-06-21"
     }
    },
    "2v": {
@@ -1643,12 +1592,12 @@
      "datum": "2026-09-02"
     },
     "hink_10k": {
-     "dagar": 51,
-     "datum": "2026-11-12"
+     "dagar": 192,
+     "datum": "2027-05-28"
     },
     "total_100k": {
-     "dagar": 5108,
-     "datum": "2046-04-02"
+     "dagar": 5249,
+     "datum": "2046-10-16"
     },
     "total_1m": null
    },
@@ -1662,12 +1611,12 @@
      "datum": "2026-09-02"
     },
     "hink_10k": {
-     "dagar": 68,
-     "datum": "2026-12-07"
+     "dagar": 276,
+     "datum": "2027-09-23"
     },
     "total_100k": {
-     "dagar": 7523,
-     "datum": "2055-07-05"
+     "dagar": 7730,
+     "datum": "2056-04-19"
     },
     "total_1m": null
    }
@@ -1681,11 +1630,11 @@
    "basen": 84.0
   },
   "saldo": {
-   "godis": 12538.48,
-   "basen": 16451.6
+   "godis": 11629.88,
+   "basen": 15129.02
   },
   "svept": 333.27,
-  "total": 29323.35,
+  "total": 27092.17,
   "takt": {
    "godis": -96.56,
    "basen": 14.73
@@ -1701,12 +1650,12 @@
     "datum": "2026-09-03"
    },
    "hink_10k": {
-    "dagar": 53,
-    "datum": "2026-11-17"
+    "dagar": 204,
+    "datum": "2027-06-16"
    },
    "total_100k": {
-    "dagar": 5486,
-    "datum": "2047-09-13"
+    "dagar": 5637,
+    "datum": "2048-04-13"
    },
    "total_1m": null
   },
@@ -1735,16 +1684,16 @@
      "datum": "2026-09-03"
     },
     "hink_10k": {
-     "dagar": 8,
-     "datum": "2026-09-15"
+     "dagar": 24,
+     "datum": "2026-10-07"
     },
     "total_100k": {
-     "dagar": 592,
-     "datum": "2028-12-11"
+     "dagar": 608,
+     "datum": "2029-01-02"
     },
     "total_1m": {
-     "dagar": 7147,
-     "datum": "2054-01-26"
+     "dagar": 7163,
+     "datum": "2054-02-17"
     }
    },
    "2v": {
@@ -1757,12 +1706,12 @@
      "datum": "2026-09-03"
     },
     "hink_10k": {
-     "dagar": 12,
-     "datum": "2026-09-21"
+     "dagar": 41,
+     "datum": "2026-10-30"
     },
     "total_100k": {
-     "dagar": 1063,
-     "datum": "2030-10-01"
+     "dagar": 1093,
+     "datum": "2030-11-12"
     },
     "total_1m": null
    },
@@ -1776,12 +1725,12 @@
      "datum": "2026-09-03"
     },
     "hink_10k": {
-     "dagar": 53,
-     "datum": "2026-11-17"
+     "dagar": 204,
+     "datum": "2027-06-16"
     },
     "total_100k": {
-     "dagar": 5486,
-     "datum": "2047-09-13"
+     "dagar": 5637,
+     "datum": "2048-04-13"
     },
     "total_1m": null
    }
@@ -1795,11 +1744,11 @@
    "basen": 111.49
   },
   "saldo": {
-   "godis": 13616.28,
-   "basen": 16451.61
+   "godis": 12707.68,
+   "basen": 15129.03
   },
   "svept": 444.75,
-  "total": 30512.64,
+  "total": 28281.46,
   "takt": {
    "godis": -43.34,
    "basen": 20.04
@@ -1815,12 +1764,12 @@
     "datum": "2026-09-04"
    },
    "hink_10k": {
-    "dagar": 1,
-    "datum": "2026-09-07"
+    "dagar": 88,
+    "datum": "2027-01-06"
    },
    "total_100k": {
-    "dagar": 3969,
-    "datum": "2041-11-21"
+    "dagar": 4080,
+    "datum": "2042-04-25"
    },
    "total_1m": null
   },
@@ -1849,16 +1798,16 @@
      "datum": "2026-09-04"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-09-07"
+     "dagar": 15,
+     "datum": "2026-09-25"
     },
     "total_100k": {
-     "dagar": 632,
-     "datum": "2029-02-06"
+     "dagar": 649,
+     "datum": "2029-03-01"
     },
     "total_1m": {
-     "dagar": 7765,
-     "datum": "2056-06-09"
+     "dagar": 7783,
+     "datum": "2056-07-05"
     }
    },
    "2v": {
@@ -1871,16 +1820,16 @@
      "datum": "2026-09-04"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-09-07"
+     "dagar": 17,
+     "datum": "2026-09-29"
     },
     "total_100k": {
-     "dagar": 708,
-     "datum": "2029-05-23"
+     "dagar": 728,
+     "datum": "2029-06-20"
     },
     "total_1m": {
-     "dagar": 8704,
-     "datum": "2060-01-15"
+     "dagar": 8724,
+     "datum": "2060-02-12"
     }
    },
    "1m": {
@@ -1893,12 +1842,12 @@
      "datum": "2026-09-04"
     },
     "hink_10k": {
-     "dagar": 1,
-     "datum": "2026-09-07"
+     "dagar": 88,
+     "datum": "2027-01-06"
     },
     "total_100k": {
-     "dagar": 3969,
-     "datum": "2041-11-21"
+     "dagar": 4080,
+     "datum": "2042-04-25"
     },
     "total_1m": null
    }
@@ -1912,11 +1861,11 @@
    "basen": -2502.52
   },
   "saldo": {
-   "godis": 14007.82,
-   "basen": 13949.09
+   "godis": 13099.22,
+   "basen": 12626.51
   },
   "svept": 444.75,
-  "total": 28401.66,
+  "total": 26170.48,
   "takt": {
    "godis": -27.35,
    "basen": -99.12
@@ -1960,16 +1909,16 @@
      "datum": "2026-09-07"
     },
     "hink_10k": {
-     "dagar": 16,
-     "datum": "2026-09-29"
+     "dagar": 34,
+     "datum": "2026-10-23"
     },
     "total_100k": {
-     "dagar": 646,
-     "datum": "2029-02-27"
+     "dagar": 663,
+     "datum": "2029-03-22"
     },
     "total_1m": {
-     "dagar": 7727,
-     "datum": "2056-04-19"
+     "dagar": 7744,
+     "datum": "2056-05-12"
     }
    },
    "2v": {
@@ -2008,11 +1957,11 @@
    "basen": 0.0
   },
   "saldo": {
-   "godis": 13248.92,
-   "basen": 13949.09
+   "godis": 12340.32,
+   "basen": 12626.51
   },
   "svept": 444.75,
-  "total": 27642.76,
+  "total": 25411.58,
   "takt": {
    "godis": -69.7,
    "basen": -99.12
@@ -2056,16 +2005,16 @@
      "datum": "2026-09-08"
     },
     "hink_10k": {
-     "dagar": 25,
-     "datum": "2026-10-13"
+     "dagar": 44,
+     "datum": "2026-11-09"
     },
     "total_100k": {
-     "dagar": 724,
-     "datum": "2029-06-18"
+     "dagar": 744,
+     "datum": "2029-07-16"
     },
     "total_1m": {
-     "dagar": 8571,
-     "datum": "2059-07-16"
+     "dagar": 8591,
+     "datum": "2059-08-13"
     }
    },
    "2v": {
@@ -2104,11 +2053,11 @@
    "basen": 47.16
   },
   "saldo": {
-   "godis": 13976.41,
-   "basen": 13996.25
+   "godis": 13067.81,
+   "basen": 12673.67
   },
   "svept": 444.75,
-  "total": 28417.41,
+  "total": 26186.23,
   "takt": {
    "godis": -35.05,
    "basen": -96.88
@@ -2152,16 +2101,16 @@
      "datum": "2026-09-09"
     },
     "hink_10k": {
-     "dagar": 9,
-     "datum": "2026-09-22"
+     "dagar": 18,
+     "datum": "2026-10-05"
     },
     "total_100k": {
-     "dagar": 329,
-     "datum": "2027-12-14"
+     "dagar": 338,
+     "datum": "2027-12-27"
     },
     "total_1m": {
-     "dagar": 3920,
-     "datum": "2041-09-18"
+     "dagar": 3929,
+     "datum": "2041-10-01"
     }
    },
    "2v": {
@@ -2200,11 +2149,11 @@
    "basen": 519.63
   },
   "saldo": {
-   "godis": 14155.36,
-   "basen": 14515.88
+   "godis": 13246.76,
+   "basen": 13193.3
   },
   "svept": 444.75,
-  "total": 29115.99,
+  "total": 26884.81,
   "takt": {
    "godis": -39.45,
    "basen": -72.13
@@ -2248,16 +2197,16 @@
      "datum": "2026-09-10"
     },
     "hink_10k": {
-     "dagar": 4,
-     "datum": "2026-09-16"
+     "dagar": 11,
+     "datum": "2026-09-25"
     },
     "total_100k": {
-     "dagar": 252,
-     "datum": "2027-08-30"
+     "dagar": 259,
+     "datum": "2027-09-08"
     },
     "total_1m": {
-     "dagar": 3036,
-     "datum": "2038-04-30"
+     "dagar": 3042,
+     "datum": "2038-05-10"
     }
    },
    "2v": {
@@ -2270,12 +2219,12 @@
      "datum": "2026-09-10"
     },
     "hink_10k": {
-     "dagar": 63,
-     "datum": "2026-12-08"
+     "dagar": 204,
+     "datum": "2027-06-23"
     },
     "total_100k": {
-     "dagar": 5107,
-     "datum": "2046-04-09"
+     "dagar": 5248,
+     "datum": "2046-10-23"
     },
     "total_1m": null
    },
@@ -2302,11 +2251,11 @@
    "basen": -254.04
   },
   "saldo": {
-   "godis": 14526.91,
-   "basen": 14261.84
+   "godis": 13618.31,
+   "basen": 12939.26
   },
   "svept": 444.75,
-  "total": 29233.5,
+  "total": 27002.32,
   "takt": {
    "godis": -24.44,
    "basen": -84.23
@@ -2350,16 +2299,16 @@
      "datum": "2026-09-11"
     },
     "hink_10k": {
-     "dagar": 7,
-     "datum": "2026-09-22"
+     "dagar": 19,
+     "datum": "2026-10-08"
     },
     "total_100k": {
-     "dagar": 447,
-     "datum": "2028-05-30"
+     "dagar": 459,
+     "datum": "2028-06-15"
     },
     "total_1m": {
-     "dagar": 5388,
-     "datum": "2047-05-08"
+     "dagar": 5401,
+     "datum": "2047-05-27"
     }
    },
    "2v": {
@@ -2372,12 +2321,12 @@
      "datum": "2026-09-11"
     },
     "hink_10k": {
-     "dagar": 23,
-     "datum": "2026-10-14"
+     "dagar": 78,
+     "datum": "2026-12-30"
     },
     "total_100k": {
-     "dagar": 1989,
-     "datum": "2034-04-27"
+     "dagar": 2044,
+     "datum": "2034-07-13"
     },
     "total_1m": null
    },
@@ -2404,11 +2353,11 @@
    "basen": -220.32
   },
   "saldo": {
-   "godis": 14549.41,
-   "basen": 14041.52
+   "godis": 13640.81,
+   "basen": 12718.94
   },
   "svept": 444.75,
-  "total": 29035.68,
+  "total": 26804.5,
   "takt": {
    "godis": -22.01,
    "basen": -94.72
@@ -2452,16 +2401,16 @@
      "datum": "2026-09-14"
     },
     "hink_10k": {
-     "dagar": 8,
-     "datum": "2026-09-24"
+     "dagar": 26,
+     "datum": "2026-10-20"
     },
     "total_100k": {
-     "dagar": 560,
-     "datum": "2028-11-06"
+     "dagar": 578,
+     "datum": "2028-11-30"
     },
     "total_1m": {
-     "dagar": 7658,
-     "datum": "2056-01-20"
+     "dagar": 7675,
+     "datum": "2056-02-14"
     }
    },
    "2v": {
@@ -2474,16 +2423,16 @@
      "datum": "2026-09-14"
     },
     "hink_10k": {
-     "dagar": 10,
-     "datum": "2026-09-28"
+     "dagar": 29,
+     "datum": "2026-10-23"
     },
     "total_100k": {
-     "dagar": 691,
-     "datum": "2029-05-08"
+     "dagar": 710,
+     "datum": "2029-06-04"
     },
     "total_1m": {
-     "dagar": 8337,
-     "datum": "2058-08-28"
+     "dagar": 8356,
+     "datum": "2058-09-24"
     }
    },
    "1m": {
@@ -2509,11 +2458,11 @@
    "basen": -123.33
   },
   "saldo": {
-   "godis": 14102.25,
-   "basen": 13918.19
+   "godis": 13193.65,
+   "basen": 12595.61
   },
   "svept": 444.75,
-  "total": 28465.19,
+  "total": 26234.01,
   "takt": {
    "godis": -38.03,
    "basen": -100.6
@@ -2557,16 +2506,16 @@
      "datum": "2026-09-15"
     },
     "hink_10k": {
-     "dagar": 10,
-     "datum": "2026-09-29"
+     "dagar": 23,
+     "datum": "2026-10-16"
     },
     "total_100k": {
-     "dagar": 435,
-     "datum": "2028-05-16"
+     "dagar": 449,
+     "datum": "2028-06-05"
     },
     "total_1m": {
-     "dagar": 5752,
-     "datum": "2048-10-01"
+     "dagar": 5765,
+     "datum": "2048-10-20"
     }
    },
    "2v": {
@@ -2579,16 +2528,16 @@
      "datum": "2026-09-15"
     },
     "hink_10k": {
-     "dagar": 13,
-     "datum": "2026-10-02"
+     "dagar": 28,
+     "datum": "2026-10-23"
     },
     "total_100k": {
-     "dagar": 575,
-     "datum": "2028-11-28"
+     "dagar": 590,
+     "datum": "2028-12-19"
     },
     "total_1m": {
-     "dagar": 6882,
-     "datum": "2053-01-30"
+     "dagar": 6898,
+     "datum": "2053-02-21"
     }
    },
    "1m": {
@@ -2614,11 +2563,11 @@
    "basen": -438.34
   },
   "saldo": {
-   "godis": 14476.16,
-   "basen": 13479.85
+   "godis": 13567.56,
+   "basen": 12157.27
   },
   "svept": 444.75,
-  "total": 28400.76,
+  "total": 26169.58,
   "takt": {
    "godis": -23.0,
    "basen": -125.42
@@ -2662,16 +2611,16 @@
      "datum": "2026-09-16"
     },
     "hink_10k": {
-     "dagar": 18,
-     "datum": "2026-10-12"
+     "dagar": 40,
+     "datum": "2026-11-11"
     },
     "total_100k": {
-     "dagar": 818,
-     "datum": "2029-11-05"
+     "dagar": 840,
+     "datum": "2029-12-05"
     },
     "total_1m": {
-     "dagar": 9823,
-     "datum": "2064-05-12"
+     "dagar": 9845,
+     "datum": "2064-06-11"
     }
    },
    "2v": {
@@ -2684,16 +2633,16 @@
      "datum": "2026-09-16"
     },
     "hink_10k": {
-     "dagar": 11,
-     "datum": "2026-10-01"
+     "dagar": 24,
+     "datum": "2026-10-20"
     },
     "total_100k": {
-     "dagar": 469,
-     "datum": "2028-07-04"
+     "dagar": 482,
+     "datum": "2028-07-21"
     },
     "total_1m": {
-     "dagar": 5603,
-     "datum": "2048-03-09"
+     "dagar": 5616,
+     "datum": "2048-03-26"
     }
    },
    "1m": {
@@ -2719,11 +2668,11 @@
    "basen": 4.26
   },
   "saldo": {
-   "godis": 14475.13,
-   "basen": 13484.11
+   "godis": 13566.53,
+   "basen": 12161.53
   },
   "svept": 444.75,
-  "total": 28403.99,
+  "total": 26172.81,
   "takt": {
    "godis": -23.36,
    "basen": -124.46
@@ -2767,12 +2716,12 @@
      "datum": "2026-09-17"
     },
     "hink_10k": {
-     "dagar": 29,
-     "datum": "2026-10-28"
+     "dagar": 64,
+     "datum": "2026-12-16"
     },
     "total_100k": {
-     "dagar": 1281,
-     "datum": "2031-08-15"
+     "dagar": 1316,
+     "datum": "2031-10-03"
     },
     "total_1m": null
    },
@@ -2786,16 +2735,16 @@
      "datum": "2026-09-17"
     },
     "hink_10k": {
-     "dagar": 10,
-     "datum": "2026-10-01"
+     "dagar": 22,
+     "datum": "2026-10-19"
     },
     "total_100k": {
-     "dagar": 425,
-     "datum": "2028-05-04"
+     "dagar": 436,
+     "datum": "2028-05-19"
     },
     "total_1m": {
-     "dagar": 5072,
-     "datum": "2046-02-26"
+     "dagar": 5083,
+     "datum": "2046-03-13"
     }
    },
    "1m": {
@@ -2821,11 +2770,11 @@
    "basen": -108.71
   },
   "saldo": {
-   "godis": 14261.69,
-   "basen": 13375.4
+   "godis": 13353.09,
+   "basen": 12052.82
   },
   "svept": 444.75,
-  "total": 28081.84,
+  "total": 25850.66,
   "takt": {
    "godis": -2.77,
    "basen": -104.88
@@ -2882,12 +2831,12 @@
      "datum": "2026-09-18"
     },
     "hink_10k": {
-     "dagar": 35,
-     "datum": "2026-11-06"
+     "dagar": 70,
+     "datum": "2026-12-25"
     },
     "total_100k": {
-     "dagar": 1277,
-     "datum": "2031-08-12"
+     "dagar": 1311,
+     "datum": "2031-09-29"
     },
     "total_1m": null
    },
@@ -2914,11 +2863,11 @@
    "basen": 105.73
   },
   "saldo": {
-   "godis": 14014.31,
-   "basen": 13481.13
+   "godis": 13105.71,
+   "basen": 12158.55
   },
   "svept": 444.75,
-  "total": 27940.19,
+  "total": 25709.01,
   "takt": {
    "godis": -37.84,
    "basen": -87.85
@@ -2975,8 +2924,8 @@
      "datum": "2026-09-21"
     },
     "hink_10k": {
-     "dagar": 3246,
-     "datum": "2039-03-01"
+     "dagar": 6684,
+     "datum": "2052-05-03"
     },
     "total_100k": null,
     "total_1m": null
@@ -3004,11 +2953,11 @@
    "basen": -72.33
   },
   "saldo": {
-   "godis": 14318.03,
-   "basen": 13408.8
+   "godis": 13409.43,
+   "basen": 12086.22
   },
   "svept": 444.75,
-  "total": 28171.58,
+  "total": 25940.4,
   "takt": {
    "godis": -7.14,
    "basen": -97.43
@@ -3052,12 +3001,12 @@
      "datum": "2026-09-22"
     },
     "hink_10k": {
-     "dagar": 45,
-     "datum": "2026-11-24"
+     "dagar": 97,
+     "datum": "2027-02-04"
     },
     "total_100k": {
-     "dagar": 1901,
-     "datum": "2034-01-04"
+     "dagar": 1953,
+     "datum": "2034-03-17"
     },
     "total_1m": null
    },
@@ -3071,16 +3020,16 @@
      "datum": "2026-09-22"
     },
     "hink_10k": {
-     "dagar": 18,
-     "datum": "2026-10-16"
+     "dagar": 39,
+     "datum": "2026-11-16"
     },
     "total_100k": {
-     "dagar": 767,
-     "datum": "2029-08-30"
+     "dagar": 788,
+     "datum": "2029-09-28"
     },
     "total_1m": {
-     "dagar": 9185,
-     "datum": "2061-12-06"
+     "dagar": 9206,
+     "datum": "2062-01-04"
     }
    },
    "1m": {
@@ -3106,11 +3055,11 @@
    "basen": 259.92
   },
   "saldo": {
-   "godis": 14054.2,
-   "basen": 13668.72
+   "godis": 13145.6,
+   "basen": 12346.14
   },
   "svept": 444.75,
-  "total": 28167.67,
+  "total": 25936.49,
   "takt": {
    "godis": 1.03,
    "basen": -99.41
@@ -3126,8 +3075,8 @@
     "datum": "2026-09-23"
    },
    "hink_10k": {
-    "dagar": 1882,
-    "datum": "2033-12-09"
+    "dagar": 4055,
+    "datum": "2042-04-09"
    },
    "total_100k": null,
    "total_1m": null
@@ -3157,12 +3106,12 @@
      "datum": "2026-09-23"
     },
     "hink_10k": {
-     "dagar": 51,
-     "datum": "2026-12-03"
+     "dagar": 110,
+     "datum": "2027-02-24"
     },
     "total_100k": {
-     "dagar": 2170,
-     "datum": "2035-01-17"
+     "dagar": 2229,
+     "datum": "2035-04-10"
     },
     "total_1m": null
    },
@@ -3176,8 +3125,8 @@
      "datum": "2026-09-23"
     },
     "hink_10k": {
-     "dagar": 240,
-     "datum": "2027-08-25"
+     "dagar": 527,
+     "datum": "2028-09-29"
     },
     "total_100k": null,
     "total_1m": null
@@ -3192,8 +3141,8 @@
      "datum": "2026-09-23"
     },
     "hink_10k": {
-     "dagar": 1882,
-     "datum": "2033-12-09"
+     "dagar": 4055,
+     "datum": "2042-04-09"
     },
     "total_100k": null,
     "total_1m": null
@@ -3208,11 +3157,11 @@
    "basen": -126.43
   },
   "saldo": {
-   "godis": 14425.21,
-   "basen": 13542.29
+   "godis": 13516.61,
+   "basen": 12219.71
   },
   "svept": 444.75,
-  "total": 28412.25,
+  "total": 26181.07,
   "takt": {
    "godis": 11.29,
    "basen": -86.08
@@ -3228,12 +3177,12 @@
     "datum": "2026-09-24"
    },
    "hink_10k": {
-    "dagar": 149,
-    "datum": "2027-04-21"
+    "dagar": 346,
+    "datum": "2028-01-21"
    },
    "total_100k": {
-    "dagar": 7239,
-    "datum": "2054-06-24"
+    "dagar": 7436,
+    "datum": "2055-03-26"
    },
    "total_1m": null
   },
@@ -3262,12 +3211,12 @@
      "datum": "2026-09-24"
     },
     "hink_10k": {
-     "dagar": 138,
-     "datum": "2027-04-06"
+     "dagar": 330,
+     "datum": "2027-12-30"
     },
     "total_100k": {
-     "dagar": 7013,
-     "datum": "2053-08-12"
+     "dagar": 7205,
+     "datum": "2054-05-07"
     },
     "total_1m": null
    },
@@ -3281,12 +3230,12 @@
      "datum": "2026-09-24"
     },
     "hink_10k": {
-     "dagar": 63,
-     "datum": "2026-12-22"
+     "dagar": 146,
+     "datum": "2027-04-16"
     },
     "total_100k": {
-     "dagar": 3029,
-     "datum": "2038-05-05"
+     "dagar": 3111,
+     "datum": "2038-08-27"
     },
     "total_1m": null
    },
@@ -3300,12 +3249,12 @@
      "datum": "2026-09-24"
     },
     "hink_10k": {
-     "dagar": 149,
-     "datum": "2027-04-21"
+     "dagar": 346,
+     "datum": "2028-01-21"
     },
     "total_100k": {
-     "dagar": 7239,
-     "datum": "2054-06-24"
+     "dagar": 7436,
+     "datum": "2055-03-26"
     },
     "total_1m": null
    }
@@ -3319,11 +3268,11 @@
    "basen": 106.62
   },
   "saldo": {
-   "godis": 14525.75,
-   "basen": 13648.91
+   "godis": 13617.15,
+   "basen": 12326.33
   },
   "svept": 444.75,
-  "total": 28619.41,
+  "total": 26388.23,
   "takt": {
    "godis": 25.19,
    "basen": -95.46
@@ -3339,12 +3288,12 @@
     "datum": "2026-09-25"
    },
    "hink_10k": {
-    "dagar": 59,
-    "datum": "2026-12-17"
+    "dagar": 148,
+    "datum": "2027-04-21"
    },
    "total_100k": {
-    "dagar": 3236,
-    "datum": "2039-02-21"
+    "dagar": 3324,
+    "datum": "2039-06-23"
    },
    "total_1m": null
   },
@@ -3373,16 +3322,16 @@
      "datum": "2026-09-25"
     },
     "hink_10k": {
-     "dagar": 13,
-     "datum": "2026-10-14"
+     "dagar": 34,
+     "datum": "2026-11-12"
     },
     "total_100k": {
-     "dagar": 664,
-     "datum": "2029-04-12"
+     "dagar": 685,
+     "datum": "2029-05-11"
     },
     "total_1m": {
-     "dagar": 9035,
-     "datum": "2061-05-13"
+     "dagar": 9056,
+     "datum": "2061-06-13"
     }
    },
    "2v": {
@@ -3408,12 +3357,12 @@
      "datum": "2026-09-25"
     },
     "hink_10k": {
-     "dagar": 59,
-     "datum": "2026-12-17"
+     "dagar": 148,
+     "datum": "2027-04-21"
     },
     "total_100k": {
-     "dagar": 3236,
-     "datum": "2039-02-21"
+     "dagar": 3324,
+     "datum": "2039-06-23"
     },
     "total_1m": null
    }
@@ -3427,11 +3376,11 @@
    "basen": 13.6
   },
   "saldo": {
-   "godis": 14215.11,
-   "basen": 13662.51
+   "godis": 13306.51,
+   "basen": 12339.93
   },
   "svept": 444.75,
-  "total": 28322.37,
+  "total": 26091.19,
   "takt": {
    "godis": 4.56,
    "basen": -102.77
@@ -3447,8 +3396,8 @@
     "datum": "2026-09-28"
    },
    "hink_10k": {
-    "dagar": 391,
-    "datum": "2028-03-28"
+    "dagar": 879,
+    "datum": "2030-02-08"
    },
    "total_100k": null,
    "total_1m": null
@@ -3478,12 +3427,12 @@
      "datum": "2026-09-28"
     },
     "hink_10k": {
-     "dagar": 22,
-     "datum": "2026-10-28"
+     "dagar": 52,
+     "datum": "2026-12-09"
     },
     "total_100k": {
-     "dagar": 938,
-     "datum": "2030-05-02"
+     "dagar": 967,
+     "datum": "2030-06-12"
     },
     "total_1m": null
    },
@@ -3510,8 +3459,8 @@
      "datum": "2026-09-28"
     },
     "hink_10k": {
-     "dagar": 391,
-     "datum": "2028-03-28"
+     "dagar": 879,
+     "datum": "2030-02-08"
     },
     "total_100k": null,
     "total_1m": null
@@ -3526,11 +3475,11 @@
    "basen": 62.82
   },
   "saldo": {
-   "godis": 14130.83,
-   "basen": 13725.33
+   "godis": 13222.23,
+   "basen": 12402.75
   },
   "svept": 444.75,
-  "total": 28300.91,
+  "total": 26069.73,
   "takt": {
    "godis": 36.12,
    "basen": -102.35
@@ -3546,12 +3495,12 @@
     "datum": "2026-09-29"
    },
    "hink_10k": {
-    "dagar": 50,
-    "datum": "2026-12-08"
+    "dagar": 112,
+    "datum": "2027-03-04"
    },
    "total_100k": {
-    "dagar": 2266,
-    "datum": "2035-06-06"
+    "dagar": 2328,
+    "datum": "2035-08-31"
    },
    "total_1m": null
   },
@@ -3580,12 +3529,12 @@
      "datum": "2026-09-29"
     },
     "hink_10k": {
-     "dagar": 28,
-     "datum": "2026-11-06"
+     "dagar": 63,
+     "datum": "2026-12-25"
     },
     "total_100k": {
-     "dagar": 1292,
-     "datum": "2031-09-11"
+     "dagar": 1327,
+     "datum": "2031-10-30"
     },
     "total_1m": null
    },
@@ -3599,8 +3548,8 @@
      "datum": "2026-09-29"
     },
     "hink_10k": {
-     "dagar": 602,
-     "datum": "2029-01-18"
+     "dagar": 1382,
+     "datum": "2032-01-15"
     },
     "total_100k": null,
     "total_1m": null
@@ -3615,12 +3564,12 @@
      "datum": "2026-09-29"
     },
     "hink_10k": {
-     "dagar": 50,
-     "datum": "2026-12-08"
+     "dagar": 112,
+     "datum": "2027-03-04"
     },
     "total_100k": {
-     "dagar": 2266,
-     "datum": "2035-06-06"
+     "dagar": 2328,
+     "datum": "2035-08-31"
     },
     "total_1m": null
    }
@@ -3634,11 +3583,11 @@
    "basen": 43.03
   },
   "saldo": {
-   "godis": 13600.84,
-   "basen": 13768.36
+   "godis": 12692.24,
+   "basen": 12445.78
   },
   "svept": 444.75,
-  "total": 27813.95,
+  "total": 25582.77,
   "takt": {
    "godis": 44.07,
    "basen": -110.21
@@ -3654,12 +3603,12 @@
     "datum": "2026-09-30"
    },
    "hink_10k": {
-    "dagar": 53,
-    "datum": "2026-12-14"
+    "dagar": 103,
+    "datum": "2027-02-22"
    },
    "total_100k": {
-    "dagar": 1869,
-    "datum": "2033-11-29"
+    "dagar": 1919,
+    "datum": "2034-02-07"
    },
    "total_1m": null
   },
@@ -3688,12 +3637,12 @@
      "datum": "2026-09-30"
     },
     "hink_10k": {
-     "dagar": 115,
-     "datum": "2027-03-10"
+     "dagar": 227,
+     "datum": "2027-08-13"
     },
     "total_100k": {
-     "dagar": 4132,
-     "datum": "2042-08-01"
+     "dagar": 4244,
+     "datum": "2043-01-06"
     },
     "total_1m": null
    },
@@ -3707,12 +3656,12 @@
      "datum": "2026-09-30"
     },
     "hink_10k": {
-     "dagar": 79,
-     "datum": "2027-01-19"
+     "dagar": 157,
+     "datum": "2027-05-07"
     },
     "total_100k": {
-     "dagar": 2854,
-     "datum": "2037-09-08"
+     "dagar": 2932,
+     "datum": "2037-12-25"
     },
     "total_1m": null
    },
@@ -3726,12 +3675,12 @@
      "datum": "2026-09-30"
     },
     "hink_10k": {
-     "dagar": 53,
-     "datum": "2026-12-14"
+     "dagar": 103,
+     "datum": "2027-02-22"
     },
     "total_100k": {
-     "dagar": 1869,
-     "datum": "2033-11-29"
+     "dagar": 1919,
+     "datum": "2034-02-07"
     },
     "total_1m": null
    }
@@ -3745,11 +3694,11 @@
    "basen": 16.75
   },
   "saldo": {
-   "godis": 13703.92,
-   "basen": 13785.11
+   "godis": 12795.32,
+   "basen": 12462.53
   },
   "svept": 444.75,
-  "total": 27933.78,
+  "total": 25702.6,
   "takt": {
    "godis": 46.7,
    "basen": -117.67
@@ -3765,12 +3714,12 @@
     "datum": "2026-10-01"
    },
    "hink_10k": {
-    "dagar": 47,
-    "datum": "2026-12-07"
+    "dagar": 95,
+    "datum": "2027-02-11"
    },
    "total_100k": {
-    "dagar": 1760,
-    "datum": "2033-06-30"
+    "dagar": 1808,
+    "datum": "2033-09-06"
    },
    "total_1m": null
   },
@@ -3799,12 +3748,12 @@
      "datum": "2026-10-01"
     },
     "hink_10k": {
-     "dagar": 46,
-     "datum": "2026-12-04"
+     "dagar": 92,
+     "datum": "2027-02-08"
     },
     "total_100k": {
-     "dagar": 1695,
-     "datum": "2033-03-31"
+     "dagar": 1741,
+     "datum": "2033-06-03"
     },
     "total_1m": null
    },
@@ -3818,12 +3767,12 @@
      "datum": "2026-10-01"
     },
     "hink_10k": {
-     "dagar": 72,
-     "datum": "2027-01-11"
+     "dagar": 146,
+     "datum": "2027-04-23"
     },
     "total_100k": {
-     "dagar": 2730,
-     "datum": "2037-03-19"
+     "dagar": 2804,
+     "datum": "2037-07-01"
     },
     "total_1m": null
    },
@@ -3837,12 +3786,12 @@
      "datum": "2026-10-01"
     },
     "hink_10k": {
-     "dagar": 47,
-     "datum": "2026-12-07"
+     "dagar": 95,
+     "datum": "2027-02-11"
     },
     "total_100k": {
-     "dagar": 1760,
-     "datum": "2033-06-30"
+     "dagar": 1808,
+     "datum": "2033-09-06"
     },
     "total_1m": null
    }
@@ -3856,11 +3805,11 @@
    "basen": 232.18
   },
   "saldo": {
-   "godis": 13692.33,
-   "basen": 14017.29
+   "godis": 12783.73,
+   "basen": 12694.71
   },
   "svept": 444.75,
-  "total": 28154.37,
+  "total": 25923.19,
   "takt": {
    "godis": 54.95,
    "basen": -110.61
@@ -3876,12 +3825,12 @@
     "datum": "2026-10-02"
    },
    "hink_10k": {
-    "dagar": 36,
-    "datum": "2026-11-23"
+    "dagar": 77,
+    "datum": "2027-01-19"
    },
    "total_100k": {
-    "dagar": 1493,
-    "datum": "2032-06-23"
+    "dagar": 1534,
+    "datum": "2032-08-19"
    },
    "total_1m": null
   },
@@ -3910,12 +3859,12 @@
      "datum": "2026-10-02"
     },
     "hink_10k": {
-     "dagar": 28,
-     "datum": "2026-11-11"
+     "dagar": 58,
+     "datum": "2026-12-23"
     },
     "total_100k": {
-     "dagar": 1114,
-     "datum": "2031-01-09"
+     "dagar": 1144,
+     "datum": "2031-02-20"
     },
     "total_1m": null
    },
@@ -3929,12 +3878,12 @@
      "datum": "2026-10-02"
     },
     "hink_10k": {
-     "dagar": 30,
-     "datum": "2026-11-13"
+     "dagar": 65,
+     "datum": "2027-01-01"
     },
     "total_100k": {
-     "dagar": 1277,
-     "datum": "2031-08-26"
+     "dagar": 1312,
+     "datum": "2031-10-14"
     },
     "total_1m": null
    },
@@ -3948,12 +3897,12 @@
      "datum": "2026-10-02"
     },
     "hink_10k": {
-     "dagar": 36,
-     "datum": "2026-11-23"
+     "dagar": 77,
+     "datum": "2027-01-19"
     },
     "total_100k": {
-     "dagar": 1493,
-     "datum": "2032-06-23"
+     "dagar": 1534,
+     "datum": "2032-08-19"
     },
     "total_1m": null
    }
@@ -3967,11 +3916,11 @@
    "basen": 318.79
   },
   "saldo": {
-   "godis": 13643.22,
-   "basen": 14336.08
+   "godis": 12734.62,
+   "basen": 13013.5
   },
   "svept": 444.75,
-  "total": 28424.05,
+  "total": 26192.87,
   "takt": {
    "godis": 1.28,
    "basen": -100.74
@@ -3987,8 +3936,8 @@
     "datum": "2026-10-05"
    },
    "hink_10k": {
-    "dagar": 1307,
-    "datum": "2031-10-08"
+    "dagar": 3047,
+    "datum": "2038-06-09"
    },
    "total_100k": null,
    "total_1m": null
@@ -4018,16 +3967,16 @@
      "datum": "2026-10-05"
     },
     "hink_10k": {
-     "dagar": 13,
-     "datum": "2026-10-22"
+     "dagar": 30,
+     "datum": "2026-11-16"
     },
     "total_100k": {
-     "dagar": 607,
-     "datum": "2029-01-31"
+     "dagar": 624,
+     "datum": "2029-02-23"
     },
     "total_1m": {
-     "dagar": 7288,
-     "datum": "2054-09-10"
+     "dagar": 7305,
+     "datum": "2054-10-05"
     }
    },
    "2v": {
@@ -4040,12 +3989,12 @@
      "datum": "2026-10-05"
     },
     "hink_10k": {
-     "dagar": 19,
-     "datum": "2026-10-30"
+     "dagar": 45,
+     "datum": "2026-12-07"
     },
     "total_100k": {
-     "dagar": 955,
-     "datum": "2030-06-03"
+     "dagar": 981,
+     "datum": "2030-07-09"
     },
     "total_1m": null
    },
@@ -4059,8 +4008,8 @@
      "datum": "2026-10-05"
     },
     "hink_10k": {
-     "dagar": 1307,
-     "datum": "2031-10-08"
+     "dagar": 3047,
+     "datum": "2038-06-09"
     },
     "total_100k": null,
     "total_1m": null
@@ -4075,11 +4024,11 @@
    "basen": 54.18
   },
   "saldo": {
-   "godis": 13764.47,
-   "basen": 14390.26
+   "godis": 12855.87,
+   "basen": 13067.68
   },
   "svept": 444.75,
-  "total": 28599.48,
+  "total": 26368.3,
   "takt": {
    "godis": -11.59,
    "basen": 21.01
@@ -4095,12 +4044,12 @@
     "datum": "2026-10-06"
    },
    "hink_10k": {
-    "dagar": 68,
-    "datum": "2027-01-08"
+    "dagar": 174,
+    "datum": "2027-06-07"
    },
    "total_100k": {
-    "dagar": 3876,
-    "datum": "2041-08-14"
+    "dagar": 3982,
+    "datum": "2042-01-09"
    },
    "total_1m": null
   },
@@ -4129,16 +4078,16 @@
      "datum": "2026-10-06"
     },
     "hink_10k": {
-     "dagar": 12,
-     "datum": "2026-10-22"
+     "dagar": 28,
+     "datum": "2026-11-13"
     },
     "total_100k": {
-     "dagar": 613,
-     "datum": "2029-02-09"
+     "dagar": 630,
+     "datum": "2029-03-06"
     },
     "total_1m": {
-     "dagar": 7381,
-     "datum": "2055-01-20"
+     "dagar": 7398,
+     "datum": "2055-02-12"
     }
    },
    "2v": {
@@ -4151,16 +4100,16 @@
      "datum": "2026-10-06"
     },
     "hink_10k": {
-     "dagar": 15,
-     "datum": "2026-10-27"
+     "dagar": 38,
+     "datum": "2026-11-27"
     },
     "total_100k": {
-     "dagar": 831,
-     "datum": "2029-12-12"
+     "dagar": 853,
+     "datum": "2030-01-11"
     },
     "total_1m": {
-     "dagar": 10001,
-     "datum": "2065-02-04"
+     "dagar": 10023,
+     "datum": "2065-03-06"
     }
    },
    "1m": {
@@ -4173,12 +4122,12 @@
      "datum": "2026-10-06"
     },
     "hink_10k": {
-     "dagar": 68,
-     "datum": "2027-01-08"
+     "dagar": 174,
+     "datum": "2027-06-07"
     },
     "total_100k": {
-     "dagar": 3876,
-     "datum": "2041-08-14"
+     "dagar": 3982,
+     "datum": "2042-01-09"
     },
     "total_1m": null
    }
@@ -4192,11 +4141,11 @@
    "basen": -106.14
   },
   "saldo": {
-   "godis": 13428.77,
-   "basen": 14284.12
+   "godis": 12520.17,
+   "basen": 12961.54
   },
   "svept": 444.75,
-  "total": 28157.64,
+  "total": 25926.46,
   "takt": {
    "godis": 8.56,
    "basen": 15.95
@@ -4212,12 +4161,12 @@
     "datum": "2026-10-07"
    },
    "hink_10k": {
-    "dagar": 76,
-    "datum": "2027-01-21"
+    "dagar": 167,
+    "datum": "2027-05-28"
    },
    "total_100k": {
-    "dagar": 2931,
-    "datum": "2037-12-31"
+    "dagar": 3022,
+    "datum": "2038-05-07"
    },
    "total_1m": null
   },
@@ -4246,16 +4195,16 @@
      "datum": "2026-10-07"
     },
     "hink_10k": {
-     "dagar": 19,
-     "datum": "2026-11-03"
+     "dagar": 40,
+     "datum": "2026-12-02"
     },
     "total_100k": {
-     "dagar": 794,
-     "datum": "2029-10-23"
+     "dagar": 816,
+     "datum": "2029-11-22"
     },
     "total_1m": {
-     "dagar": 9519,
-     "datum": "2063-04-03"
+     "dagar": 9541,
+     "datum": "2063-05-03"
     }
    },
    "2v": {
@@ -4268,12 +4217,12 @@
      "datum": "2026-10-07"
     },
     "hink_10k": {
-     "dagar": 31,
-     "datum": "2026-11-19"
+     "dagar": 68,
+     "datum": "2027-01-11"
     },
     "total_100k": {
-     "dagar": 1332,
-     "datum": "2031-11-14"
+     "dagar": 1368,
+     "datum": "2032-01-05"
     },
     "total_1m": null
    },
@@ -4287,12 +4236,12 @@
      "datum": "2026-10-07"
     },
     "hink_10k": {
-     "dagar": 76,
-     "datum": "2027-01-21"
+     "dagar": 167,
+     "datum": "2027-05-28"
     },
     "total_100k": {
-     "dagar": 2931,
-     "datum": "2037-12-31"
+     "dagar": 3022,
+     "datum": "2038-05-07"
     },
     "total_1m": null
    }
@@ -4306,11 +4255,11 @@
    "basen": 57.04
   },
   "saldo": {
-   "godis": 13203.85,
-   "basen": 14341.16
+   "godis": 12295.25,
+   "basen": 13018.58
   },
   "svept": 444.75,
-  "total": 27989.76,
+  "total": 25758.58,
   "takt": {
    "godis": -36.79,
    "basen": 16.42
@@ -4326,12 +4275,12 @@
     "datum": "2026-10-08"
    },
    "hink_10k": {
-    "dagar": 125,
-    "datum": "2027-04-01"
+    "dagar": 261,
+    "datum": "2027-10-08"
    },
    "total_100k": {
-    "dagar": 4996,
-    "datum": "2045-12-01"
+    "dagar": 5132,
+    "datum": "2046-06-11"
    },
    "total_1m": null
   },
@@ -4360,16 +4309,16 @@
      "datum": "2026-10-08"
     },
     "hink_10k": {
-     "dagar": 19,
-     "datum": "2026-11-04"
+     "dagar": 40,
+     "datum": "2026-12-03"
     },
     "total_100k": {
-     "dagar": 739,
-     "datum": "2029-08-08"
+     "dagar": 759,
+     "datum": "2029-09-05"
     },
     "total_1m": {
-     "dagar": 8832,
-     "datum": "2060-08-16"
+     "dagar": 8852,
+     "datum": "2060-09-13"
     }
    },
    "2v": {
@@ -4382,12 +4331,12 @@
      "datum": "2026-10-08"
     },
     "hink_10k": {
-     "dagar": 27,
-     "datum": "2026-11-16"
+     "dagar": 55,
+     "datum": "2026-12-24"
     },
     "total_100k": {
-     "dagar": 1029,
-     "datum": "2030-09-18"
+     "dagar": 1057,
+     "datum": "2030-10-28"
     },
     "total_1m": null
    },
@@ -4401,12 +4350,12 @@
      "datum": "2026-10-08"
     },
     "hink_10k": {
-     "dagar": 125,
-     "datum": "2027-04-01"
+     "dagar": 261,
+     "datum": "2027-10-08"
     },
     "total_100k": {
-     "dagar": 4996,
-     "datum": "2045-12-01"
+     "dagar": 5132,
+     "datum": "2046-06-11"
     },
     "total_1m": null
    }
@@ -4420,11 +4369,11 @@
    "basen": 243.64
   },
   "saldo": {
-   "godis": 13343.29,
-   "basen": 14584.8
+   "godis": 12434.69,
+   "basen": 13262.22
   },
   "svept": 444.75,
-  "total": 28372.84,
+  "total": 26141.66,
   "takt": {
    "godis": -38.67,
    "basen": 3.28
@@ -4440,8 +4389,8 @@
     "datum": "2026-10-09"
    },
    "hink_10k": {
-    "dagar": 508,
-    "datum": "2028-09-20"
+    "dagar": 1188,
+    "datum": "2031-04-30"
    },
    "total_100k": null,
    "total_1m": null
@@ -4471,16 +4420,16 @@
      "datum": "2026-10-09"
     },
     "hink_10k": {
-     "dagar": 15,
-     "datum": "2026-10-30"
+     "dagar": 35,
+     "datum": "2026-11-27"
     },
     "total_100k": {
-     "dagar": 721,
-     "datum": "2029-07-16"
+     "dagar": 740,
+     "datum": "2029-08-10"
     },
     "total_1m": {
-     "dagar": 8650,
-     "datum": "2059-12-05"
+     "dagar": 8670,
+     "datum": "2060-01-02"
     }
    },
    "2v": {
@@ -4493,12 +4442,12 @@
      "datum": "2026-10-09"
     },
     "hink_10k": {
-     "dagar": 19,
-     "datum": "2026-11-05"
+     "dagar": 43,
+     "datum": "2026-12-09"
     },
     "total_100k": {
-     "dagar": 874,
-     "datum": "2030-02-14"
+     "dagar": 898,
+     "datum": "2030-03-20"
     },
     "total_1m": null
    },
@@ -4512,8 +4461,8 @@
      "datum": "2026-10-09"
     },
     "hink_10k": {
-     "dagar": 508,
-     "datum": "2028-09-20"
+     "dagar": 1188,
+     "datum": "2031-04-30"
     },
     "total_100k": null,
     "total_1m": null
@@ -4922,11 +4871,11 @@
    "basen": -34.29
   },
   "saldo": {
-   "godis": 12549.31,
-   "basen": 14124.85
+   "godis": 11640.71,
+   "basen": 12802.27
   },
   "svept": 444.75,
-  "total": 27118.91,
+  "total": 24887.73,
   "takt": {
    "godis": -91.71,
    "basen": 30.51
@@ -4942,12 +4891,12 @@
     "datum": "2026-10-16"
    },
    "hink_10k": {
-    "dagar": 98,
-    "datum": "2027-03-03"
+    "dagar": 171,
+    "datum": "2027-06-14"
    },
    "total_100k": {
-    "dagar": 2723,
-    "datum": "2037-03-25"
+    "dagar": 2796,
+    "datum": "2037-07-06"
    },
    "total_1m": null
   },
@@ -4989,12 +4938,12 @@
      "datum": "2026-10-16"
     },
     "hink_10k": {
-     "dagar": 279,
-     "datum": "2027-11-11"
+     "dagar": 486,
+     "datum": "2028-08-28"
     },
     "total_100k": {
-     "dagar": 7722,
-     "datum": "2056-05-23"
+     "dagar": 7930,
+     "datum": "2057-03-09"
     },
     "total_1m": null
    },
@@ -5008,12 +4957,12 @@
      "datum": "2026-10-16"
     },
     "hink_10k": {
-     "dagar": 98,
-     "datum": "2027-03-03"
+     "dagar": 171,
+     "datum": "2027-06-14"
     },
     "total_100k": {
-     "dagar": 2723,
-     "datum": "2037-03-25"
+     "dagar": 2796,
+     "datum": "2037-07-06"
     },
     "total_1m": null
    }
@@ -5683,11 +5632,11 @@
    "basen": 0.0
   },
   "saldo": {
-   "godis": 11981.42,
-   "basen": 14124.85
+   "godis": 11072.82,
+   "basen": 12802.27
   },
   "svept": 444.75,
-  "total": 26551.02,
+  "total": 24319.84,
   "takt": {
    "godis": -77.12,
    "basen": 16.98
@@ -5703,12 +5652,12 @@
     "datum": "2026-10-29"
    },
    "hink_10k": {
-    "dagar": 208,
-    "datum": "2027-08-17"
+    "dagar": 340,
+    "datum": "2028-02-17"
    },
    "total_100k": {
-    "dagar": 4922,
-    "datum": "2045-09-11"
+    "dagar": 5054,
+    "datum": "2046-03-14"
    },
    "total_1m": null
   },
@@ -5763,12 +5712,12 @@
      "datum": "2026-10-29"
     },
     "hink_10k": {
-     "dagar": 208,
-     "datum": "2027-08-17"
+     "dagar": 340,
+     "datum": "2028-02-17"
     },
     "total_100k": {
-     "dagar": 4922,
-     "datum": "2045-09-11"
+     "dagar": 5054,
+     "datum": "2046-03-14"
     },
     "total_1m": null
    }
@@ -6403,11 +6352,11 @@
    "basen": 0.0
   },
   "saldo": {
-   "godis": 11981.42,
-   "basen": 14124.85
+   "godis": 11072.82,
+   "basen": 12802.27
   },
   "svept": 444.75,
-  "total": 26551.02,
+  "total": 24319.84,
   "takt": {
    "godis": -58.75,
    "basen": -15.92
@@ -6583,6 +6532,70 @@
    },
    "1m": {
     "godis": -27.04,
+    "basen": 0.0
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
+  }
+ },
+ {
+  "datum": "2026-11-16",
+  "korning": "2026-11-17T05:00",
+  "resultat": {
+   "godis": 0.0,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 4998.18,
+   "basen": 5834.54,
+   "hink": 7.76
+  },
+  "svept": 444.75,
+  "total": 11277.47,
+  "takt": {
+   "godis": -28.79,
+   "basen": 0.0
+  },
+  "fonster": 21,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": 0.0,
+    "basen": 0.0
+   },
+   "2v": {
+    "godis": 0.0,
+    "basen": 0.0
+   },
+   "1m": {
+    "godis": -28.79,
     "basen": 0.0
    }
   },
