@@ -1,5 +1,40 @@
 [
  {
+  "tid": "2026-11-21T06:52",
+  "typ": "in",
+  "id": "spec-GULD-5m-S-674959",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +60 kr, P(E>0) 1.00, n 15, riktning 93 %"
+ },
+ {
+  "tid": "2026-11-21T06:52",
+  "typ": "in",
+  "id": "stat-OLJA-1h-L-105741",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +50 kr, P(E>0) 0.99, n 11, riktning 91 %"
+ },
+ {
+  "tid": "2026-11-21T06:52",
+  "typ": "ut",
+  "id": "spec-GULD-5m-S-492591",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-11-21T06:52",
+  "typ": "ut",
+  "id": "evo-OMX-15m-S-534950",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-11-21T06:52",
+  "typ": "ut",
+  "id": "stat-OLJA-1h-L-360276",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
   "tid": "2026-11-20T06:50",
   "typ": "in",
   "id": "spec-GULD-5m-S-492591",
