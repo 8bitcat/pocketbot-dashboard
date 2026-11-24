@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T12:54",
+ "uppdaterad": "2026-11-24T23:47",
  "fel": [],
  "rader": {
   "drift": {
@@ -82,13 +82,19 @@
      "kr": 438,
      "n": 40,
      "kum": 2124
+    },
+    {
+     "d": "2026-11-24",
+     "kr": -200,
+     "n": 4,
+     "kum": 1924
     }
    ],
-   "kr": 2124,
-   "n": 240,
-   "E": 8.9,
+   "kr": 1924,
+   "n": 244,
+   "E": 7.9,
    "plusdagar": 10,
-   "dagar": 13
+   "dagar": 14
   },
   "katalogen": {
    "namn": "Katalogen",
@@ -137,46 +143,52 @@
     },
     {
      "d": "2026-11-16",
-     "kr": 3772,
-     "n": 976,
-     "kum": 23846
+     "kr": 3641,
+     "n": 972,
+     "kum": 23714
     },
     {
      "d": "2026-11-17",
      "kr": 20364,
      "n": 956,
-     "kum": 44210
+     "kum": 44078
     },
     {
      "d": "2026-11-18",
-     "kr": -3117,
-     "n": 459,
-     "kum": 41093
+     "kr": -2983,
+     "n": 455,
+     "kum": 41095
     },
     {
      "d": "2026-11-19",
-     "kr": 14973,
-     "n": 591,
-     "kum": 56066
+     "kr": 14589,
+     "n": 585,
+     "kum": 55684
     },
     {
      "d": "2026-11-20",
-     "kr": 10390,
-     "n": 613,
-     "kum": 66456
+     "kr": 10928,
+     "n": 607,
+     "kum": 66613
     },
     {
      "d": "2026-11-23",
-     "kr": 8569,
-     "n": 1115,
-     "kum": 75025
+     "kr": 9246,
+     "n": 1097,
+     "kum": 75859
+    },
+    {
+     "d": "2026-11-24",
+     "kr": 7356,
+     "n": 495,
+     "kum": 83214
     }
    ],
-   "kr": 75025,
-   "n": 8060,
-   "E": 9.3,
-   "plusdagar": 9,
-   "dagar": 13
+   "kr": 83214,
+   "n": 8517,
+   "E": 9.8,
+   "plusdagar": 10,
+   "dagar": 14
   },
   "slump": {
    "namn": "Lotten",
@@ -258,26 +270,67 @@
      "kr": 160,
      "n": 41,
      "kum": 1195
+    },
+    {
+     "d": "2026-11-24",
+     "kr": -727,
+     "n": 11,
+     "kum": 468
     }
    ],
-   "kr": 1195,
-   "n": 175,
-   "E": 6.8,
+   "kr": 468,
+   "n": 186,
+   "E": 2.5,
    "plusdagar": 8,
-   "dagar": 13
+   "dagar": 14
   }
  },
- "senasteDag": "2026-11-23",
+ "senasteDag": "2026-11-24",
  "registrerad": "2026-11-05",
+ "utforskning": [
+  {
+   "id": "drift",
+   "namn": "Urvalet i drift",
+   "kant": -28.9,
+   "t": -2.06,
+   "brus": 44.4,
+   "dagar": 9
+  },
+  {
+   "id": "slump",
+   "namn": "Lotten",
+   "kant": -11.9,
+   "t": -1.28,
+   "brus": 31.7,
+   "dagar": 9
+  },
+  {
+   "id": "katalogen",
+   "namn": "Katalogen",
+   "kant": 3.7,
+   "t": 0.57,
+   "brus": 11.1,
+   "dagar": 9
+  },
+  {
+   "id": "katalogenFF",
+   "namn": "Alla godkända (korgen)",
+   "kant": 15.2,
+   "t": 1.93,
+   "brus": 21.1,
+   "dagar": 9
+  }
+ ],
  "kandidater": [
   {
-   "id": "bayes",
-   "namn": "Huvudprovet",
-   "beskr": "Väljer bara genom ur grupper som matematiskt bevisat att de tjänar mer än kostnaden. Hellre inget än tur.",
+   "id": "katalogenFF",
+   "namn": "Huvudprovet: snabbspolningens godkända",
+   "beskr": "Hela korgen av genom som klarat 40 dagars uppspelning (råvaror). Tjänar korgen mer än kostnaden när marknadens riktning räknats bort? Live handlar sedan ett urval ur korgen.",
    "primar": true,
-   "fran": "2026-11-24",
+   "fran": "2026-11-25",
    "mot": "drift",
-   "motNamn": "urvalet",
+   "motNamn": "kostnaden 1,6",
+   "neutral": true,
    "dagarMedAff": 0,
    "dagarKrav": 10,
    "dagarGatt": 0,
@@ -286,10 +339,32 @@
    "p": null,
    "krav": 0.025,
    "E": null,
-   "Emot": null,
    "aff": 0,
    "vinnare": false,
-   "tidigast": "2026-12-07",
+   "tidigast": "2026-12-08",
+   "perDag": [],
+   "ny": true
+  },
+  {
+   "id": "bayes",
+   "namn": "Klassvalet",
+   "beskr": "Bara grupper (snabbspolningsdom × symbol) med minst 75 % bevisgrad över kostnaden, riktningsneutralt.",
+   "primar": false,
+   "fran": "2026-11-25",
+   "mot": "drift",
+   "motNamn": "kostnaden 1,6",
+   "neutral": true,
+   "dagarMedAff": 0,
+   "dagarKrav": 10,
+   "dagarGatt": 0,
+   "delta": null,
+   "t": null,
+   "p": null,
+   "krav": 0.0019,
+   "E": null,
+   "aff": 0,
+   "vinnare": false,
+   "tidigast": "2026-12-08",
    "perDag": [],
    "ny": true
   },
@@ -301,19 +376,25 @@
    "fran": "2026-11-24",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 0,
+   "neutral": false,
+   "dagarMedAff": 1,
    "dagarKrav": 10,
-   "dagarGatt": 0,
-   "delta": null,
+   "dagarGatt": 1,
+   "delta": -69.0,
    "t": null,
    "p": null,
-   "krav": 0.0021,
-   "E": null,
-   "Emot": null,
-   "aff": 0,
+   "krav": 0.0019,
+   "E": -119.0,
+   "aff": 3,
    "vinnare": false,
    "tidigast": "2026-12-07",
-   "perDag": [],
+   "perDag": [
+    {
+     "d": "2026-11-24",
+     "E": -119.0,
+     "Em": -124.4
+    }
+   ],
    "ny": true
   },
   {
@@ -324,33 +405,38 @@
    "fran": "2026-11-19",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 3,
+   "neutral": false,
+   "dagarMedAff": 4,
    "dagarKrav": 10,
-   "dagarGatt": 3,
-   "delta": 26.8,
-   "t": 0.7,
-   "p": 0.2793,
-   "krav": 0.0021,
-   "E": 1.6,
-   "Emot": 10.5,
-   "aff": 41,
+   "dagarGatt": 4,
+   "delta": 35.6,
+   "t": 1.24,
+   "p": 0.1511,
+   "krav": 0.0019,
+   "E": 2.3,
+   "aff": 44,
    "vinnare": false,
    "tidigast": "2026-12-02",
    "perDag": [
     {
      "d": "2026-11-19",
      "E": 119.4,
-     "Emot": 15.6
+     "Em": 86.8
     },
     {
      "d": "2026-11-20",
      "E": -2.9,
-     "Emot": 8.9
+     "Em": -10.5
     },
     {
      "d": "2026-11-23",
      "E": -0.7,
-     "Emot": 11.0
+     "Em": -34.3
+    },
+    {
+     "d": "2026-11-24",
+     "E": 11.9,
+     "Em": -8.8
     }
    ],
    "ny": true
@@ -363,33 +449,38 @@
    "fran": "2026-11-19",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 3,
+   "neutral": false,
+   "dagarMedAff": 4,
    "dagarKrav": 10,
-   "dagarGatt": 3,
-   "delta": 4.1,
-   "t": 0.34,
-   "p": 0.3825,
-   "krav": 0.0021,
-   "E": 7.4,
-   "Emot": 10.5,
-   "aff": 70,
+   "dagarGatt": 4,
+   "delta": 23.9,
+   "t": 1.11,
+   "p": 0.1741,
+   "krav": 0.0019,
+   "E": 11.5,
+   "aff": 83,
    "vinnare": false,
    "tidigast": "2026-12-02",
    "perDag": [
     {
      "d": "2026-11-19",
      "E": 43.7,
-     "Emot": 15.6
+     "Em": 17.0
     },
     {
      "d": "2026-11-20",
      "E": -1.3,
-     "Emot": 8.9
+     "Em": 0.7
     },
     {
      "d": "2026-11-23",
      "E": 5.3,
-     "Emot": 11.0
+     "Em": -31.5
+    },
+    {
+     "d": "2026-11-24",
+     "E": 33.3,
+     "Em": 25.4
     }
    ],
    "ny": true
@@ -402,33 +493,38 @@
    "fran": "2026-11-19",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 3,
+   "neutral": false,
+   "dagarMedAff": 4,
    "dagarKrav": 10,
-   "dagarGatt": 3,
-   "delta": 56.9,
-   "t": 0.96,
-   "p": 0.2181,
-   "krav": 0.0021,
-   "E": 19.4,
-   "Emot": 10.5,
-   "aff": 54,
+   "dagarGatt": 4,
+   "delta": 50.6,
+   "t": 1.2,
+   "p": 0.1584,
+   "krav": 0.0019,
+   "E": 12.6,
+   "aff": 66,
    "vinnare": false,
    "tidigast": "2026-12-02",
    "perDag": [
     {
      "d": "2026-11-19",
      "E": 190.2,
-     "Emot": 15.6
+     "Em": 136.2
     },
     {
      "d": "2026-11-20",
      "E": 14.9,
-     "Emot": 8.9
+     "Em": -0.8
     },
     {
      "d": "2026-11-23",
      "E": 1.1,
-     "Emot": 11.0
+     "Em": -16.0
+    },
+    {
+     "d": "2026-11-24",
+     "E": -18.5,
+     "Em": -53.7
     }
    ],
    "ny": true
@@ -441,58 +537,63 @@
    "fran": "2026-11-12",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 6,
+   "neutral": false,
+   "dagarMedAff": 7,
    "dagarKrav": 10,
-   "dagarGatt": 8,
-   "delta": 7.0,
-   "t": 0.34,
-   "p": 0.3756,
-   "krav": 0.0021,
-   "E": 21.2,
-   "Emot": 10.5,
-   "aff": 93,
+   "dagarGatt": 9,
+   "delta": -12.6,
+   "t": -0.48,
+   "p": 0.6749,
+   "krav": 0.0019,
+   "E": 19.1,
+   "aff": 94,
    "vinnare": false,
    "tidigast": "2026-11-25",
    "perDag": [
     {
      "d": "2026-11-12",
      "E": -180.0,
-     "Emot": -109.4
+     "Em": -145.8
     },
     {
      "d": "2026-11-13",
      "E": null,
-     "Emot": 24.3
+     "Em": null
     },
     {
      "d": "2026-11-16",
      "E": 86.6,
-     "Emot": 2.3
+     "Em": 67.8
     },
     {
      "d": "2026-11-17",
      "E": 18.8,
-     "Emot": 26.7
+     "Em": -2.5
     },
     {
      "d": "2026-11-18",
      "E": null,
-     "Emot": -17.2
+     "Em": null
     },
     {
      "d": "2026-11-19",
      "E": 49.3,
-     "Emot": 15.6
+     "Em": 2.9
     },
     {
      "d": "2026-11-20",
      "E": 16.3,
-     "Emot": 8.9
+     "Em": 23.0
     },
     {
      "d": "2026-11-23",
      "E": 6.1,
-     "Emot": 11.0
+     "Em": 9.6
+    },
+    {
+     "d": "2026-11-24",
+     "E": -180.0,
+     "Em": -196.2
     }
    ],
    "ny": false
@@ -505,56 +606,23 @@
    "fran": "2026-11-24",
    "mot": "katalogen",
    "motNamn": "katalogen",
-   "dagarMedAff": 0,
+   "neutral": false,
+   "dagarMedAff": 1,
    "dagarKrav": 10,
-   "dagarGatt": 0,
-   "delta": null,
+   "dagarGatt": 1,
+   "delta": 0.0,
    "t": null,
    "p": null,
-   "krav": 0.0021,
-   "E": null,
-   "Emot": null,
-   "aff": 0,
+   "krav": 0.0019,
+   "E": 14.9,
+   "aff": 495,
    "vinnare": false,
    "tidigast": "2026-12-07",
-   "perDag": [],
-   "ny": true
-  },
-  {
-   "id": "katalogenFF",
-   "namn": "Katalogen bland godkända",
-   "beskr": "Alla snabbspolningsgodkända genom — jämförs med hela katalogen.",
-   "primar": false,
-   "fran": "2026-11-19",
-   "mot": "katalogen",
-   "motNamn": "katalogen",
-   "dagarMedAff": 3,
-   "dagarKrav": 10,
-   "dagarGatt": 3,
-   "delta": 0.4,
-   "t": 0.13,
-   "p": 0.4556,
-   "krav": 0.0021,
-   "E": 12.3,
-   "Emot": 14.6,
-   "aff": 496,
-   "vinnare": false,
-   "tidigast": "2026-12-02",
    "perDag": [
     {
-     "d": "2026-11-19",
-     "E": 29.4,
-     "Emot": 25.3
-    },
-    {
-     "d": "2026-11-20",
-     "E": 11.5,
-     "Emot": 16.9
-    },
-    {
-     "d": "2026-11-23",
-     "E": 10.2,
-     "Emot": 7.7
+     "d": "2026-11-24",
+     "E": 14.9,
+     "Em": 7.9
     }
    ],
    "ny": true
@@ -567,83 +635,88 @@
    "fran": "2026-11-05",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 12,
+   "neutral": false,
+   "dagarMedAff": 13,
    "dagarKrav": 10,
-   "dagarGatt": 13,
-   "delta": -8.1,
-   "t": -0.95,
-   "p": 0.8194,
-   "krav": 0.0021,
-   "E": 4.3,
-   "Emot": 8.9,
-   "aff": 171,
+   "dagarGatt": 14,
+   "delta": 1.1,
+   "t": 0.09,
+   "p": 0.4634,
+   "krav": 0.0019,
+   "E": 7.2,
+   "aff": 180,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
     {
      "d": "2026-11-05",
      "E": 6.9,
-     "Emot": 6.9
+     "Em": 22.6
     },
     {
      "d": "2026-11-06",
      "E": null,
-     "Emot": 5.8
+     "Em": null
     },
     {
      "d": "2026-11-09",
      "E": 57.9,
-     "Emot": 55.1
+     "Em": 20.7
     },
     {
      "d": "2026-11-10",
      "E": 24.4,
-     "Emot": 5.6
+     "Em": 37.4
     },
     {
      "d": "2026-11-11",
      "E": -80.7,
-     "Emot": -80.7
+     "Em": 28.1
     },
     {
      "d": "2026-11-12",
      "E": -180.0,
-     "Emot": -109.4
+     "Em": -145.8
     },
     {
      "d": "2026-11-13",
      "E": 49.4,
-     "Emot": 24.3
+     "Em": 34.2
     },
     {
      "d": "2026-11-16",
      "E": 16.6,
-     "Emot": 2.3
+     "Em": 2.0
     },
     {
      "d": "2026-11-17",
      "E": 26.0,
-     "Emot": 26.7
+     "Em": 8.5
     },
     {
      "d": "2026-11-18",
      "E": -6.7,
-     "Emot": -17.2
+     "Em": -20.0
     },
     {
      "d": "2026-11-19",
      "E": -39.7,
-     "Emot": 15.6
+     "Em": -50.3
     },
     {
      "d": "2026-11-20",
      "E": -15.7,
-     "Emot": 8.9
+     "Em": -24.9
     },
     {
      "d": "2026-11-23",
      "E": -6.1,
-     "Emot": 11.0
+     "Em": -30.3
+    },
+    {
+     "d": "2026-11-24",
+     "E": 61.5,
+     "Em": 39.3
     }
    ],
    "ny": false
@@ -656,83 +729,88 @@
    "fran": "2026-11-05",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 13,
+   "neutral": false,
+   "dagarMedAff": 14,
    "dagarKrav": 10,
-   "dagarGatt": 13,
-   "delta": -0.4,
-   "t": -0.03,
-   "p": 0.5112,
-   "krav": 0.0021,
-   "E": 13.3,
-   "Emot": 8.9,
-   "aff": 201,
+   "dagarGatt": 14,
+   "delta": 6.0,
+   "t": 0.44,
+   "p": 0.3334,
+   "krav": 0.0019,
+   "E": 14.0,
+   "aff": 206,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
     {
      "d": "2026-11-05",
      "E": 88.1,
-     "Emot": 6.9
+     "Em": 112.1
     },
     {
      "d": "2026-11-06",
      "E": 6.5,
-     "Emot": 5.8
+     "Em": 11.3
     },
     {
      "d": "2026-11-09",
      "E": 55.1,
-     "Emot": 55.1
+     "Em": 19.1
     },
     {
      "d": "2026-11-10",
      "E": 5.6,
-     "Emot": 5.6
+     "Em": 34.3
     },
     {
      "d": "2026-11-11",
      "E": 1.5,
-     "Emot": -80.7
+     "Em": 45.3
     },
     {
      "d": "2026-11-12",
      "E": -180.0,
-     "Emot": -109.4
+     "Em": -145.8
     },
     {
      "d": "2026-11-13",
      "E": 24.3,
-     "Emot": 24.3
+     "Em": 11.4
     },
     {
      "d": "2026-11-16",
      "E": 0.8,
-     "Emot": 2.3
+     "Em": -9.9
     },
     {
      "d": "2026-11-17",
      "E": 26.0,
-     "Emot": 26.7
+     "Em": 8.5
     },
     {
      "d": "2026-11-18",
      "E": -7.8,
-     "Emot": -17.2
+     "Em": -21.1
     },
     {
      "d": "2026-11-19",
      "E": -73.0,
-     "Emot": 15.6
+     "Em": -86.0
     },
     {
      "d": "2026-11-20",
      "E": 8.9,
-     "Emot": 8.9
+     "Em": -24.7
     },
     {
      "d": "2026-11-23",
      "E": -6.1,
-     "Emot": 11.0
+     "Em": -30.3
+    },
+    {
+     "d": "2026-11-24",
+     "E": 39.1,
+     "Em": 17.5
     }
    ],
    "ny": false
@@ -745,83 +823,88 @@
    "fran": "2026-11-05",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 13,
+   "neutral": false,
+   "dagarMedAff": 14,
    "dagarKrav": 10,
-   "dagarGatt": 13,
-   "delta": 9.6,
-   "t": 1.04,
-   "p": 0.1584,
-   "krav": 0.0021,
-   "E": 7.6,
-   "Emot": 8.9,
-   "aff": 175,
+   "dagarGatt": 14,
+   "delta": -0.4,
+   "t": -0.03,
+   "p": 0.5113,
+   "krav": 0.0019,
+   "E": 5.5,
+   "aff": 177,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
     {
      "d": "2026-11-05",
      "E": 3.5,
-     "Emot": 6.9
+     "Em": 10.9
     },
     {
      "d": "2026-11-06",
      "E": 6.5,
-     "Emot": 5.8
+     "Em": 11.3
     },
     {
      "d": "2026-11-09",
      "E": 11.0,
-     "Emot": 55.1
+     "Em": -24.5
     },
     {
      "d": "2026-11-10",
      "E": 24.4,
-     "Emot": 5.6
+     "Em": 37.4
     },
     {
      "d": "2026-11-11",
      "E": 10.2,
-     "Emot": -80.7
+     "Em": 43.4
     },
     {
      "d": "2026-11-12",
      "E": -109.4,
-     "Emot": -109.4
+     "Em": -127.4
     },
     {
      "d": "2026-11-13",
      "E": 24.3,
-     "Emot": 24.3
+     "Em": 11.4
     },
     {
      "d": "2026-11-16",
      "E": -7.6,
-     "Emot": 2.3
+     "Em": -16.7
     },
     {
      "d": "2026-11-17",
      "E": 20.3,
-     "Emot": 26.7
+     "Em": 1.5
     },
     {
      "d": "2026-11-18",
      "E": 29.2,
-     "Emot": -17.2
+     "Em": -27.7
     },
     {
      "d": "2026-11-19",
      "E": 52.5,
-     "Emot": 15.6
+     "Em": 11.3
     },
     {
      "d": "2026-11-20",
      "E": 13.7,
-     "Emot": 8.9
+     "Em": -20.8
     },
     {
      "d": "2026-11-23",
      "E": 1.0,
-     "Emot": 11.0
+     "Em": -20.5
+    },
+    {
+     "d": "2026-11-24",
+     "E": -180.0,
+     "Em": -199.6
     }
    ],
    "ny": false
@@ -834,83 +917,88 @@
    "fran": "2026-11-05",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 13,
+   "neutral": false,
+   "dagarMedAff": 14,
    "dagarKrav": 10,
-   "dagarGatt": 13,
-   "delta": 17.9,
-   "t": 0.49,
-   "p": 0.3161,
-   "krav": 0.0021,
-   "E": 6.8,
-   "Emot": 8.9,
-   "aff": 175,
+   "dagarGatt": 14,
+   "delta": 15.5,
+   "t": 0.46,
+   "p": 0.3275,
+   "krav": 0.0019,
+   "E": 2.5,
+   "aff": 186,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
     {
      "d": "2026-11-05",
      "E": -11.5,
-     "Emot": 6.9
+     "Em": -17.4
     },
     {
      "d": "2026-11-06",
      "E": 10.2,
-     "Emot": 5.8
+     "Em": -12.3
     },
     {
      "d": "2026-11-09",
      "E": 4.1,
-     "Emot": 55.1
+     "Em": -11.6
     },
     {
      "d": "2026-11-10",
      "E": -180.0,
-     "Emot": 5.6
+     "Em": -164.9
     },
     {
      "d": "2026-11-11",
      "E": 309.2,
-     "Emot": -80.7
+     "Em": 248.0
     },
     {
      "d": "2026-11-12",
      "E": 17.6,
-     "Emot": -109.4
+     "Em": 51.8
     },
     {
      "d": "2026-11-13",
      "E": -18.1,
-     "Emot": 24.3
+     "Em": -21.5
     },
     {
      "d": "2026-11-16",
      "E": -9.3,
-     "Emot": 2.3
+     "Em": -22.2
     },
     {
      "d": "2026-11-17",
      "E": 1.4,
-     "Emot": 26.7
+     "Em": -23.6
     },
     {
      "d": "2026-11-18",
      "E": 14.6,
-     "Emot": -17.2
+     "Em": -25.2
     },
     {
      "d": "2026-11-19",
      "E": 60.5,
-     "Emot": 15.6
+     "Em": 31.5
     },
     {
      "d": "2026-11-20",
      "E": -14.9,
-     "Emot": 8.9
+     "Em": -22.8
     },
     {
      "d": "2026-11-23",
      "E": 3.9,
-     "Emot": 11.0
+     "Em": -28.6
+    },
+    {
+     "d": "2026-11-24",
+     "E": -66.1,
+     "Em": -46.6
     }
    ],
    "ny": false
@@ -923,83 +1011,88 @@
    "fran": "2026-11-05",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 13,
+   "neutral": false,
+   "dagarMedAff": 14,
    "dagarKrav": 10,
-   "dagarGatt": 13,
-   "delta": 2.0,
-   "t": 0.57,
-   "p": 0.2907,
-   "krav": 0.0021,
-   "E": 5.9,
-   "Emot": 8.9,
-   "aff": 264,
+   "dagarGatt": 14,
+   "delta": 7.7,
+   "t": 1.17,
+   "p": 0.1312,
+   "krav": 0.0019,
+   "E": 6.8,
+   "aff": 274,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
     {
      "d": "2026-11-05",
      "E": 6.9,
-     "Emot": 6.9
+     "Em": 22.6
     },
     {
      "d": "2026-11-06",
      "E": 5.8,
-     "Emot": 5.8
+     "Em": -1.8
     },
     {
      "d": "2026-11-09",
      "E": 49.4,
-     "Emot": 55.1
+     "Em": 13.8
     },
     {
      "d": "2026-11-10",
      "E": 5.6,
-     "Emot": 5.6
+     "Em": 34.3
     },
     {
      "d": "2026-11-11",
      "E": -80.7,
-     "Emot": -80.7
+     "Em": 28.1
     },
     {
      "d": "2026-11-12",
      "E": -109.4,
-     "Emot": -109.4
+     "Em": -127.4
     },
     {
      "d": "2026-11-13",
      "E": 49.4,
-     "Emot": 24.3
+     "Em": 34.2
     },
     {
      "d": "2026-11-16",
      "E": 5.8,
-     "Emot": 2.3
+     "Em": -4.5
     },
     {
      "d": "2026-11-17",
      "E": 26.7,
-     "Emot": 26.7
+     "Em": 7.4
     },
     {
      "d": "2026-11-18",
      "E": 3.5,
-     "Emot": -17.2
+     "Em": -21.2
     },
     {
      "d": "2026-11-19",
      "E": 30.3,
-     "Emot": 15.6
+     "Em": -3.9
     },
     {
      "d": "2026-11-20",
      "E": -12.2,
-     "Emot": 8.9
+     "Em": -42.8
     },
     {
      "d": "2026-11-23",
      "E": -0.8,
-     "Emot": 11.0
+     "Em": -24.6
+    },
+    {
+     "d": "2026-11-24",
+     "E": 31.8,
+     "Em": 9.4
     }
    ],
    "ny": false
@@ -1012,83 +1105,88 @@
    "fran": "2026-11-05",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 12,
+   "neutral": false,
+   "dagarMedAff": 13,
    "dagarKrav": 10,
-   "dagarGatt": 13,
-   "delta": -18.3,
-   "t": -0.76,
-   "p": 0.7694,
-   "krav": 0.0021,
-   "E": -2.7,
-   "Emot": 8.9,
-   "aff": 106,
+   "dagarGatt": 14,
+   "delta": -8.8,
+   "t": -0.37,
+   "p": 0.6396,
+   "krav": 0.0019,
+   "E": 1.8,
+   "aff": 115,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
     {
      "d": "2026-11-05",
      "E": 154.7,
-     "Emot": 6.9
+     "Em": 162.0
     },
     {
      "d": "2026-11-06",
      "E": -4.1,
-     "Emot": 5.8
+     "Em": -0.7
     },
     {
      "d": "2026-11-09",
      "E": -71.2,
-     "Emot": 55.1
+     "Em": -100.0
     },
     {
      "d": "2026-11-10",
      "E": 5.6,
-     "Emot": 5.6
+     "Em": 34.3
     },
     {
      "d": "2026-11-11",
      "E": -7.0,
-     "Emot": -80.7
+     "Em": -21.0
     },
     {
      "d": "2026-11-12",
      "E": -180.0,
-     "Emot": -109.4
+     "Em": -145.8
     },
     {
      "d": "2026-11-13",
      "E": null,
-     "Emot": 24.3
+     "Em": null
     },
     {
      "d": "2026-11-16",
      "E": -4.3,
-     "Emot": 2.3
+     "Em": 14.9
     },
     {
      "d": "2026-11-17",
      "E": 60.4,
-     "Emot": 26.7
+     "Em": 42.8
     },
     {
      "d": "2026-11-18",
      "E": -177.8,
-     "Emot": -17.2
+     "Em": -154.2
     },
     {
      "d": "2026-11-19",
      "E": -39.7,
-     "Emot": 15.6
+     "Em": -50.3
     },
     {
      "d": "2026-11-20",
      "E": -27.7,
-     "Emot": 8.9
+     "Em": -35.7
     },
     {
      "d": "2026-11-23",
      "E": 2.3,
-     "Emot": 11.0
+     "Em": -24.1
+    },
+    {
+     "d": "2026-11-24",
+     "E": 55.3,
+     "Em": 33.0
     }
    ],
    "ny": false
@@ -1101,83 +1199,88 @@
    "fran": "2026-11-05",
    "mot": "drift",
    "motNamn": "urvalet",
-   "dagarMedAff": 13,
+   "neutral": false,
+   "dagarMedAff": 14,
    "dagarKrav": 10,
-   "dagarGatt": 13,
-   "delta": 2.7,
-   "t": 1.35,
-   "p": 0.1014,
-   "krav": 0.0021,
-   "E": 9.6,
-   "Emot": 8.9,
-   "aff": 245,
+   "dagarGatt": 14,
+   "delta": -0.7,
+   "t": -0.18,
+   "p": 0.5719,
+   "krav": 0.0019,
+   "E": 7.9,
+   "aff": 249,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
     {
      "d": "2026-11-05",
      "E": 6.9,
-     "Emot": 6.9
+     "Em": 22.6
     },
     {
      "d": "2026-11-06",
      "E": 5.8,
-     "Emot": 5.8
+     "Em": -1.8
     },
     {
      "d": "2026-11-09",
      "E": 55.1,
-     "Emot": 55.1
+     "Em": 19.1
     },
     {
      "d": "2026-11-10",
      "E": 5.6,
-     "Emot": 5.6
+     "Em": 34.3
     },
     {
      "d": "2026-11-11",
      "E": -80.7,
-     "Emot": -80.7
+     "Em": 28.1
     },
     {
      "d": "2026-11-12",
      "E": -109.4,
-     "Emot": -109.4
+     "Em": -127.4
     },
     {
      "d": "2026-11-13",
      "E": 49.4,
-     "Emot": 24.3
+     "Em": 34.2
     },
     {
      "d": "2026-11-16",
      "E": 2.3,
-     "Emot": 2.3
+     "Em": -8.4
     },
     {
      "d": "2026-11-17",
      "E": 26.7,
-     "Emot": 26.7
+     "Em": 7.4
     },
     {
      "d": "2026-11-18",
      "E": -6.7,
-     "Emot": -17.2
+     "Em": -20.0
     },
     {
      "d": "2026-11-19",
      "E": 15.6,
-     "Emot": 15.6
+     "Em": 4.0
     },
     {
      "d": "2026-11-20",
      "E": 8.9,
-     "Emot": 8.9
+     "Em": -24.7
     },
     {
      "d": "2026-11-23",
      "E": 11.0,
-     "Emot": 11.0
+     "Em": -14.2
+    },
+    {
+     "d": "2026-11-24",
+     "E": -95.8,
+     "Em": -117.1
     }
    ],
    "ny": false
@@ -1191,9 +1294,9 @@
     "klass": "PASS SILVER",
     "dom": "PASS",
     "sym": "SILVER",
-    "kant": 13.7,
-    "t": 2.53,
-    "p": 0.0198,
+    "kant": 11.7,
+    "t": 1.39,
+    "p": 0.1035,
     "krav": 0.0056,
     "dagar": 8,
     "aff": 709,
@@ -1203,9 +1306,9 @@
     "klass": "FAIL GULD",
     "dom": "FAIL",
     "sym": "GULD",
-    "kant": 3.2,
-    "t": 0.59,
-    "p": 0.2856,
+    "kant": 0.3,
+    "t": -0.19,
+    "p": 0.5738,
     "krav": 0.0111,
     "dagar": 8,
     "aff": 1954,
@@ -1215,9 +1318,9 @@
     "klass": "FAIL OLJA",
     "dom": "FAIL",
     "sym": "OLJA",
-    "kant": 0.2,
-    "t": -0.45,
-    "p": 0.6652,
+    "kant": -2.7,
+    "t": -0.61,
+    "p": 0.7186,
     "krav": 0.0167,
     "dagar": 8,
     "aff": 1877,
@@ -1227,9 +1330,9 @@
     "klass": "PASS OLJA",
     "dom": "PASS",
     "sym": "OLJA",
-    "kant": -7.1,
-    "t": -0.58,
-    "p": 0.7094,
+    "kant": -9.9,
+    "t": -0.68,
+    "p": 0.7419,
     "krav": 0.0222,
     "dagar": 8,
     "aff": 228,
@@ -1239,22 +1342,34 @@
     "klass": "FAIL SILVER",
     "dom": "FAIL",
     "sym": "SILVER",
-    "kant": -1.0,
-    "t": -0.76,
-    "p": 0.7631,
+    "kant": -3.0,
+    "t": -1.19,
+    "p": 0.8639,
     "krav": 0.0278,
     "dagar": 8,
     "aff": 1370,
     "godkand": false
    },
    {
+    "klass": "ingen SILVER",
+    "dom": "ingen",
+    "sym": "SILVER",
+    "kant": -5.4,
+    "t": -1.22,
+    "p": 0.8688,
+    "krav": 0.0333,
+    "dagar": 8,
+    "aff": 2352,
+    "godkand": false
+   },
+   {
     "klass": "ingen OLJA",
     "dom": "ingen",
     "sym": "OLJA",
-    "kant": -1.3,
-    "t": -0.77,
-    "p": 0.7655,
-    "krav": 0.0333,
+    "kant": -4.1,
+    "t": -1.32,
+    "p": 0.8865,
+    "krav": 0.0389,
     "dagar": 8,
     "aff": 2645,
     "godkand": false
@@ -1263,93 +1378,83 @@
     "klass": "PASS GULD",
     "dom": "PASS",
     "sym": "GULD",
-    "kant": -13.3,
-    "t": -0.89,
-    "p": 0.7954,
-    "krav": 0.0389,
+    "kant": -18.8,
+    "t": -1.37,
+    "p": 0.8898,
+    "krav": 0.0444,
     "dagar": 7,
     "aff": 240,
-    "godkand": false
-   },
-   {
-    "klass": "ingen SILVER",
-    "dom": "ingen",
-    "sym": "SILVER",
-    "kant": -3.4,
-    "t": -2.14,
-    "p": 0.9652,
-    "krav": 0.0444,
-    "dagar": 8,
-    "aff": 2352,
     "godkand": false
    },
    {
     "klass": "ingen GULD",
     "dom": "ingen",
     "sym": "GULD",
-    "kant": -3.1,
-    "t": -2.25,
-    "p": 0.9705,
+    "kant": -6.0,
+    "t": -2.08,
+    "p": 0.962,
     "krav": 0.05,
     "dagar": 8,
     "aff": 2324,
     "godkand": false
    }
   ],
-  "valda": 0,
-  "perSymbol": {},
+  "valda": 4,
+  "perSymbol": {
+   "SILVER": 4
+  },
   "kostnad": 1.6,
   "q": 0.05
  },
  "bayesHistorik": [
   {
    "datum": "2026-11-24",
-   "valda": 0,
+   "valda": 4,
    "klasser": {
     "PASS SILVER": {
-     "p": 0.0198,
+     "p": 0.1035,
      "krav": 0.0056,
-     "kant": 13.7
+     "kant": 11.7
     },
     "FAIL GULD": {
-     "p": 0.2856,
+     "p": 0.5738,
      "krav": 0.0111,
-     "kant": 3.2
+     "kant": 0.3
     },
     "FAIL OLJA": {
-     "p": 0.6652,
+     "p": 0.7186,
      "krav": 0.0167,
-     "kant": 0.2
+     "kant": -2.7
     },
     "PASS OLJA": {
-     "p": 0.7094,
+     "p": 0.7419,
      "krav": 0.0222,
-     "kant": -7.1
+     "kant": -9.9
     },
     "FAIL SILVER": {
-     "p": 0.7631,
+     "p": 0.8639,
      "krav": 0.0278,
-     "kant": -1.0
-    },
-    "ingen OLJA": {
-     "p": 0.7655,
-     "krav": 0.0333,
-     "kant": -1.3
-    },
-    "PASS GULD": {
-     "p": 0.7954,
-     "krav": 0.0389,
-     "kant": -13.3
+     "kant": -3.0
     },
     "ingen SILVER": {
-     "p": 0.9652,
+     "p": 0.8688,
+     "krav": 0.0333,
+     "kant": -5.4
+    },
+    "ingen OLJA": {
+     "p": 0.8865,
+     "krav": 0.0389,
+     "kant": -4.1
+    },
+    "PASS GULD": {
+     "p": 0.8898,
      "krav": 0.0444,
-     "kant": -3.4
+     "kant": -18.8
     },
     "ingen GULD": {
-     "p": 0.9705,
+     "p": 0.962,
      "krav": 0.05,
-     "kant": -3.1
+     "kant": -6.0
     }
    }
   }
@@ -1456,7 +1561,7 @@
    "nr": 1,
    "titel": "Ett urval med bevisad kant",
    "status": "start",
-   "text": "Huvudprovet behöver 10 handelsdagar med affärer och 97,5 % bevisgrad. Läge: 0 av 10 dagar.",
+   "text": "Korgen ska tjäna mer än kostnaden när riktningen räknats bort: ≥ 10 handelsdagar, 97,5 % bevisgrad. Läge: 0 av 10 dagar.",
    "progress": 0.0
   },
   {
@@ -1498,8 +1603,8 @@
  "liveAvSedan": "2026-10-26",
  "milstolpar": [
   {
-   "d": "2026-12-07",
-   "text": "Tidigaste dom i huvudprovet (10 handelsdagar från 24/11)"
+   "d": "2026-12-08",
+   "text": "Tidigaste dom i huvudprovet (10 handelsdagar från 25/11) — troligare 15–20 dagar"
   },
   {
    "d": "2026-12-16",

@@ -83,15 +83,15 @@ a { color: var(--bla); }
 
 /* bevismätaren */
 .matare { display: grid; gap: 12px; }
-.mrad { display: grid; grid-template-columns: minmax(0, 200px) minmax(0, 1fr) 62px; gap: 6px 14px; align-items: center; }
+.mrad { display: grid; grid-template-columns: minmax(0, 200px) minmax(0, 1fr) 76px; gap: 6px 14px; align-items: center; }
 .mrad .vem { font-size: 14px; font-weight: 500; line-height: 1.3; }
 .mrad .vem small { display: block; color: var(--svag); font-weight: 400; font-size: 12px; }
 .bar { position: relative; height: 14px; border-radius: 7px; background: var(--yta2); }
 .bar > i { position: absolute; inset: 0 auto 0 0; border-radius: 7px; background: var(--svag); }
-.bar > i.nara { background: var(--gul); } .bar > i.ok { background: var(--gron); } .bar > i.neg { background: var(--linje); }
+.bar > i.nara { background: var(--gul); } .bar > i.rod { background: var(--rod); } .bar.kant > i { inset: 0 auto 0 auto; border-radius: 3px; } .bar > i.ok { background: var(--gron); } .bar > i.neg { background: var(--linje); }
 .bar > b { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--text); border-radius: 1px; }
-.mrad .pct { font: 500 13px "IBM Plex Mono", monospace; text-align: right; }
-.skala { display: grid; grid-template-columns: minmax(0, 200px) minmax(0, 1fr) 62px; gap: 14px; font: 11px "IBM Plex Mono", monospace; color: var(--svag); }
+.mrad .pct { white-space: nowrap; font: 500 13px "IBM Plex Mono", monospace; text-align: right; }
+.skala { display: grid; grid-template-columns: minmax(0, 200px) minmax(0, 1fr) 76px; gap: 14px; font: 11px "IBM Plex Mono", monospace; color: var(--svag); }
 .skala div { display: flex; justify-content: space-between; }
 @media (max-width: 520px) { .mrad, .skala { grid-template-columns: minmax(0, 1fr) 54px; } .mrad .vem { grid-column: 1 / -1; } .skala > :first-child { display: none; } }
 
@@ -157,6 +157,8 @@ summary:hover { color: var(--text); }
 
   <section class="kort" id="prov"></section>
 
+  <section class="kort" id="klass"></section>
+
   <section class="kort">
     <div class="kort-huvud">
       <h2>Kandidaterna</h2>
@@ -207,7 +209,8 @@ summary:hover { color: var(--text); }
     <div class="ordlista">
       <p><b>Bevisgrad</b> — hur osannolikt resultatet är om det bara vore tur (1 − p). 50 % = ren slantsingling. Strecket visar kravet: först där räknas det som bevisat.</p>
       <p><b>Varför så höga krav?</b> Vi prövar många idéer samtidigt. Med tio idéer klarar någon ett vanligt test på ren tur var fjärde gång — därför delas felrisken mellan dem (Holm), och huvudprovet får hälften ensamt.</p>
-      <p><b>Huvudprovet</b> — väljer genom på gruppnivå (snabbspolningens dom × symbol). Ett enskilt genom har för få affärer för att dömas: ±48 kr osäkerhet mot en kant på 10–20 kr.</p>
+      <p><b>Huvudprovet</b> — hela korgen av snabbspolningsgodkända genom. Ett enskilt genom har för få affärer för att dömas (±48 kr mot en kant på 10–20 kr); korgen har hundratals om dagen. Live handlar ett urval ur korgen, som i snitt får korgens kant.</p>
+      <p><b>Riktningsneutralt</b> — affärens kronor minus halva skillnaden mellan alla genoms lång och kort samma dag. Marknadens håll tas bort, genomens gemensamma kostnad (spread, stopp) står kvar. Det är det live kan tjäna när uppgångar och nedgångar tar ut varandra.</p>
       <p><b>Urvalet · Katalogen · Lotten</b> — dagens urval, alla graderade genom, och godkända genom i slumpad ordning. Slår inte urvalet lotten är rankningen tur.</p>
       <p><b>Dagen är enheten</b> — en dag med 500 affärer i samma marknad är fortfarande en dag. Därför behövs minst 10 handelsdagar.</p>
       <p><b>Uppdateras</b> varje morgon kl. 05:00 ur gårdagens tävling (räknas 21:45) och morgonens val. <a href="../">← Kontona och prognosen</a></p>
@@ -236,13 +239,24 @@ summary:hover { color: var(--text); }
     return `<div class="bar" role="img" aria-label="bevisgrad ${pct(p)}, krav ${pct(krav)}"><i class="${cls}" style="width:${(a * 100).toFixed(1)}%"></i><b style="left:calc(${(k * 100).toFixed(1)}% - 1px)"></b></div>`;
   }
 
+  function kanter(rader) {
+    if (!rader.length) return '<p class="svag">Ingen data.</p>';
+    const max = Math.max(20, ...rader.map((r) => Math.abs(r.kant)));
+    return rader.map((r) => {
+      const w = Math.abs(r.kant) / max * 50, neg = r.kant < 0;
+      return `<div class="mrad"><div class="vem">${esc(r.namn)}<small>${r.dagar} dagar · brus ${tal(r.brus, 0, false)} kr/dag · t ${tal(r.t, 1)}</small></div>
+        <div class="bar kant"><i class="${neg ? "rod" : r.kant > 1.6 ? "ok" : ""}" style="left:${neg ? 50 - w : 50}%;width:${w}%"></i><b style="left:calc(50% - 1px)"></b></div>
+        <span class="pct ${neg ? "neg" : r.kant > 1.6 ? "pos" : ""}">${tal(r.kant, 1)}</span></div>`;
+    }).join("") + `<div class="skala"><span></span><div><span>−${tal(max, 0, false)}</span><span>0</span><span>+${tal(max, 0, false)} kr/aff</span></div><span></span></div>`;
+  }
+
   fetch("data.json?t=" + Date.now()).then((r) => r.json()).then(rita).catch((e) => { $("stamp").textContent = "Kunde inte läsa data: " + e; });
 
   function rita(D) {
     $("stamp").innerHTML = `Uppdaterad ${datum(D.uppdaterad, true)} kl. ${D.uppdaterad.slice(11, 16)} · tävlingen t.o.m. ${datum(D.senasteDag, true)}`;
     if (D.fel && D.fel.length) { const f = $("fel"); f.hidden = false; f.className = "fel"; f.innerHTML = "<b>Delar som inte kunde räknas i morse</b> (gårdagens siffror visas): " + D.fel.map(esc).join(" · "); }
     const K = Object.fromEntries((D.kandidater || []).map((k) => [k.id, k]));
-    const B = K.bayes || {}; const G = D.grindar || [];
+    const B = (D.kandidater || []).find((k) => k.primar) || {}; const G = D.grindar || [];
     const klara = G.filter((g) => g.status === "klar").length;
 
     // ── domen
@@ -254,7 +268,7 @@ summary:hover { color: var(--text); }
         <span class="dov">${klara} av 4 grindar klara</span>
       </div>
       <p class="lead">${(D.vinnare || []).length ? "Ett urval har bevisat sin kant: " + D.vinnare.map((v) => esc((K[v] || {}).namn || v)).join(", ") + "."
-        : `Ingen idé har ännu bevisat att den slår tur. Huvudprovet har samlat <b>${B.dagarMedAff ?? 0} av ${B.dagarKrav ?? 10}</b> handelsdagar — tidigaste dom <b>${datum(B.tidigast, true)}</b>. Det som avgör nu är tid och data, inte mer bygge.`}</p>
+        : `Ingen idé har ännu bevisat att den slår tur. Huvudprovet har samlat <b>${B.dagarMedAff ?? 0} av ${B.dagarKrav ?? 10}</b> handelsdagar — tidigaste dom <b>${datum(B.tidigast, true)}</b>, troligare runt jul. Det som avgör nu är tid och data, inte mer bygge.`}</p>
       <div class="grindar">${G.map((g) => `
         <div class="grind s-${g.status}">
           <span class="nr">GRIND ${g.nr}</span>
@@ -275,32 +289,42 @@ summary:hover { color: var(--text); }
     const tomma = (B.perDag || []).filter((x) => x.E == null).length;
     $("prov").innerHTML = `
       <div class="kort-huvud"><h2>Huvudprovet</h2><span class="chip c-${B.vinnare ? "klar" : "pagar"}">${B.vinnare ? "Bevisat" : "Samlar data"}</span></div>
-      <p class="lead">${esc(B.beskr || "")} Det ska slå urvalet i drift med minst 97,5 % bevisgrad över minst 10 handelsdagar med affärer.</p>
+      <p class="lead">${esc(B.beskr || "")} Kravet: mer än kostnaden (${tal(1.6, 1, false)} kr/affär) med minst 97,5 % bevisgrad över minst 10 handelsdagar, räknat från ${datum(B.fran)}.</p>
       <div class="prov">
         <div style="display:grid;gap:14px;align-content:start">
           <div class="storttal">${B.dagarMedAff ?? 0}<small> av ${B.dagarKrav ?? 10} handelsdagar</small></div>
           <div class="dagar">${rutor}</div>
           <div class="fakta">
             <div><span class="dov">Tidigaste dom</span><span class="tal">${datum(B.tidigast, true)}</span></div>
-            <div><span class="dov">Mot urvalet hittills</span><span class="tal ${B.delta > 0 ? "pos" : B.delta < 0 ? "neg" : ""}">${B.delta == null ? "inga dagar än" : tal(B.delta, 1) + " kr/aff"}</span></div>
+            <div><span class="dov">Riktningsneutralt hittills</span><span class="tal ${B.delta > 1.6 ? "pos" : B.delta != null && B.delta < 0 ? "neg" : ""}">${B.delta == null ? "inga dagar än" : tal(B.delta, 1) + " kr/aff"}</span></div>
             <div><span class="dov">Bevisgrad (krav 97,5 %)</span><span class="tal">${pct(B.p)}</span></div>
-            <div><span class="dov">Väljer i dag</span><span class="tal">${bi.valda == null ? "—" : bi.valda === 0 ? "inget" : bi.valda + " genom"}</span></div>
+            <div><span class="dov">Affärer hittills</span><span class="tal">${(B.aff ?? 0).toLocaleString("sv-SE")}</span></div>
             ${tomma ? `<div><span class="dov">Dagar utan val (räknas inte)</span><span class="tal">${tomma}</span></div>` : ""}
           </div>
         </div>
         <div class="matare">
-          <div style="display:grid;gap:4px"><h3>Hur nära bevis är grupperna?</h3>
-            <p class="dov" style="font-size:13px">Huvudprovet handlar bara en grupp som tjänar mer än kostnaden (${tal(bi.kostnad, 1, false)} kr/affär) — bevisat. ${bi.valda ? "" : "I dag klarar ingen grupp kravet, så det väljer inget: hellre inget än tur."}</p></div>
-          ${kl.slice(0, 7).map((x) => `
+          <div style="display:grid;gap:4px"><h3>Var finns kanten?</h3>
+            <p class="dov" style="font-size:13px">Kronor per affär när marknadens riktning räknats bort (halva skillnaden mellan lång och kort samma dag), 12–24 nov. Det här är redan sett och räknas inte i provet — det visar varför korgen prövas.</p></div>
+          ${kanter(D.utforskning || [])}
+        </div>
+      </div>`;
+
+
+    // ── klassvalet i dag
+    $("klass").innerHTML = `
+      <div class="kort-huvud"><h2>Klassvalet i dag</h2><span class="dov" style="font-size:13px">${bi.valda ? bi.valda + " genom valda" : "inget valt"} · en kandidat bland de andra</span></div>
+      <p class="lead" style="font-size:13.5px">Grupperna är snabbspolningens dom × symbol, riktningsneutralt. Klassvalet handlar grupper över 75 % bevisgrad på papper — beviset måste sedan komma framåt. Strecket visar vad som krävs för att en grupp ska räknas som bevisad redan nu (Benjamini–Hochberg 5 %).</p>
+      <div class="matare">
+          ${kl.slice(0, 9).map((x) => `
             <div class="mrad">
-              <div class="vem">${SYM[x.sym] || esc(x.sym)} · ${x.dom === "PASS" ? "godkända" : x.dom === "FAIL" ? "underkända" : "utan dom"}<small>${tal(x.kant, 1)} kr/aff över marknaden · ${x.dagar} d</small></div>
+              <div class="vem">${SYM[x.sym] || esc(x.sym)} · ${x.dom === "PASS" ? "godkända" : x.dom === "FAIL" ? "underkända" : "utan dom"}<small>${tal(x.kant, 1)} kr/aff riktningsneutralt · ${x.dagar} d</small></div>
               ${matare(x.p, x.krav)}
               <span class="pct ${x.p != null && x.p >= 0.5 ? "svag" : ""}">${x.p != null && x.p >= 0.5 ? "fel håll" : pct(x.p)}</span>
             </div>`).join("")}
           <div class="skala"><span></span><div><span>50 % tur</span><span>75 %</span><span>100 %</span></div><span></span></div>
-          <p class="svag" style="font-size:12px">Strecket = gruppens krav (Benjamini–Hochberg 5 %, strängast för den bästa). Gult = över 90 % men inte där än. Grönt = bevisat.</p>
+          <p class="svag" style="font-size:12px">Strecket = gruppens krav (Benjamini–Hochberg 5 %, strängast för den bästa). Gult = över 90 % men inte där än. Grönt = bevisat. Klassvalet handlar allt över 75 %.</p>
         </div>
-      </div>`;
+`;
 
     // ── kandidaterna
     const kort = (k) => {
@@ -308,7 +332,7 @@ summary:hover { color: var(--text); }
       const st = k.vinnare ? ["klar", "Bevisad"] : avg ? ["start", "Avgjord — inte bevisad"] : ["pagar", `${k.dagarMedAff} av ${k.dagarKrav} dagar`];
       return `<div class="kand ${k.primar ? "primar" : ""}">
         <div><div class="namn">${esc(k.namn)}${k.primar ? ' <span class="svag" style="font-weight:400">· huvudprov</span>' : ""}</div><div class="beskr">${esc(k.beskr)} <span class="svag">Från ${datum(k.fran)}.</span></div></div>
-        <div class="delta ${k.delta > 0 ? "pos" : k.delta < 0 ? "neg" : ""}">${k.delta == null ? "—" : tal(k.delta, 1)}<small>kr/aff mot ${k.motNamn}</small></div>
+        <div class="delta ${k.delta > (k.neutral ? 1.6 : 0) ? "pos" : k.delta < 0 ? "neg" : ""}">${k.delta == null ? "—" : tal(k.delta, 1)}<small>${k.neutral ? "kr/aff riktningsneutralt (krav > " + k.motNamn.replace("kostnaden ", "") + ")" : "kr/aff mot " + k.motNamn}</small></div>
         <div style="display:grid;gap:5px">${matare(k.p, k.krav)}<span class="svag" style="font-size:12px">bevisgrad <span class="mono">${pct(k.p)}</span> · krav <span class="mono">${pct(k.krav)}</span></span></div>
         <span class="chip c-${st[0]}">${st[1]}</span>
       </div>`;
