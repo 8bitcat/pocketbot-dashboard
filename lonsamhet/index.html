@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vägen till lönsamhet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root {
+  --bg: #f6f5f1; --yta: #ffffff; --yta2: #efede7; --linje: #dedad0; --text: #1d2321; --dov: #5d6662; --svag: #8a918d;
+  --gron: #1f7a4d; --gron-bg: #e3f1e8; --gul: #9a6a00; --gul-bg: #f8eed3; --rod: #b3402e; --rod-bg: #f6e2dd;
+  --bla: #2e5d8a; --bla-bg: #e2ebf4; --gra-bg: #e9e8e3;
+  --l1: #2e5d8a; --l2: #8a6d1f; --l3: #8d8f8c;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121614; --yta: #1a201d; --yta2: #222a26; --linje: #303a35; --text: #e7ece9; --dov: #a3ada8; --svag: #78827d;
+  --gron: #5cc48d; --gron-bg: #1b3326; --gul: #e0b24a; --gul-bg: #362c14; --rod: #ee8673; --rod-bg: #3a201b;
+  --bla: #82b1e0; --bla-bg: #1c2b3a; --gra-bg: #262c29;
+  --l1: #82b1e0; --l2: #e0b24a; --l3: #8e9893; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #121614; --yta: #1a201d; --yta2: #222a26; --linje: #303a35; --text: #e7ece9; --dov: #a3ada8; --svag: #78827d;
+  --gron: #5cc48d; --gron-bg: #1b3326; --gul: #e0b24a; --gul-bg: #362c14; --rod: #ee8673; --rod-bg: #3a201b;
+  --bla: #82b1e0; --bla-bg: #1c2b3a; --gra-bg: #262c29;
+  --l1: #82b1e0; --l2: #e0b24a; --l3: #8e9893; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.55 "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 22px; }
+h1, h2, h3 { text-wrap: balance; margin: 0; line-height: 1.2; }
+h1 { font-size: 30px; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 19px; font-weight: 600; }
+h3 { font-size: 15px; font-weight: 600; }
+p { margin: 0; }
+.mono, .tal { font-family: "IBM Plex Mono", ui-monospace, Consolas, monospace; font-variant-numeric: tabular-nums; }
+.etikett { font-size: 11.5px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--svag); font-weight: 600; }
+.dov { color: var(--dov); } .svag { color: var(--svag); }
+a { color: var(--bla); }
+.topp { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 8px 24px; }
+.topp .stamp { color: var(--dov); font-size: 13px; }
+.kort { background: var(--yta); border: 1px solid var(--linje); border-radius: 12px; padding: 20px; min-width: 0; display: grid; gap: 14px; }
+.kort-huvud { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 16px; }
+.lead { font-size: 15px; color: var(--dov); max-width: 68ch; }
+
+/* domen */
+.dom { display: grid; gap: 16px; padding: 24px; border-radius: 14px; background: var(--yta); border: 1px solid var(--linje); }
+.dom-rad { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.dom-svar { font-size: 26px; font-weight: 700; letter-spacing: -0.01em; }
+.dom-svar.ja { color: var(--gron); } .dom-svar.nej { color: var(--text); }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+.chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.c-klar { color: var(--gron); background: var(--gron-bg); } .c-pagar { color: var(--bla); background: var(--bla-bg); }
+.c-dig { color: var(--gul); background: var(--gul-bg); } .c-last, .c-start { color: var(--dov); background: var(--gra-bg); }
+.c-kostar { color: var(--rod); background: var(--rod-bg); } .c-tjanar { color: var(--gron); background: var(--gron-bg); }
+.c-obevisad { color: var(--gul); background: var(--gul-bg); } .c-avstangd, .c-goringet { color: var(--dov); background: var(--gra-bg); }
+
+/* grindarna */
+.grindar { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; counter-reset: g; }
+.grind { position: relative; border-radius: 10px; padding: 14px 14px 16px; background: var(--yta2); display: grid; gap: 8px; align-content: start; min-width: 0; border-top: 4px solid var(--linje); }
+.grind.s-klar { border-top-color: var(--gron); } .grind.s-pagar { border-top-color: var(--bla); }
+.grind.s-dig { border-top-color: var(--gul); } .grind.s-last, .grind.s-start { border-top-color: var(--linje); }
+.grind .nr { font: 600 12px "IBM Plex Mono", monospace; color: var(--svag); }
+.grind p { font-size: 13.5px; color: var(--dov); }
+.grind ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; font-size: 13px; }
+.grind li { display: flex; gap: 6px; } .grind li .bock { color: var(--svag); } .grind li.klar .bock { color: var(--gron); }
+.mini { height: 6px; border-radius: 3px; background: var(--linje); overflow: hidden; }
+.mini > i { display: block; height: 100%; background: var(--bla); border-radius: 3px; }
+@media (max-width: 860px) { .grindar { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .grindar { grid-template-columns: 1fr; } }
+
+/* huvudprovet */
+.prov { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.4fr); gap: 22px; }
+@media (max-width: 820px) { .prov { grid-template-columns: 1fr; } }
+.dagar { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 5px; }
+.dagar span { aspect-ratio: 1; max-width: 100%; border-radius: 6px; background: var(--yta2); border: 1px dashed var(--linje); display: grid; place-items: center; font: 500 11px "IBM Plex Mono", monospace; color: var(--svag); }
+.dagar span.fylld { background: var(--bla); border: 0; color: var(--yta); }
+.dagar span.tom { background: var(--gra-bg); border: 0; }
+.storttal { font: 600 38px/1 "IBM Plex Mono", monospace; letter-spacing: -0.02em; }
+.storttal small { font-size: 16px; color: var(--dov); font-weight: 500; }
+.fakta { display: grid; gap: 6px; font-size: 14px; }
+.fakta div { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--linje); padding-bottom: 6px; }
+.fakta div:last-child { border-bottom: 0; }
+
+/* bevismätaren */
+.matare { display: grid; gap: 12px; }
+.mrad { display: grid; grid-template-columns: minmax(0, 200px) minmax(0, 1fr) 62px; gap: 6px 14px; align-items: center; }
+.mrad .vem { font-size: 14px; font-weight: 500; line-height: 1.3; }
+.mrad .vem small { display: block; color: var(--svag); font-weight: 400; font-size: 12px; }
+.bar { position: relative; height: 14px; border-radius: 7px; background: var(--yta2); }
+.bar > i { position: absolute; inset: 0 auto 0 0; border-radius: 7px; background: var(--svag); }
+.bar > i.nara { background: var(--gul); } .bar > i.ok { background: var(--gron); } .bar > i.neg { background: var(--linje); }
+.bar > b { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--text); border-radius: 1px; }
+.mrad .pct { font: 500 13px "IBM Plex Mono", monospace; text-align: right; }
+.skala { display: grid; grid-template-columns: minmax(0, 200px) minmax(0, 1fr) 62px; gap: 14px; font: 11px "IBM Plex Mono", monospace; color: var(--svag); }
+.skala div { display: flex; justify-content: space-between; }
+@media (max-width: 520px) { .mrad, .skala { grid-template-columns: minmax(0, 1fr) 54px; } .mrad .vem { grid-column: 1 / -1; } .skala > :first-child { display: none; } }
+
+/* kandidaterna */
+.kandlista { display: grid; gap: 10px; }
+.kand { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.8fr) minmax(0, 1.2fr) auto; gap: 8px 18px; align-items: center; padding: 14px 16px; border: 1px solid var(--linje); border-radius: 10px; background: var(--yta); }
+.kand.primar { border-color: var(--bla); box-shadow: inset 4px 0 0 var(--bla); }
+.kand .namn { font-weight: 600; } .kand .beskr { font-size: 13px; color: var(--dov); }
+.kand .delta { font: 600 17px "IBM Plex Mono", monospace; } .kand .delta small { font: 400 12px "IBM Plex Sans", sans-serif; color: var(--dov); display: block; }
+.pos { color: var(--gron); } .neg { color: var(--rod); }
+@media (max-width: 820px) { .kand { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .kand > :first-child { grid-column: 1 / -1; } }
+details { border-top: 1px solid var(--linje); padding-top: 12px; }
+summary { cursor: pointer; color: var(--dov); font-size: 14px; }
+summary:hover { color: var(--text); }
+
+/* tre raderna */
+.tre { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 640px) { .tre { grid-template-columns: 1fr; } }
+.tile { border-radius: 10px; background: var(--yta2); padding: 14px; display: grid; gap: 4px; border-left: 4px solid var(--svag); min-width: 0; }
+.tile .stor { font: 600 24px "IBM Plex Mono", monospace; }
+.tile .liten { font-size: 13px; color: var(--dov); }
+.graf { width: 100%; overflow-x: auto; }
+.graf svg { display: block; width: 100%; height: auto; min-width: 520px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--dov); }
+.legend span::before { content: ""; display: inline-block; width: 14px; height: 3px; border-radius: 2px; background: var(--c); margin-right: 6px; vertical-align: middle; }
+
+/* reglerna */
+.regler { display: grid; gap: 0; }
+.regel { display: grid; grid-template-columns: minmax(0, 1fr) 120px 118px; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--linje); }
+.regel:last-child { border-bottom: 0; }
+.regel .namn { font-weight: 500; } .regel .beskr { font-size: 13px; color: var(--dov); }
+.regel .v { font: 500 14px "IBM Plex Mono", monospace; text-align: right; }
+@media (max-width: 560px) { .regel { grid-template-columns: minmax(0, 1fr) auto; } .regel .v { grid-column: 1; text-align: left; } }
+
+/* härnäst */
+.tidslinje { display: grid; gap: 0; }
+.tl { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--linje); }
+.tl:last-child { border-bottom: 0; }
+.tl .d { font: 500 13px "IBM Plex Mono", monospace; color: var(--bla); }
+.tl .om { font-size: 12px; color: var(--svag); display: block; }
+.tva { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px; }
+@media (max-width: 760px) { .tva { grid-template-columns: 1fr; } }
+.vantar { margin: 0; padding-left: 18px; display: grid; gap: 8px; font-size: 14px; }
+.fel { background: var(--rod-bg); color: var(--rod); border-radius: 10px; padding: 12px 14px; font-size: 13.5px; }
+.ordlista { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px 24px; font-size: 13px; color: var(--dov); }
+.ordlista b { color: var(--text); font-weight: 600; }
+@media (max-width: 680px) { .ordlista { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="topp">
+    <div style="display:grid;gap:4px">
+      <span class="etikett">PocketBot · papper mot Avanzas riktiga kurser</span>
+      <h1>Vägen till lönsamhet</h1>
+    </div>
+    <p class="stamp" id="stamp">Laddar…</p>
+  </header>
+
+  <div id="fel" hidden></div>
+
+  <section class="dom" id="dom"></section>
+
+  <section class="kort" id="prov"></section>
+
+  <section class="kort">
+    <div class="kort-huvud">
+      <h2>Kandidaterna</h2>
+      <span class="dov" style="font-size:13px">Varje idé prövas framåt, från dagen den registrerades. Inget räknas i efterhand.</span>
+    </div>
+    <div class="kandlista" id="kand-nya"></div>
+    <details>
+      <summary id="kand-gamla-rubrik">Äldre kandidater</summary>
+      <div class="kandlista" id="kand-gamla" style="margin-top:12px"></div>
+    </details>
+  </section>
+
+  <section class="kort">
+    <div class="kort-huvud">
+      <h2>Papperskronorna sedan 5 november</h2>
+      <span class="dov" style="font-size:13px">2 000 kr per affär · cert-% med golv −9 %</span>
+    </div>
+    <div class="tre" id="tre"></div>
+    <div class="legend" id="legend"></div>
+    <div class="graf" id="graf"></div>
+    <p class="lead" style="font-size:13.5px">Kronorna på papper följer mest marknadens riktning — en uppgångsvecka gör alla gröna. Därför dömer vi aldrig på kronorna ensamma, bara på jämförelserna ovan: slår idén urvalet samma dag, i samma marknad?</p>
+  </section>
+
+  <section class="kort">
+    <div class="kort-huvud">
+      <h2>Reglerna — förtjänar de sin plats?</h2>
+      <span class="dov" style="font-size:13px" id="regel-om"></span>
+    </div>
+    <p class="lead" style="font-size:13.5px">En köpspärr i taget stängs av och samma affärer spelas om. Positivt värde = regeln tjänar pengar. Riskreglerna (fast insats, tak per symbol, hävstång ≤ X40, cert-spärren, dagsstängningen) skyddar kontot och prövas inte här.</p>
+    <div class="regler" id="regler"></div>
+  </section>
+
+  <section class="kort">
+    <div class="tva">
+      <div style="display:grid;gap:12px;align-content:start">
+        <h2>Härnäst</h2>
+        <div class="tidslinje" id="tidslinje"></div>
+      </div>
+      <div style="display:grid;gap:12px;align-content:start">
+        <h2>Väntar på dig</h2>
+        <ol class="vantar" id="vantar"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="kort">
+    <h3>Så läser du sidan</h3>
+    <div class="ordlista">
+      <p><b>Bevisgrad</b> — hur osannolikt resultatet är om det bara vore tur (1 − p). 50 % = ren slantsingling. Strecket visar kravet: först där räknas det som bevisat.</p>
+      <p><b>Varför så höga krav?</b> Vi prövar många idéer samtidigt. Med tio idéer klarar någon ett vanligt test på ren tur var fjärde gång — därför delas felrisken mellan dem (Holm), och huvudprovet får hälften ensamt.</p>
+      <p><b>Huvudprovet</b> — väljer genom på gruppnivå (snabbspolningens dom × symbol). Ett enskilt genom har för få affärer för att dömas: ±48 kr osäkerhet mot en kant på 10–20 kr.</p>
+      <p><b>Urvalet · Katalogen · Lotten</b> — dagens urval, alla graderade genom, och godkända genom i slumpad ordning. Slår inte urvalet lotten är rankningen tur.</p>
+      <p><b>Dagen är enheten</b> — en dag med 500 affärer i samma marknad är fortfarande en dag. Därför behövs minst 10 handelsdagar.</p>
+      <p><b>Uppdateras</b> varje morgon kl. 05:00 ur gårdagens tävling (räknas 21:45) och morgonens val. <a href="../">← Kontona och prognosen</a></p>
+    </div>
+  </section>
+</div>
+
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const MAN = ["jan", "feb", "mar", "apr", "maj", "jun", "jul", "aug", "sep", "okt", "nov", "dec"];
+  const VD = ["sön", "mån", "tis", "ons", "tor", "fre", "lör"];
+  const datum = (s, vd) => { if (!s) return "—"; const d = new Date(s.slice(0, 10) + "T12:00"); return (vd ? VD[d.getDay()] + " " : "") + d.getDate() + " " + MAN[d.getMonth()]; };
+  const tal = (x, dec = 0, tecken = true) => x == null ? "—" : ((tecken && x > 0 ? "+" : "") + x.toLocaleString("sv-SE", { minimumFractionDigits: dec, maximumFractionDigits: dec })).replace("-", "−");
+  const pct = (p) => p == null ? "—" : (100 * (1 - p)).toLocaleString("sv-SE", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + " %";
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const STATUS = { klar: "Klar", pagar: "Pågår", dig: "Väntar på dig", start: "Inte startad", last: "Låst" };
+  const SYM = { GULD: "Guld", SILVER: "Silver", OLJA: "Olja" };
+  const DOM = { PASS: "godkända i snabbspolningen", FAIL: "underkända i snabbspolningen", ingen: "ingen snabbspolningsdom" };
+
+  // bevisgrad på en skala 50–100 % (under 50 % = åt fel håll, ritas tomt)
+  const andel = (p) => p == null ? 0 : Math.max(0, Math.min(1, ((1 - p) - 0.5) / 0.5));
+  function matare(p, krav) {
+    const a = andel(p), k = andel(krav);
+    const cls = p == null || p >= 0.5 ? "neg" : p <= krav ? "ok" : (1 - p) >= 0.9 ? "nara" : "";
+    return `<div class="bar" role="img" aria-label="bevisgrad ${pct(p)}, krav ${pct(krav)}"><i class="${cls}" style="width:${(a * 100).toFixed(1)}%"></i><b style="left:calc(${(k * 100).toFixed(1)}% - 1px)"></b></div>`;
+  }
+
+  fetch("data.json?t=" + Date.now()).then((r) => r.json()).then(rita).catch((e) => { $("stamp").textContent = "Kunde inte läsa data: " + e; });
+
+  function rita(D) {
+    $("stamp").innerHTML = `Uppdaterad ${datum(D.uppdaterad, true)} kl. ${D.uppdaterad.slice(11, 16)} · tävlingen t.o.m. ${datum(D.senasteDag, true)}`;
+    if (D.fel && D.fel.length) { const f = $("fel"); f.hidden = false; f.className = "fel"; f.innerHTML = "<b>Delar som inte kunde räknas i morse</b> (gårdagens siffror visas): " + D.fel.map(esc).join(" · "); }
+    const K = Object.fromEntries((D.kandidater || []).map((k) => [k.id, k]));
+    const B = K.bayes || {}; const G = D.grindar || [];
+    const klara = G.filter((g) => g.status === "klar").length;
+
+    // ── domen
+    const lonsam = (D.vinnare || []).length > 0 && G.every((g) => g.status === "klar");
+    $("dom").innerHTML = `
+      <div class="dom-rad">
+        <span class="dom-svar ${lonsam ? "ja" : "nej"}">${lonsam ? "Redo för live." : "Inte lönsamma än."}</span>
+        <span class="chip c-${lonsam ? "klar" : "last"}">Live ${lonsam ? "kan slås på" : "av sedan " + datum(D.liveAvSedan)}</span>
+        <span class="dov">${klara} av 4 grindar klara</span>
+      </div>
+      <p class="lead">${(D.vinnare || []).length ? "Ett urval har bevisat sin kant: " + D.vinnare.map((v) => esc((K[v] || {}).namn || v)).join(", ") + "."
+        : `Ingen idé har ännu bevisat att den slår tur. Huvudprovet har samlat <b>${B.dagarMedAff ?? 0} av ${B.dagarKrav ?? 10}</b> handelsdagar — tidigaste dom <b>${datum(B.tidigast, true)}</b>. Det som avgör nu är tid och data, inte mer bygge.`}</p>
+      <div class="grindar">${G.map((g) => `
+        <div class="grind s-${g.status}">
+          <span class="nr">GRIND ${g.nr}</span>
+          <h3>${esc(g.titel)}</h3>
+          <span><span class="chip c-${g.status}">${STATUS[g.status] || g.status}</span></span>
+          ${g.progress != null ? `<div class="mini"><i style="width:${(g.progress * 100).toFixed(0)}%"></i></div>` : ""}
+          <p>${esc(g.text)}</p>
+          ${g.steg && g.steg.length ? `<ul>${g.steg.map((s) => `<li class="${s.klar ? "klar" : ""}"><span class="bock">${s.klar ? "✓" : "○"}</span><span>${esc(s.text)}${s.not ? ` <span class="svag">— ${esc(s.not)}</span>` : ""}</span></li>`).join("")}</ul>` : ""}
+        </div>`).join("")}
+      </div>`;
+
+    // ── huvudprovet
+    const bi = D.bayesIdag || {}; const kl = (bi.klasser || []).filter((x) => x.dagar);
+    const rutor = Array.from({ length: B.dagarKrav || 10 }, (_, i) => {
+      const pd = (B.perDag || []).filter((x) => x.E != null);
+      return i < pd.length ? `<span class="fylld" title="${datum(pd[i].d)}">${i + 1}</span>` : `<span>${i + 1}</span>`;
+    }).join("");
+    const tomma = (B.perDag || []).filter((x) => x.E == null).length;
+    $("prov").innerHTML = `
+      <div class="kort-huvud"><h2>Huvudprovet</h2><span class="chip c-${B.vinnare ? "klar" : "pagar"}">${B.vinnare ? "Bevisat" : "Samlar data"}</span></div>
+      <p class="lead">${esc(B.beskr || "")} Det ska slå urvalet i drift med minst 97,5 % bevisgrad över minst 10 handelsdagar med affärer.</p>
+      <div class="prov">
+        <div style="display:grid;gap:14px;align-content:start">
+          <div class="storttal">${B.dagarMedAff ?? 0}<small> av ${B.dagarKrav ?? 10} handelsdagar</small></div>
+          <div class="dagar">${rutor}</div>
+          <div class="fakta">
+            <div><span class="dov">Tidigaste dom</span><span class="tal">${datum(B.tidigast, true)}</span></div>
+            <div><span class="dov">Mot urvalet hittills</span><span class="tal ${B.delta > 0 ? "pos" : B.delta < 0 ? "neg" : ""}">${B.delta == null ? "inga dagar än" : tal(B.delta, 1) + " kr/aff"}</span></div>
+            <div><span class="dov">Bevisgrad (krav 97,5 %)</span><span class="tal">${pct(B.p)}</span></div>
+            <div><span class="dov">Väljer i dag</span><span class="tal">${bi.valda == null ? "—" : bi.valda === 0 ? "inget" : bi.valda + " genom"}</span></div>
+            ${tomma ? `<div><span class="dov">Dagar utan val (räknas inte)</span><span class="tal">${tomma}</span></div>` : ""}
+          </div>
+        </div>
+        <div class="matare">
+          <div style="display:grid;gap:4px"><h3>Hur nära bevis är grupperna?</h3>
+            <p class="dov" style="font-size:13px">Huvudprovet handlar bara en grupp som tjänar mer än kostnaden (${tal(bi.kostnad, 1, false)} kr/affär) — bevisat. ${bi.valda ? "" : "I dag klarar ingen grupp kravet, så det väljer inget: hellre inget än tur."}</p></div>
+          ${kl.slice(0, 7).map((x) => `
+            <div class="mrad">
+              <div class="vem">${SYM[x.sym] || esc(x.sym)} · ${x.dom === "PASS" ? "godkända" : x.dom === "FAIL" ? "underkända" : "utan dom"}<small>${tal(x.kant, 1)} kr/aff över marknaden · ${x.dagar} d</small></div>
+              ${matare(x.p, x.krav)}
+              <span class="pct ${x.p != null && x.p >= 0.5 ? "svag" : ""}">${x.p != null && x.p >= 0.5 ? "fel håll" : pct(x.p)}</span>
+            </div>`).join("")}
+          <div class="skala"><span></span><div><span>50 % tur</span><span>75 %</span><span>100 %</span></div><span></span></div>
+          <p class="svag" style="font-size:12px">Strecket = gruppens krav (Benjamini–Hochberg 5 %, strängast för den bästa). Gult = över 90 % men inte där än. Grönt = bevisat.</p>
+        </div>
+      </div>`;
+
+    // ── kandidaterna
+    const kort = (k) => {
+      const avg = k.dagarMedAff >= k.dagarKrav;
+      const st = k.vinnare ? ["klar", "Bevisad"] : avg ? ["start", "Avgjord — inte bevisad"] : ["pagar", `${k.dagarMedAff} av ${k.dagarKrav} dagar`];
+      return `<div class="kand ${k.primar ? "primar" : ""}">
+        <div><div class="namn">${esc(k.namn)}${k.primar ? ' <span class="svag" style="font-weight:400">· huvudprov</span>' : ""}</div><div class="beskr">${esc(k.beskr)} <span class="svag">Från ${datum(k.fran)}.</span></div></div>
+        <div class="delta ${k.delta > 0 ? "pos" : k.delta < 0 ? "neg" : ""}">${k.delta == null ? "—" : tal(k.delta, 1)}<small>kr/aff mot ${k.motNamn}</small></div>
+        <div style="display:grid;gap:5px">${matare(k.p, k.krav)}<span class="svag" style="font-size:12px">bevisgrad <span class="mono">${pct(k.p)}</span> · krav <span class="mono">${pct(k.krav)}</span></span></div>
+        <span class="chip c-${st[0]}">${st[1]}</span>
+      </div>`;
+    };
+    const nya = (D.kandidater || []).filter((k) => k.ny || k.primar || k.dagarMedAff < k.dagarKrav).sort((a, b) => (b.primar - a.primar) || (a.fran < b.fran ? 1 : -1));
+    const gamla = (D.kandidater || []).filter((k) => !nya.includes(k));
+    $("kand-nya").innerHTML = nya.map(kort).join("");
+    $("kand-gamla").innerHTML = gamla.map(kort).join("");
+    $("kand-gamla-rubrik").textContent = `Äldre kandidater — ${gamla.length} avgjorda sedan 5 nov, ${gamla.filter((k) => k.vinnare).length} bevisade`;
+
+    // ── tre raderna
+    const R = D.rader || {}; const ord = [["drift", "var(--l1)"], ["katalogen", "var(--l2)"], ["slump", "var(--l3)"]];
+    $("tre").innerHTML = ord.map(([v, c]) => { const r = R[v]; if (!r) return ""; const sista = r.serie[r.serie.length - 1] || {};
+      return `<div class="tile" style="border-left-color:${c}"><span class="etikett">${esc(r.namn)}</span>
+        <span class="stor ${r.kr > 0 ? "pos" : r.kr < 0 ? "neg" : ""}">${tal(r.kr)} kr</span>
+        <span class="liten">${tal(r.E, 1)} kr/aff · ${r.n.toLocaleString("sv-SE")} affärer · ${r.plusdagar} av ${r.dagar} dagar plus</span>
+        <span class="liten">Senast ${datum(sista.d)}: <span class="mono">${tal(sista.kr)} kr</span> på ${sista.n ?? 0} aff</span></div>`; }).join("");
+    $("legend").innerHTML = ord.map(([v, c]) => R[v] ? `<span style="--c:${c}">${esc(R[v].namn)} — snitt kr per affär, löpande</span>` : "").join("");
+    graf(ord.filter(([v]) => R[v]).map(([v, c]) => ({ c, p: R[v].serie.reduce((acc, x) => { const s = acc.s + x.kr, n = acc.n + x.n; acc.pts.push([x.d, n ? s / n : null]); acc.s = s; acc.n = n; return acc; }, { s: 0, n: 0, pts: [] }).pts })));
+
+    // ── reglerna
+    const RG = D.regler || {}; const DOMTXT = { kostar: "Kostar troligen", tjanar: "Tjänar", obevisad: "Inget bevisat", avstangd: "Avstängd", "gör inget": "Gör ingenting" };
+    $("regel-om").textContent = RG.fran ? `${RG.dagar} dagar från ${datum(RG.fran)} · katalogen, råvaror` : "";
+    $("regler").innerHTML = (RG.lista || []).map((r) => { const d = r.dom === "gör inget" ? "goringet" : r.dom;
+      return `<div class="regel"><div><div class="namn">${esc(r.namn)}</div><div class="beskr">${esc(r.beskr || "")}</div></div>
+        <div class="v ${r.varde > 0 ? "pos" : r.varde < 0 ? "neg" : ""}">${tal(r.varde, r.enhet === "kr/aff" ? 1 : 0)} <span class="svag" style="font-size:11px">${r.enhet}</span>${r.t != null ? `<div class="svag" style="font-size:11px">t ${tal(r.t, 1)}</div>` : ""}</div>
+        <span class="chip c-${d}" style="justify-self:end">${DOMTXT[r.dom] || r.dom}</span></div>`; }).join("");
+
+    // ── härnäst + väntar på dig
+    const idag = new Date(); idag.setHours(0, 0, 0, 0);
+    $("tidslinje").innerHTML = (D.milstolpar || []).map((m) => { const dd = Math.round((new Date(m.d + "T00:00") - idag) / 864e5);
+      return `<div class="tl"><span class="d">${datum(m.d, true)}<span class="om">${dd > 0 ? "om " + dd + " dagar" : dd === 0 ? "i dag" : ""}</span></span><span>${esc(m.text)}</span></div>`; }).join("");
+    const vantar = G.filter((g) => g.status === "dig").map((g) => `<li><b>${esc(g.titel)}.</b> ${esc(g.text)}</li>`)
+      .concat(G.flatMap((g) => (g.steg || []).filter((s) => !s.klar && /dig/.test(s.not || "")).map((s) => `<li>${esc(s.text)}</li>`)));
+    $("vantar").innerHTML = vantar.length ? vantar.join("") : `<li class="dov">Inget just nu.</li>`;
+  }
+
+  function graf(serier) {
+    const W = 900, H = 260, L = 52, Rm = 14, T = 14, Bm = 30;
+    const dagar = [...new Set(serier.flatMap((s) => s.p.map((x) => x[0])))].sort();
+    if (!dagar.length) return;
+    const ys = serier.flatMap((s) => s.p.map((x) => x[1]).filter((y) => y != null));
+    let lo = Math.min(0, ...ys), hi = Math.max(0, ...ys); const pad = (hi - lo) * 0.12 || 5; lo -= pad; hi += pad;
+    const X = (d) => L + (dagar.indexOf(d) / Math.max(1, dagar.length - 1)) * (W - L - Rm);
+    const Y = (y) => T + (1 - (y - lo) / (hi - lo)) * (H - T - Bm);
+    const steg = Math.pow(10, Math.floor(Math.log10((hi - lo) / 4))); const st = [1, 2, 5, 10].map((m) => m * steg).find((s) => (hi - lo) / s <= 6) || steg * 10;
+    let rut = "";
+    for (let v = Math.ceil(lo / st) * st; v <= hi; v += st) rut += `<line x1="${L}" x2="${W - Rm}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--linje)" stroke-width="${Math.abs(v) < 1e-9 ? 1.6 : 1}"/><text x="${L - 8}" y="${Y(v) + 4}" text-anchor="end">${tal(v, 0)}</text>`;
+    const varN = Math.ceil(dagar.length / 9);
+    dagar.forEach((d, i) => { if (i % varN === 0 || i === dagar.length - 1) rut += `<text x="${X(d)}" y="${H - 8}" text-anchor="middle">${datum(d)}</text>`; });
+    const linjer = serier.map((s) => { const pts = s.p.filter((x) => x[1] != null);
+      const sista = pts[pts.length - 1];
+      return `<polyline fill="none" stroke="${s.c}" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" points="${pts.map((x) => X(x[0]).toFixed(1) + "," + Y(x[1]).toFixed(1)).join(" ")}"/>` +
+        (sista ? `<circle cx="${X(sista[0])}" cy="${Y(sista[1])}" r="4" fill="${s.c}"/>` : ""); }).join("");
+    $("graf").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Löpande snitt kr per affär sedan 5 november" style="font:11px 'IBM Plex Mono',monospace;fill:var(--svag)">${rut}${linjer}<text x="${L}" y="10" style="fill:var(--dov)">kr/aff</text></svg>`;
+  }
+})();
+</script>
+</body>
+</html>

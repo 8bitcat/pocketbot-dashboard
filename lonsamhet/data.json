@@ -1,0 +1,1509 @@
+{
+ "uppdaterad": "2026-11-24T12:54",
+ "fel": [],
+ "rader": {
+  "drift": {
+   "namn": "Urvalet",
+   "serie": [
+    {
+     "d": "2026-11-05",
+     "kr": 41,
+     "n": 6,
+     "kum": 41
+    },
+    {
+     "d": "2026-11-06",
+     "kr": 198,
+     "n": 34,
+     "kum": 239
+    },
+    {
+     "d": "2026-11-09",
+     "kr": 1598,
+     "n": 29,
+     "kum": 1837
+    },
+    {
+     "d": "2026-11-10",
+     "kr": 50,
+     "n": 9,
+     "kum": 1887
+    },
+    {
+     "d": "2026-11-11",
+     "kr": -1291,
+     "n": 16,
+     "kum": 596
+    },
+    {
+     "d": "2026-11-12",
+     "kr": -437,
+     "n": 4,
+     "kum": 158
+    },
+    {
+     "d": "2026-11-13",
+     "kr": 97,
+     "n": 4,
+     "kum": 256
+    },
+    {
+     "d": "2026-11-16",
+     "kr": 52,
+     "n": 23,
+     "kum": 308
+    },
+    {
+     "d": "2026-11-17",
+     "kr": 1095,
+     "n": 41,
+     "kum": 1402
+    },
+    {
+     "d": "2026-11-18",
+     "kr": -34,
+     "n": 2,
+     "kum": 1368
+    },
+    {
+     "d": "2026-11-19",
+     "kr": 78,
+     "n": 5,
+     "kum": 1446
+    },
+    {
+     "d": "2026-11-20",
+     "kr": 240,
+     "n": 27,
+     "kum": 1686
+    },
+    {
+     "d": "2026-11-23",
+     "kr": 438,
+     "n": 40,
+     "kum": 2124
+    }
+   ],
+   "kr": 2124,
+   "n": 240,
+   "E": 8.9,
+   "plusdagar": 10,
+   "dagar": 13
+  },
+  "katalogen": {
+   "namn": "Katalogen",
+   "serie": [
+    {
+     "d": "2026-11-05",
+     "kr": 10741,
+     "n": 404,
+     "kum": 10741
+    },
+    {
+     "d": "2026-11-06",
+     "kr": -1219,
+     "n": 395,
+     "kum": 9522
+    },
+    {
+     "d": "2026-11-09",
+     "kr": -5678,
+     "n": 548,
+     "kum": 3843
+    },
+    {
+     "d": "2026-11-10",
+     "kr": -354,
+     "n": 460,
+     "kum": 3490
+    },
+    {
+     "d": "2026-11-11",
+     "kr": 4715,
+     "n": 527,
+     "kum": 8205
+    },
+    {
+     "d": "2026-11-12",
+     "kr": 6844,
+     "n": 456,
+     "kum": 15049
+    },
+    {
+     "d": "2026-11-13",
+     "kr": 5025,
+     "n": 560,
+     "kum": 20074
+    },
+    {
+     "d": "2026-11-16",
+     "kr": 3772,
+     "n": 976,
+     "kum": 23846
+    },
+    {
+     "d": "2026-11-17",
+     "kr": 20364,
+     "n": 956,
+     "kum": 44210
+    },
+    {
+     "d": "2026-11-18",
+     "kr": -3117,
+     "n": 459,
+     "kum": 41093
+    },
+    {
+     "d": "2026-11-19",
+     "kr": 14973,
+     "n": 591,
+     "kum": 56066
+    },
+    {
+     "d": "2026-11-20",
+     "kr": 10390,
+     "n": 613,
+     "kum": 66456
+    },
+    {
+     "d": "2026-11-23",
+     "kr": 8569,
+     "n": 1115,
+     "kum": 75025
+    }
+   ],
+   "kr": 75025,
+   "n": 8060,
+   "E": 9.3,
+   "plusdagar": 9,
+   "dagar": 13
+  },
+  "slump": {
+   "namn": "Lotten",
+   "serie": [
+    {
+     "d": "2026-11-05",
+     "kr": -80,
+     "n": 7,
+     "kum": -80
+    },
+    {
+     "d": "2026-11-06",
+     "kr": 215,
+     "n": 21,
+     "kum": 134
+    },
+    {
+     "d": "2026-11-09",
+     "kr": 98,
+     "n": 24,
+     "kum": 232
+    },
+    {
+     "d": "2026-11-10",
+     "kr": -180,
+     "n": 1,
+     "kum": 52
+    },
+    {
+     "d": "2026-11-11",
+     "kr": 618,
+     "n": 2,
+     "kum": 670
+    },
+    {
+     "d": "2026-11-12",
+     "kr": 105,
+     "n": 6,
+     "kum": 776
+    },
+    {
+     "d": "2026-11-13",
+     "kr": -181,
+     "n": 10,
+     "kum": 595
+    },
+    {
+     "d": "2026-11-16",
+     "kr": -121,
+     "n": 13,
+     "kum": 474
+    },
+    {
+     "d": "2026-11-17",
+     "kr": 23,
+     "n": 17,
+     "kum": 498
+    },
+    {
+     "d": "2026-11-18",
+     "kr": 247,
+     "n": 17,
+     "kum": 745
+    },
+    {
+     "d": "2026-11-19",
+     "kr": 424,
+     "n": 7,
+     "kum": 1169
+    },
+    {
+     "d": "2026-11-20",
+     "kr": -134,
+     "n": 9,
+     "kum": 1035
+    },
+    {
+     "d": "2026-11-23",
+     "kr": 160,
+     "n": 41,
+     "kum": 1195
+    }
+   ],
+   "kr": 1195,
+   "n": 175,
+   "E": 6.8,
+   "plusdagar": 8,
+   "dagar": 13
+  }
+ },
+ "senasteDag": "2026-11-23",
+ "registrerad": "2026-11-05",
+ "kandidater": [
+  {
+   "id": "bayes",
+   "namn": "Huvudprovet",
+   "beskr": "Väljer bara genom ur grupper som matematiskt bevisat att de tjänar mer än kostnaden. Hellre inget än tur.",
+   "primar": true,
+   "fran": "2026-11-24",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 0,
+   "dagarKrav": 10,
+   "dagarGatt": 0,
+   "delta": null,
+   "t": null,
+   "p": null,
+   "krav": 0.025,
+   "E": null,
+   "Emot": null,
+   "aff": 0,
+   "vinnare": false,
+   "tidigast": "2026-12-07",
+   "perDag": [],
+   "ny": true
+  },
+  {
+   "id": "ffDirekt",
+   "namn": "Snabbspolningens godkända",
+   "beskr": "De genom som klarade 40 dagars uppspelning, direkt, utan urvalets historikkrav.",
+   "primar": false,
+   "fran": "2026-11-24",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 0,
+   "dagarKrav": 10,
+   "dagarGatt": 0,
+   "delta": null,
+   "t": null,
+   "p": null,
+   "krav": 0.0021,
+   "E": null,
+   "Emot": null,
+   "aff": 0,
+   "vinnare": false,
+   "tidigast": "2026-12-07",
+   "perDag": [],
+   "ny": true
+  },
+  {
+   "id": "ffPass",
+   "namn": "Urvalet bland godkända",
+   "beskr": "Dagens urval, men bara bland genom som klarat snabbspolningen.",
+   "primar": false,
+   "fran": "2026-11-19",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 3,
+   "dagarKrav": 10,
+   "dagarGatt": 3,
+   "delta": 26.8,
+   "t": 0.7,
+   "p": 0.2793,
+   "krav": 0.0021,
+   "E": 1.6,
+   "Emot": 10.5,
+   "aff": 41,
+   "vinnare": false,
+   "tidigast": "2026-12-02",
+   "perDag": [
+    {
+     "d": "2026-11-19",
+     "E": 119.4,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": -2.9,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": -0.7,
+     "Emot": 11.0
+    }
+   ],
+   "ny": true
+  },
+  {
+   "id": "farska",
+   "namn": "Färska genom",
+   "beskr": "Bara genom som graderats de senaste 14 dagarna — tränade på dagens marknad.",
+   "primar": false,
+   "fran": "2026-11-19",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 3,
+   "dagarKrav": 10,
+   "dagarGatt": 3,
+   "delta": 4.1,
+   "t": 0.34,
+   "p": 0.3825,
+   "krav": 0.0021,
+   "E": 7.4,
+   "Emot": 10.5,
+   "aff": 70,
+   "vinnare": false,
+   "tidigast": "2026-12-02",
+   "perDag": [
+    {
+     "d": "2026-11-19",
+     "E": 43.7,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": -1.3,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": 5.3,
+     "Emot": 11.0
+    }
+   ],
+   "ny": true
+  },
+  {
+   "id": "medIndex",
+   "namn": "Urvalet med index",
+   "beskr": "Dagens urval med DAX, S&P 500 och NASDAQ (bara papper — index är 15 min sena).",
+   "primar": false,
+   "fran": "2026-11-19",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 3,
+   "dagarKrav": 10,
+   "dagarGatt": 3,
+   "delta": 56.9,
+   "t": 0.96,
+   "p": 0.2181,
+   "krav": 0.0021,
+   "E": 19.4,
+   "Emot": 10.5,
+   "aff": 54,
+   "vinnare": false,
+   "tidigast": "2026-12-02",
+   "perDag": [
+    {
+     "d": "2026-11-19",
+     "E": 190.2,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": 14.9,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": 1.1,
+     "Emot": 11.0
+    }
+   ],
+   "ny": true
+  },
+  {
+   "id": "marknadsjust",
+   "namn": "Marknadsjusterad rankning",
+   "beskr": "Rankar genom på skicklighet, med marknadens riktning bortdragen.",
+   "primar": false,
+   "fran": "2026-11-12",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 6,
+   "dagarKrav": 10,
+   "dagarGatt": 8,
+   "delta": 7.0,
+   "t": 0.34,
+   "p": 0.3756,
+   "krav": 0.0021,
+   "E": 21.2,
+   "Emot": 10.5,
+   "aff": 93,
+   "vinnare": false,
+   "tidigast": "2026-11-25",
+   "perDag": [
+    {
+     "d": "2026-11-12",
+     "E": -180.0,
+     "Emot": -109.4
+    },
+    {
+     "d": "2026-11-13",
+     "E": null,
+     "Emot": 24.3
+    },
+    {
+     "d": "2026-11-16",
+     "E": 86.6,
+     "Emot": 2.3
+    },
+    {
+     "d": "2026-11-17",
+     "E": 18.8,
+     "Emot": 26.7
+    },
+    {
+     "d": "2026-11-18",
+     "E": null,
+     "Emot": -17.2
+    },
+    {
+     "d": "2026-11-19",
+     "E": 49.3,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": 16.3,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": 6.1,
+     "Emot": 11.0
+    }
+   ],
+   "ny": false
+  },
+  {
+   "id": "katalogenUtanMakro",
+   "namn": "Utan makrogrinden",
+   "beskr": "Alla graderade genom utan pausen runt makrohändelser — jämförs med katalogen.",
+   "primar": false,
+   "fran": "2026-11-24",
+   "mot": "katalogen",
+   "motNamn": "katalogen",
+   "dagarMedAff": 0,
+   "dagarKrav": 10,
+   "dagarGatt": 0,
+   "delta": null,
+   "t": null,
+   "p": null,
+   "krav": 0.0021,
+   "E": null,
+   "Emot": null,
+   "aff": 0,
+   "vinnare": false,
+   "tidigast": "2026-12-07",
+   "perDag": [],
+   "ny": true
+  },
+  {
+   "id": "katalogenFF",
+   "namn": "Katalogen bland godkända",
+   "beskr": "Alla snabbspolningsgodkända genom — jämförs med hela katalogen.",
+   "primar": false,
+   "fran": "2026-11-19",
+   "mot": "katalogen",
+   "motNamn": "katalogen",
+   "dagarMedAff": 3,
+   "dagarKrav": 10,
+   "dagarGatt": 3,
+   "delta": 0.4,
+   "t": 0.13,
+   "p": 0.4556,
+   "krav": 0.0021,
+   "E": 12.3,
+   "Emot": 14.6,
+   "aff": 496,
+   "vinnare": false,
+   "tidigast": "2026-12-02",
+   "perDag": [
+    {
+     "d": "2026-11-19",
+     "E": 29.4,
+     "Emot": 25.3
+    },
+    {
+     "d": "2026-11-20",
+     "E": 11.5,
+     "Emot": 16.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": 10.2,
+     "Emot": 7.7
+    }
+   ],
+   "ny": true
+  },
+  {
+   "id": "underX40",
+   "namn": "Under X40",
+   "beskr": "Urvalet utan genom med hävstång över X40.",
+   "primar": false,
+   "fran": "2026-11-05",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 12,
+   "dagarKrav": 10,
+   "dagarGatt": 13,
+   "delta": -8.1,
+   "t": -0.95,
+   "p": 0.8194,
+   "krav": 0.0021,
+   "E": 4.3,
+   "Emot": 8.9,
+   "aff": 171,
+   "vinnare": false,
+   "tidigast": "2026-11-18",
+   "perDag": [
+    {
+     "d": "2026-11-05",
+     "E": 6.9,
+     "Emot": 6.9
+    },
+    {
+     "d": "2026-11-06",
+     "E": null,
+     "Emot": 5.8
+    },
+    {
+     "d": "2026-11-09",
+     "E": 57.9,
+     "Emot": 55.1
+    },
+    {
+     "d": "2026-11-10",
+     "E": 24.4,
+     "Emot": 5.6
+    },
+    {
+     "d": "2026-11-11",
+     "E": -80.7,
+     "Emot": -80.7
+    },
+    {
+     "d": "2026-11-12",
+     "E": -180.0,
+     "Emot": -109.4
+    },
+    {
+     "d": "2026-11-13",
+     "E": 49.4,
+     "Emot": 24.3
+    },
+    {
+     "d": "2026-11-16",
+     "E": 16.6,
+     "Emot": 2.3
+    },
+    {
+     "d": "2026-11-17",
+     "E": 26.0,
+     "Emot": 26.7
+    },
+    {
+     "d": "2026-11-18",
+     "E": -6.7,
+     "Emot": -17.2
+    },
+    {
+     "d": "2026-11-19",
+     "E": -39.7,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": -15.7,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": -6.1,
+     "Emot": 11.0
+    }
+   ],
+   "ny": false
+  },
+  {
+   "id": "vidaStopp",
+   "namn": "Vida stopp",
+   "beskr": "Urvalet med stopp på minst 0,9 % i underliggande.",
+   "primar": false,
+   "fran": "2026-11-05",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 13,
+   "dagarKrav": 10,
+   "dagarGatt": 13,
+   "delta": -0.4,
+   "t": -0.03,
+   "p": 0.5112,
+   "krav": 0.0021,
+   "E": 13.3,
+   "Emot": 8.9,
+   "aff": 201,
+   "vinnare": false,
+   "tidigast": "2026-11-18",
+   "perDag": [
+    {
+     "d": "2026-11-05",
+     "E": 88.1,
+     "Emot": 6.9
+    },
+    {
+     "d": "2026-11-06",
+     "E": 6.5,
+     "Emot": 5.8
+    },
+    {
+     "d": "2026-11-09",
+     "E": 55.1,
+     "Emot": 55.1
+    },
+    {
+     "d": "2026-11-10",
+     "E": 5.6,
+     "Emot": 5.6
+    },
+    {
+     "d": "2026-11-11",
+     "E": 1.5,
+     "Emot": -80.7
+    },
+    {
+     "d": "2026-11-12",
+     "E": -180.0,
+     "Emot": -109.4
+    },
+    {
+     "d": "2026-11-13",
+     "E": 24.3,
+     "Emot": 24.3
+    },
+    {
+     "d": "2026-11-16",
+     "E": 0.8,
+     "Emot": 2.3
+    },
+    {
+     "d": "2026-11-17",
+     "E": 26.0,
+     "Emot": 26.7
+    },
+    {
+     "d": "2026-11-18",
+     "E": -7.8,
+     "Emot": -17.2
+    },
+    {
+     "d": "2026-11-19",
+     "E": -73.0,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": 8.9,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": -6.1,
+     "Emot": 11.0
+    }
+   ],
+   "ny": false
+  },
+  {
+   "id": "symrikt1",
+   "namn": "Ett per riktning",
+   "beskr": "Ett genom per symbol och riktning.",
+   "primar": false,
+   "fran": "2026-11-05",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 13,
+   "dagarKrav": 10,
+   "dagarGatt": 13,
+   "delta": 9.6,
+   "t": 1.04,
+   "p": 0.1584,
+   "krav": 0.0021,
+   "E": 7.6,
+   "Emot": 8.9,
+   "aff": 175,
+   "vinnare": false,
+   "tidigast": "2026-11-18",
+   "perDag": [
+    {
+     "d": "2026-11-05",
+     "E": 3.5,
+     "Emot": 6.9
+    },
+    {
+     "d": "2026-11-06",
+     "E": 6.5,
+     "Emot": 5.8
+    },
+    {
+     "d": "2026-11-09",
+     "E": 11.0,
+     "Emot": 55.1
+    },
+    {
+     "d": "2026-11-10",
+     "E": 24.4,
+     "Emot": 5.6
+    },
+    {
+     "d": "2026-11-11",
+     "E": 10.2,
+     "Emot": -80.7
+    },
+    {
+     "d": "2026-11-12",
+     "E": -109.4,
+     "Emot": -109.4
+    },
+    {
+     "d": "2026-11-13",
+     "E": 24.3,
+     "Emot": 24.3
+    },
+    {
+     "d": "2026-11-16",
+     "E": -7.6,
+     "Emot": 2.3
+    },
+    {
+     "d": "2026-11-17",
+     "E": 20.3,
+     "Emot": 26.7
+    },
+    {
+     "d": "2026-11-18",
+     "E": 29.2,
+     "Emot": -17.2
+    },
+    {
+     "d": "2026-11-19",
+     "E": 52.5,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": 13.7,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": 1.0,
+     "Emot": 11.0
+    }
+   ],
+   "ny": false
+  },
+  {
+   "id": "slump",
+   "namn": "Lotten",
+   "beskr": "Godkända genom i slumpad ordning.",
+   "primar": false,
+   "fran": "2026-11-05",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 13,
+   "dagarKrav": 10,
+   "dagarGatt": 13,
+   "delta": 17.9,
+   "t": 0.49,
+   "p": 0.3161,
+   "krav": 0.0021,
+   "E": 6.8,
+   "Emot": 8.9,
+   "aff": 175,
+   "vinnare": false,
+   "tidigast": "2026-11-18",
+   "perDag": [
+    {
+     "d": "2026-11-05",
+     "E": -11.5,
+     "Emot": 6.9
+    },
+    {
+     "d": "2026-11-06",
+     "E": 10.2,
+     "Emot": 5.8
+    },
+    {
+     "d": "2026-11-09",
+     "E": 4.1,
+     "Emot": 55.1
+    },
+    {
+     "d": "2026-11-10",
+     "E": -180.0,
+     "Emot": 5.6
+    },
+    {
+     "d": "2026-11-11",
+     "E": 309.2,
+     "Emot": -80.7
+    },
+    {
+     "d": "2026-11-12",
+     "E": 17.6,
+     "Emot": -109.4
+    },
+    {
+     "d": "2026-11-13",
+     "E": -18.1,
+     "Emot": 24.3
+    },
+    {
+     "d": "2026-11-16",
+     "E": -9.3,
+     "Emot": 2.3
+    },
+    {
+     "d": "2026-11-17",
+     "E": 1.4,
+     "Emot": 26.7
+    },
+    {
+     "d": "2026-11-18",
+     "E": 14.6,
+     "Emot": -17.2
+    },
+    {
+     "d": "2026-11-19",
+     "E": 60.5,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": -14.9,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": 3.9,
+     "Emot": 11.0
+    }
+   ],
+   "ny": false
+  },
+  {
+   "id": "bred",
+   "namn": "Tolv platser",
+   "beskr": "Tolv platser i stället för sex.",
+   "primar": false,
+   "fran": "2026-11-05",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 13,
+   "dagarKrav": 10,
+   "dagarGatt": 13,
+   "delta": 2.0,
+   "t": 0.57,
+   "p": 0.2907,
+   "krav": 0.0021,
+   "E": 5.9,
+   "Emot": 8.9,
+   "aff": 264,
+   "vinnare": false,
+   "tidigast": "2026-11-18",
+   "perDag": [
+    {
+     "d": "2026-11-05",
+     "E": 6.9,
+     "Emot": 6.9
+    },
+    {
+     "d": "2026-11-06",
+     "E": 5.8,
+     "Emot": 5.8
+    },
+    {
+     "d": "2026-11-09",
+     "E": 49.4,
+     "Emot": 55.1
+    },
+    {
+     "d": "2026-11-10",
+     "E": 5.6,
+     "Emot": 5.6
+    },
+    {
+     "d": "2026-11-11",
+     "E": -80.7,
+     "Emot": -80.7
+    },
+    {
+     "d": "2026-11-12",
+     "E": -109.4,
+     "Emot": -109.4
+    },
+    {
+     "d": "2026-11-13",
+     "E": 49.4,
+     "Emot": 24.3
+    },
+    {
+     "d": "2026-11-16",
+     "E": 5.8,
+     "Emot": 2.3
+    },
+    {
+     "d": "2026-11-17",
+     "E": 26.7,
+     "Emot": 26.7
+    },
+    {
+     "d": "2026-11-18",
+     "E": 3.5,
+     "Emot": -17.2
+    },
+    {
+     "d": "2026-11-19",
+     "E": 30.3,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": -12.2,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": -0.8,
+     "Emot": 11.0
+    }
+   ],
+   "ny": false
+  },
+  {
+   "id": "lang30",
+   "namn": "30 dagars fönster",
+   "beskr": "Rankning på 30 dagar i stället för 15.",
+   "primar": false,
+   "fran": "2026-11-05",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 12,
+   "dagarKrav": 10,
+   "dagarGatt": 13,
+   "delta": -18.3,
+   "t": -0.76,
+   "p": 0.7694,
+   "krav": 0.0021,
+   "E": -2.7,
+   "Emot": 8.9,
+   "aff": 106,
+   "vinnare": false,
+   "tidigast": "2026-11-18",
+   "perDag": [
+    {
+     "d": "2026-11-05",
+     "E": 154.7,
+     "Emot": 6.9
+    },
+    {
+     "d": "2026-11-06",
+     "E": -4.1,
+     "Emot": 5.8
+    },
+    {
+     "d": "2026-11-09",
+     "E": -71.2,
+     "Emot": 55.1
+    },
+    {
+     "d": "2026-11-10",
+     "E": 5.6,
+     "Emot": 5.6
+    },
+    {
+     "d": "2026-11-11",
+     "E": -7.0,
+     "Emot": -80.7
+    },
+    {
+     "d": "2026-11-12",
+     "E": -180.0,
+     "Emot": -109.4
+    },
+    {
+     "d": "2026-11-13",
+     "E": null,
+     "Emot": 24.3
+    },
+    {
+     "d": "2026-11-16",
+     "E": -4.3,
+     "Emot": 2.3
+    },
+    {
+     "d": "2026-11-17",
+     "E": 60.4,
+     "Emot": 26.7
+    },
+    {
+     "d": "2026-11-18",
+     "E": -177.8,
+     "Emot": -17.2
+    },
+    {
+     "d": "2026-11-19",
+     "E": -39.7,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": -27.7,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": 2.3,
+     "Emot": 11.0
+    }
+   ],
+   "ny": false
+  },
+  {
+   "id": "perX",
+   "namn": "Per hävstångsenhet",
+   "beskr": "Rankning per hävstångsenhet.",
+   "primar": false,
+   "fran": "2026-11-05",
+   "mot": "drift",
+   "motNamn": "urvalet",
+   "dagarMedAff": 13,
+   "dagarKrav": 10,
+   "dagarGatt": 13,
+   "delta": 2.7,
+   "t": 1.35,
+   "p": 0.1014,
+   "krav": 0.0021,
+   "E": 9.6,
+   "Emot": 8.9,
+   "aff": 245,
+   "vinnare": false,
+   "tidigast": "2026-11-18",
+   "perDag": [
+    {
+     "d": "2026-11-05",
+     "E": 6.9,
+     "Emot": 6.9
+    },
+    {
+     "d": "2026-11-06",
+     "E": 5.8,
+     "Emot": 5.8
+    },
+    {
+     "d": "2026-11-09",
+     "E": 55.1,
+     "Emot": 55.1
+    },
+    {
+     "d": "2026-11-10",
+     "E": 5.6,
+     "Emot": 5.6
+    },
+    {
+     "d": "2026-11-11",
+     "E": -80.7,
+     "Emot": -80.7
+    },
+    {
+     "d": "2026-11-12",
+     "E": -109.4,
+     "Emot": -109.4
+    },
+    {
+     "d": "2026-11-13",
+     "E": 49.4,
+     "Emot": 24.3
+    },
+    {
+     "d": "2026-11-16",
+     "E": 2.3,
+     "Emot": 2.3
+    },
+    {
+     "d": "2026-11-17",
+     "E": 26.7,
+     "Emot": 26.7
+    },
+    {
+     "d": "2026-11-18",
+     "E": -6.7,
+     "Emot": -17.2
+    },
+    {
+     "d": "2026-11-19",
+     "E": 15.6,
+     "Emot": 15.6
+    },
+    {
+     "d": "2026-11-20",
+     "E": 8.9,
+     "Emot": 8.9
+    },
+    {
+     "d": "2026-11-23",
+     "E": 11.0,
+     "Emot": 11.0
+    }
+   ],
+   "ny": false
+  }
+ ],
+ "vinnare": [],
+ "bayesIdag": {
+  "datum": "2026-11-24",
+  "klasser": [
+   {
+    "klass": "PASS SILVER",
+    "dom": "PASS",
+    "sym": "SILVER",
+    "kant": 13.7,
+    "t": 2.53,
+    "p": 0.0198,
+    "krav": 0.0056,
+    "dagar": 8,
+    "aff": 709,
+    "godkand": false
+   },
+   {
+    "klass": "FAIL GULD",
+    "dom": "FAIL",
+    "sym": "GULD",
+    "kant": 3.2,
+    "t": 0.59,
+    "p": 0.2856,
+    "krav": 0.0111,
+    "dagar": 8,
+    "aff": 1954,
+    "godkand": false
+   },
+   {
+    "klass": "FAIL OLJA",
+    "dom": "FAIL",
+    "sym": "OLJA",
+    "kant": 0.2,
+    "t": -0.45,
+    "p": 0.6652,
+    "krav": 0.0167,
+    "dagar": 8,
+    "aff": 1877,
+    "godkand": false
+   },
+   {
+    "klass": "PASS OLJA",
+    "dom": "PASS",
+    "sym": "OLJA",
+    "kant": -7.1,
+    "t": -0.58,
+    "p": 0.7094,
+    "krav": 0.0222,
+    "dagar": 8,
+    "aff": 228,
+    "godkand": false
+   },
+   {
+    "klass": "FAIL SILVER",
+    "dom": "FAIL",
+    "sym": "SILVER",
+    "kant": -1.0,
+    "t": -0.76,
+    "p": 0.7631,
+    "krav": 0.0278,
+    "dagar": 8,
+    "aff": 1370,
+    "godkand": false
+   },
+   {
+    "klass": "ingen OLJA",
+    "dom": "ingen",
+    "sym": "OLJA",
+    "kant": -1.3,
+    "t": -0.77,
+    "p": 0.7655,
+    "krav": 0.0333,
+    "dagar": 8,
+    "aff": 2645,
+    "godkand": false
+   },
+   {
+    "klass": "PASS GULD",
+    "dom": "PASS",
+    "sym": "GULD",
+    "kant": -13.3,
+    "t": -0.89,
+    "p": 0.7954,
+    "krav": 0.0389,
+    "dagar": 7,
+    "aff": 240,
+    "godkand": false
+   },
+   {
+    "klass": "ingen SILVER",
+    "dom": "ingen",
+    "sym": "SILVER",
+    "kant": -3.4,
+    "t": -2.14,
+    "p": 0.9652,
+    "krav": 0.0444,
+    "dagar": 8,
+    "aff": 2352,
+    "godkand": false
+   },
+   {
+    "klass": "ingen GULD",
+    "dom": "ingen",
+    "sym": "GULD",
+    "kant": -3.1,
+    "t": -2.25,
+    "p": 0.9705,
+    "krav": 0.05,
+    "dagar": 8,
+    "aff": 2324,
+    "godkand": false
+   }
+  ],
+  "valda": 0,
+  "perSymbol": {},
+  "kostnad": 1.6,
+  "q": 0.05
+ },
+ "bayesHistorik": [
+  {
+   "datum": "2026-11-24",
+   "valda": 0,
+   "klasser": {
+    "PASS SILVER": {
+     "p": 0.0198,
+     "krav": 0.0056,
+     "kant": 13.7
+    },
+    "FAIL GULD": {
+     "p": 0.2856,
+     "krav": 0.0111,
+     "kant": 3.2
+    },
+    "FAIL OLJA": {
+     "p": 0.6652,
+     "krav": 0.0167,
+     "kant": 0.2
+    },
+    "PASS OLJA": {
+     "p": 0.7094,
+     "krav": 0.0222,
+     "kant": -7.1
+    },
+    "FAIL SILVER": {
+     "p": 0.7631,
+     "krav": 0.0278,
+     "kant": -1.0
+    },
+    "ingen OLJA": {
+     "p": 0.7655,
+     "krav": 0.0333,
+     "kant": -1.3
+    },
+    "PASS GULD": {
+     "p": 0.7954,
+     "krav": 0.0389,
+     "kant": -13.3
+    },
+    "ingen SILVER": {
+     "p": 0.9652,
+     "krav": 0.0444,
+     "kant": -3.4
+    },
+    "ingen GULD": {
+     "p": 0.9705,
+     "krav": 0.05,
+     "kant": -3.1
+    }
+   }
+  }
+ ],
+ "regler": {
+  "genererad": "2026-11-24T12:55:15",
+  "fran": "2026-11-12",
+  "dagar": 9,
+  "lista": [
+   {
+    "id": "HANDELSTID",
+    "namn": "Handelstid",
+    "beskr": "köp bara inom symbolens handelstid",
+    "varde": 0,
+    "enhet": "kr/dag",
+    "t": null,
+    "dagar": 9,
+    "dom": "avstängd"
+   },
+   {
+    "id": "KÖPSTOPP",
+    "namn": "Köpstopp före stängning",
+    "beskr": "inget köp om genomets vinnartid inte ryms före stängning",
+    "varde": 34.8,
+    "enhet": "kr/dag",
+    "t": 1.49,
+    "dagar": 9,
+    "dom": "obevisad"
+   },
+   {
+    "id": "FÖRLUST-COOLDOWN",
+    "namn": "Paus efter förlust",
+    "beskr": "paus efter förlust i samma riktning",
+    "varde": -0.9,
+    "enhet": "kr/dag",
+    "t": -0.11,
+    "dagar": 9,
+    "dom": "gör inget"
+   },
+   {
+    "id": "DAGSBRYTARE",
+    "namn": "Dagsbrytare",
+    "beskr": "högst N förluster per genom och dag",
+    "varde": 0,
+    "enhet": "kr/dag",
+    "t": null,
+    "dagar": 9,
+    "dom": "avstängd"
+   },
+   {
+    "id": "RÖSTER",
+    "namn": "Röstkrav",
+    "beskr": "krav på antal indikatorröster",
+    "varde": 0,
+    "enhet": "kr/dag",
+    "t": null,
+    "dagar": 9,
+    "dom": "avstängd"
+   },
+   {
+    "id": "MAKRO",
+    "namn": "Makrogrinden",
+    "beskr": "vänta runt makrohändelser",
+    "varde": -320.1,
+    "enhet": "kr/dag",
+    "t": -2.21,
+    "dagar": 9,
+    "dom": "kostar"
+   },
+   {
+    "id": "SIGNALÅLDER",
+    "namn": "Signalålder",
+    "beskr": "köp inte en signal äldre än MaxSignalAgeBars",
+    "varde": -130.7,
+    "enhet": "kr/dag",
+    "t": -1.05,
+    "dagar": 9,
+    "dom": "obevisad"
+   },
+   {
+    "id": "URVALSKRAVEN",
+    "namn": "Urvalets krav (≥ 8 vinster)",
+    "beskr": "≥ 8 vinster m.m. (lotten bland godkända mot katalogen)",
+    "varde": 5.7,
+    "enhet": "kr/aff",
+    "t": 0.2,
+    "dagar": 13,
+    "dom": "obevisad"
+   },
+   {
+    "id": "URVALSRANKNINGEN",
+    "namn": "Urvalets rangordning",
+    "beskr": "kr-rankningen (urvalet mot lotten bland godkända)",
+    "varde": -17.9,
+    "enhet": "kr/aff",
+    "t": -0.49,
+    "dagar": 13,
+    "dom": "obevisad"
+   }
+  ]
+ },
+ "grindar": [
+  {
+   "nr": 1,
+   "titel": "Ett urval med bevisad kant",
+   "status": "start",
+   "text": "Huvudprovet behöver 10 handelsdagar med affärer och 97,5 % bevisgrad. Läge: 0 av 10 dagar.",
+   "progress": 0.0
+  },
+  {
+   "nr": 2,
+   "titel": "Reglerna förtjänar sin plats",
+   "status": "dig",
+   "text": "Tre regler är redan avstängda och kan städas bort. Makrogrinden ser ut att kosta pengar men är inte bevisad — den mäts framåt från 24/11. Du beslutar vad som tas bort."
+  },
+  {
+   "nr": 3,
+   "titel": "Pappret mäter rätt pris",
+   "status": "pagar",
+   "text": "Pappret ska köpa till samma pris som live skulle få. Två saker kvar, de går ut i samma deploy.",
+   "steg": [
+    {
+     "text": "Certvalet: billiga cert tar inte turbons plats (e187a18)",
+     "klar": false,
+     "not": "byggt, väntar på deploy"
+    },
+    {
+     "text": "Färsk kurs vid pappersköp (kvoten kan vara 30 s gammal)",
+     "klar": false,
+     "not": "byggs"
+    },
+    {
+     "text": "Deploy en kväll efter 22:00, med ditt ja",
+     "klar": false,
+     "not": "väntar på dig"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "titel": "Live med liten insats",
+   "status": "last",
+   "text": "Av sedan 26/10. Slås på bara med ditt ja när grind 1–3 är gröna — liten insats första veckan."
+  }
+ ],
+ "liveAvSedan": "2026-10-26",
+ "milstolpar": [
+  {
+   "d": "2026-12-07",
+   "text": "Tidigaste dom i huvudprovet (10 handelsdagar från 24/11)"
+  },
+  {
+   "d": "2026-12-16",
+   "text": "Beslut om stopptaket (9 % står kvar tills dess)"
+  }
+ ]
+}
