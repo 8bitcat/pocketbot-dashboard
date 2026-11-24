@@ -6118,5 +6118,69 @@
     "total_1m": null
    }
   }
+ },
+ {
+  "datum": "2026-11-23",
+  "korning": "2026-11-24T05:00",
+  "resultat": {
+   "godis": 0.0,
+   "basen": 0.0
+  },
+  "saldo": {
+   "godis": 3596.34,
+   "basen": 3963.58,
+   "hink": 7.76
+  },
+  "svept": 444.75,
+  "total": 8004.67,
+  "takt": {
+   "godis": -143.12,
+   "basen": -176.65
+  },
+  "fonster": 21,
+  "mal": {
+   "breakeven_godis": null,
+   "breakeven_basen": null,
+   "hink_10k": null,
+   "total_100k": null,
+   "total_1m": null
+  },
+  "taktF": {
+   "1v": {
+    "godis": -545.16,
+    "basen": -741.93
+   },
+   "2v": {
+    "godis": -272.58,
+    "basen": -370.97
+   },
+   "1m": {
+    "godis": -143.12,
+    "basen": -176.65
+   }
+  },
+  "malF": {
+   "1v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "2v": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   },
+   "1m": {
+    "breakeven_godis": null,
+    "breakeven_basen": null,
+    "hink_10k": null,
+    "total_100k": null,
+    "total_1m": null
+   }
+  }
  }
 ]
