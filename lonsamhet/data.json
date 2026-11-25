@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T23:47",
+ "uppdaterad": "2026-11-25T05:01",
  "fel": [],
  "rader": {
   "drift": {
@@ -1288,114 +1288,114 @@
  ],
  "vinnare": [],
  "bayesIdag": {
-  "datum": "2026-11-24",
+  "datum": "2026-11-25",
   "klasser": [
    {
     "klass": "PASS SILVER",
     "dom": "PASS",
     "sym": "SILVER",
-    "kant": 11.7,
-    "t": 1.39,
-    "p": 0.1035,
+    "kant": 14.3,
+    "t": 1.84,
+    "p": 0.0518,
     "krav": 0.0056,
-    "dagar": 8,
-    "aff": 709,
+    "dagar": 9,
+    "aff": 737,
     "godkand": false
    },
    {
     "klass": "FAIL GULD",
     "dom": "FAIL",
     "sym": "GULD",
-    "kant": 0.3,
-    "t": -0.19,
-    "p": 0.5738,
+    "kant": 1.0,
+    "t": -0.11,
+    "p": 0.5419,
     "krav": 0.0111,
-    "dagar": 8,
-    "aff": 1954,
-    "godkand": false
-   },
-   {
-    "klass": "FAIL OLJA",
-    "dom": "FAIL",
-    "sym": "OLJA",
-    "kant": -2.7,
-    "t": -0.61,
-    "p": 0.7186,
-    "krav": 0.0167,
-    "dagar": 8,
-    "aff": 1877,
-    "godkand": false
-   },
-   {
-    "klass": "PASS OLJA",
-    "dom": "PASS",
-    "sym": "OLJA",
-    "kant": -9.9,
-    "t": -0.68,
-    "p": 0.7419,
-    "krav": 0.0222,
-    "dagar": 8,
-    "aff": 228,
-    "godkand": false
-   },
-   {
-    "klass": "FAIL SILVER",
-    "dom": "FAIL",
-    "sym": "SILVER",
-    "kant": -3.0,
-    "t": -1.19,
-    "p": 0.8639,
-    "krav": 0.0278,
-    "dagar": 8,
-    "aff": 1370,
-    "godkand": false
-   },
-   {
-    "klass": "ingen SILVER",
-    "dom": "ingen",
-    "sym": "SILVER",
-    "kant": -5.4,
-    "t": -1.22,
-    "p": 0.8688,
-    "krav": 0.0333,
-    "dagar": 8,
-    "aff": 2352,
-    "godkand": false
-   },
-   {
-    "klass": "ingen OLJA",
-    "dom": "ingen",
-    "sym": "OLJA",
-    "kant": -4.1,
-    "t": -1.32,
-    "p": 0.8865,
-    "krav": 0.0389,
-    "dagar": 8,
-    "aff": 2645,
+    "dagar": 9,
+    "aff": 2197,
     "godkand": false
    },
    {
     "klass": "PASS GULD",
     "dom": "PASS",
     "sym": "GULD",
-    "kant": -18.8,
-    "t": -1.37,
-    "p": 0.8898,
+    "kant": -5.7,
+    "t": -0.39,
+    "p": 0.6476,
+    "krav": 0.0167,
+    "dagar": 8,
+    "aff": 246,
+    "godkand": false
+   },
+   {
+    "klass": "FAIL OLJA",
+    "dom": "FAIL",
+    "sym": "OLJA",
+    "kant": -2.1,
+    "t": -0.6,
+    "p": 0.7171,
+    "krav": 0.0222,
+    "dagar": 9,
+    "aff": 2026,
+    "godkand": false
+   },
+   {
+    "klass": "FAIL SILVER",
+    "dom": "FAIL",
+    "sym": "SILVER",
+    "kant": -1.8,
+    "t": -0.94,
+    "p": 0.8138,
+    "krav": 0.0278,
+    "dagar": 9,
+    "aff": 1430,
+    "godkand": false
+   },
+   {
+    "klass": "ingen SILVER",
+    "dom": "ingen",
+    "sym": "SILVER",
+    "kant": -4.3,
+    "t": -1.15,
+    "p": 0.8583,
+    "krav": 0.0333,
+    "dagar": 9,
+    "aff": 2591,
+    "godkand": false
+   },
+   {
+    "klass": "PASS OLJA",
+    "dom": "PASS",
+    "sym": "OLJA",
+    "kant": -22.0,
+    "t": -1.23,
+    "p": 0.8738,
+    "krav": 0.0389,
+    "dagar": 9,
+    "aff": 237,
+    "godkand": false
+   },
+   {
+    "klass": "ingen OLJA",
+    "dom": "ingen",
+    "sym": "OLJA",
+    "kant": -7.5,
+    "t": -1.79,
+    "p": 0.944,
     "krav": 0.0444,
-    "dagar": 7,
-    "aff": 240,
+    "dagar": 9,
+    "aff": 2915,
     "godkand": false
    },
    {
     "klass": "ingen GULD",
     "dom": "ingen",
     "sym": "GULD",
-    "kant": -6.0,
-    "t": -2.08,
-    "p": 0.962,
+    "kant": -5.2,
+    "t": -2.05,
+    "p": 0.9626,
     "krav": 0.05,
-    "dagar": 8,
-    "aff": 2324,
+    "dagar": 9,
+    "aff": 2622,
     "godkand": false
    }
   ],
@@ -1457,10 +1457,61 @@
      "kant": -6.0
     }
    }
+  },
+  {
+   "datum": "2026-11-25",
+   "valda": 4,
+   "klasser": {
+    "PASS SILVER": {
+     "p": 0.0518,
+     "krav": 0.0056,
+     "kant": 14.3
+    },
+    "FAIL GULD": {
+     "p": 0.5419,
+     "krav": 0.0111,
+     "kant": 1.0
+    },
+    "PASS GULD": {
+     "p": 0.6476,
+     "krav": 0.0167,
+     "kant": -5.7
+    },
+    "FAIL OLJA": {
+     "p": 0.7171,
+     "krav": 0.0222,
+     "kant": -2.1
+    },
+    "FAIL SILVER": {
+     "p": 0.8138,
+     "krav": 0.0278,
+     "kant": -1.8
+    },
+    "ingen SILVER": {
+     "p": 0.8583,
+     "krav": 0.0333,
+     "kant": -4.3
+    },
+    "PASS OLJA": {
+     "p": 0.8738,
+     "krav": 0.0389,
+     "kant": -22.0
+    },
+    "ingen OLJA": {
+     "p": 0.944,
+     "krav": 0.0444,
+     "kant": -7.5
+    },
+    "ingen GULD": {
+     "p": 0.9626,
+     "krav": 0.05,
+     "kant": -5.2
+    }
+   }
   }
  ],
  "regler": {
-  "genererad": "2026-11-24T12:55:15",
+  "genererad": "2026-11-25T05:02:25",
   "fran": "2026-11-12",
   "dagar": 9,
   "lista": [
@@ -1478,9 +1529,9 @@
     "id": "KÖPSTOPP",
     "namn": "Köpstopp före stängning",
     "beskr": "inget köp om genomets vinnartid inte ryms före stängning",
-    "varde": 34.8,
+    "varde": 20.0,
     "enhet": "kr/dag",
-    "t": 1.49,
+    "t": 1.0,
     "dagar": 9,
     "dom": "obevisad"
    },
@@ -1488,11 +1539,11 @@
     "id": "FÖRLUST-COOLDOWN",
     "namn": "Paus efter förlust",
     "beskr": "paus efter förlust i samma riktning",
-    "varde": -0.9,
+    "varde": -16.9,
     "enhet": "kr/dag",
-    "t": -0.11,
+    "t": -0.95,
     "dagar": 9,
-    "dom": "gör inget"
+    "dom": "obevisad"
    },
    {
     "id": "DAGSBRYTARE",
@@ -1538,20 +1589,20 @@
     "id": "URVALSKRAVEN",
     "namn": "Urvalets krav (≥ 8 vinster)",
     "beskr": "≥ 8 vinster m.m. (lotten bland godkända mot katalogen)",
-    "varde": 5.7,
+    "varde": -0.6,
     "enhet": "kr/aff",
-    "t": 0.2,
-    "dagar": 13,
+    "t": -0.02,
+    "dagar": 14,
     "dom": "obevisad"
    },
    {
     "id": "URVALSRANKNINGEN",
     "namn": "Urvalets rangordning",
     "beskr": "kr-rankningen (urvalet mot lotten bland godkända)",
-    "varde": -17.9,
+    "varde": -15.5,
     "enhet": "kr/aff",
-    "t": -0.49,
-    "dagar": 13,
+    "t": -0.46,
+    "dagar": 14,
     "dom": "obevisad"
    }
   ]
