@@ -52,7 +52,7 @@ a { color: var(--bla); }
 .c-klar { color: var(--gron); background: var(--gron-bg); } .c-pagar { color: var(--bla); background: var(--bla-bg); }
 .c-dig { color: var(--gul); background: var(--gul-bg); } .c-last, .c-start { color: var(--dov); background: var(--gra-bg); }
 .c-kostar { color: var(--rod); background: var(--rod-bg); } .c-tjanar { color: var(--gron); background: var(--gron-bg); }
-.c-obevisad { color: var(--gul); background: var(--gul-bg); } .c-avstangd, .c-goringet { color: var(--dov); background: var(--gra-bg); }
+.c-obevisad { color: var(--gul); background: var(--gul-bg); } .c-skydd { color: var(--bla); background: var(--bla-bg); } .c-avstangd, .c-goringet { color: var(--dov); background: var(--gra-bg); }
 
 /* grindarna */
 .grindar { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; counter-reset: g; }
@@ -354,7 +354,7 @@ summary:hover { color: var(--text); }
     graf(ord.filter(([v]) => R[v]).map(([v, c]) => ({ c, p: R[v].serie.reduce((acc, x) => { const s = acc.s + x.kr, n = acc.n + x.n; acc.pts.push([x.d, n ? s / n : null]); acc.s = s; acc.n = n; return acc; }, { s: 0, n: 0, pts: [] }).pts })));
 
     // ── reglerna
-    const RG = D.regler || {}; const DOMTXT = { kostar: "Kostar troligen", tjanar: "Tjänar", obevisad: "Inget bevisat", avstangd: "Avstängd", "gör inget": "Gör ingenting" };
+    const RG = D.regler || {}; const DOMTXT = { kostar: "Kostar troligen", tjanar: "Tjänar", obevisad: "Inget bevisat", avstangd: "Avstängd", "gör inget": "Gör ingenting", skydd: "Skydd — står kvar" };
     $("regel-om").textContent = RG.fran ? `${RG.dagar} dagar från ${datum(RG.fran)} · katalogen, råvaror` : "";
     $("regler").innerHTML = (RG.lista || []).map((r) => { const d = r.dom === "gör inget" ? "goringet" : r.dom;
       return `<div class="regel"><div><div class="namn">${esc(r.namn)}</div><div class="beskr">${esc(r.beskr || "")}</div></div>
