@@ -1,5 +1,47 @@
 [
  {
+  "tid": "2026-11-25T06:50",
+  "typ": "in",
+  "id": "trend-GULD-5m-S-99370",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +48 kr, P(E>0) 0.99, n 14, riktning 86 %"
+ },
+ {
+  "tid": "2026-11-25T06:50",
+  "typ": "in",
+  "id": "trendL-GULD-5m-S-733642",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +40 kr, P(E>0) 1.00, n 18, riktning 100 %"
+ },
+ {
+  "tid": "2026-11-25T06:50",
+  "typ": "in",
+  "id": "stat-SILVER-1h-S-437532",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet: E_lo +28 kr, P(E>0) 0.98, n 8, riktning 88 %"
+ },
+ {
+  "tid": "2026-11-25T06:50",
+  "typ": "ut",
+  "id": "spec-GULD-5m-S-674959",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-11-25T06:50",
+  "typ": "ut",
+  "id": "stat-GULD-15m-S-339675",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
+  "tid": "2026-11-25T06:50",
+  "typ": "ut",
+  "id": "spec-SILVER-15m-S-635012",
+  "konto": "Godispåsen",
+  "skal": "katalogurvalet 15/10: inte bland de valda"
+ },
+ {
   "tid": "2026-11-24T06:51",
   "typ": "in",
   "id": "stat-SILVER-15m-S-85697",
