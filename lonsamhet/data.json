@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T05:00",
+ "uppdaterad": "2026-11-27T05:00",
  "fel": [],
  "rader": {
   "drift": {
@@ -94,13 +94,19 @@
      "kr": 827,
      "n": 16,
      "kum": 2752
+    },
+    {
+     "d": "2026-11-26",
+     "kr": -86,
+     "n": 12,
+     "kum": 2666
     }
    ],
-   "kr": 2752,
-   "n": 260,
-   "E": 10.6,
+   "kr": 2666,
+   "n": 272,
+   "E": 9.8,
    "plusdagar": 11,
-   "dagar": 15
+   "dagar": 16
   },
   "katalogen": {
    "namn": "Katalogen",
@@ -149,58 +155,64 @@
     },
     {
      "d": "2026-11-16",
-     "kr": 3641,
-     "n": 972,
-     "kum": 23601
+     "kr": 3735,
+     "n": 971,
+     "kum": 23696
     },
     {
      "d": "2026-11-17",
-     "kr": 20261,
-     "n": 955,
-     "kum": 43862
+     "kr": 20029,
+     "n": 952,
+     "kum": 43725
     },
     {
      "d": "2026-11-18",
      "kr": -3098,
      "n": 454,
-     "kum": 40764
+     "kum": 40627
     },
     {
      "d": "2026-11-19",
-     "kr": 14860,
-     "n": 579,
-     "kum": 55625
+     "kr": 14687,
+     "n": 575,
+     "kum": 55314
     },
     {
      "d": "2026-11-20",
-     "kr": 10936,
-     "n": 599,
-     "kum": 66560
+     "kr": 10807,
+     "n": 590,
+     "kum": 66121
     },
     {
      "d": "2026-11-23",
-     "kr": 9256,
-     "n": 1094,
-     "kum": 75816
+     "kr": 9010,
+     "n": 1083,
+     "kum": 75131
     },
     {
      "d": "2026-11-24",
-     "kr": 7713,
-     "n": 478,
-     "kum": 83529
+     "kr": 7722,
+     "n": 468,
+     "kum": 82853
     },
     {
      "d": "2026-11-25",
-     "kr": 8159,
-     "n": 426,
-     "kum": 91688
+     "kr": 8805,
+     "n": 417,
+     "kum": 91658
+    },
+    {
+     "d": "2026-11-26",
+     "kr": 3567,
+     "n": 526,
+     "kum": 95225
     }
    ],
-   "kr": 91688,
-   "n": 8903,
-   "E": 10.3,
-   "plusdagar": 11,
-   "dagar": 15
+   "kr": 95225,
+   "n": 9382,
+   "E": 10.1,
+   "plusdagar": 12,
+   "dagar": 16
   },
   "slump": {
    "namn": "Lotten",
@@ -294,16 +306,22 @@
      "kr": 209,
      "n": 5,
      "kum": 677
+    },
+    {
+     "d": "2026-11-26",
+     "kr": -493,
+     "n": 23,
+     "kum": 184
     }
    ],
-   "kr": 677,
-   "n": 191,
-   "E": 3.5,
+   "kr": 184,
+   "n": 214,
+   "E": 0.9,
    "plusdagar": 9,
-   "dagar": 15
+   "dagar": 16
   }
  },
- "senasteDag": "2026-11-25",
+ "senasteDag": "2026-11-26",
  "registrerad": "2026-11-05",
  "utforskning": [
   {
@@ -325,8 +343,8 @@
   {
    "id": "katalogen",
    "namn": "Katalogen",
-   "kant": 3.8,
-   "t": 0.59,
+   "kant": 3.9,
+   "t": 0.6,
    "brus": 11.3,
    "dagar": 9
   },
@@ -349,22 +367,27 @@
    "mot": "drift",
    "motNamn": "kostnaden 1,6",
    "neutral": true,
-   "dagarMedAff": 1,
+   "dagarMedAff": 2,
    "dagarKrav": 10,
-   "dagarGatt": 1,
-   "delta": -20.3,
+   "dagarGatt": 2,
+   "delta": 5.1,
    "t": null,
    "p": null,
    "krav": 0.025,
-   "E": -18.5,
-   "aff": 39,
+   "E": 19.9,
+   "aff": 208,
    "vinnare": false,
    "tidigast": "2026-12-08",
    "perDag": [
     {
      "d": "2026-11-25",
-     "E": -18.5,
-     "Em": -20.3
+     "E": -12.6,
+     "Em": -14.5
+    },
+    {
+     "d": "2026-11-26",
+     "E": 26.9,
+     "Em": 24.7
     }
    ],
    "ny": true
@@ -380,7 +403,7 @@
    "neutral": true,
    "dagarMedAff": 1,
    "dagarKrav": 10,
-   "dagarGatt": 1,
+   "dagarGatt": 2,
    "delta": -127.6,
    "t": null,
    "p": null,
@@ -394,6 +417,11 @@
      "d": "2026-11-25",
      "E": -127.2,
      "Em": -127.6
+    },
+    {
+     "d": "2026-11-26",
+     "E": null,
+     "Em": null
     }
    ],
    "ny": true
@@ -407,15 +435,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 2,
+   "dagarMedAff": 3,
    "dagarKrav": 10,
-   "dagarGatt": 2,
-   "delta": -87.4,
-   "t": null,
-   "p": null,
+   "dagarGatt": 3,
+   "delta": -50.9,
+   "t": -1.34,
+   "p": 0.8436,
    "krav": 0.0019,
-   "E": -86.6,
-   "aff": 6,
+   "E": -15.5,
+   "aff": 20,
    "vinnare": false,
    "tidigast": "2026-12-07",
    "perDag": [
@@ -428,6 +456,11 @@
      "d": "2026-11-25",
      "E": -54.1,
      "Em": -76.6
+    },
+    {
+     "d": "2026-11-26",
+     "E": 15.0,
+     "Em": 2.6
     }
    ],
    "ny": true
@@ -441,15 +474,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 4,
+   "dagarMedAff": 5,
    "dagarKrav": 10,
-   "dagarGatt": 5,
-   "delta": 35.6,
-   "t": 1.24,
-   "p": 0.1511,
+   "dagarGatt": 6,
+   "delta": 33.1,
+   "t": 1.48,
+   "p": 0.1062,
    "krav": 0.0019,
-   "E": 2.3,
-   "aff": 44,
+   "E": 4.4,
+   "aff": 52,
    "vinnare": false,
    "tidigast": "2026-12-02",
    "perDag": [
@@ -477,6 +510,11 @@
      "d": "2026-11-25",
      "E": null,
      "Em": null
+    },
+    {
+     "d": "2026-11-26",
+     "E": 15.9,
+     "Em": 20.4
     }
    ],
    "ny": true
@@ -490,15 +528,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 5,
+   "dagarMedAff": 6,
    "dagarKrav": 10,
-   "dagarGatt": 5,
-   "delta": 5.9,
-   "t": 0.24,
-   "p": 0.4117,
+   "dagarGatt": 6,
+   "delta": 14.9,
+   "t": 0.67,
+   "p": 0.2649,
    "krav": 0.0019,
-   "E": 7.2,
-   "aff": 99,
+   "E": 8.6,
+   "aff": 102,
    "vinnare": false,
    "tidigast": "2026-12-02",
    "perDag": [
@@ -526,6 +564,11 @@
      "d": "2026-11-25",
      "E": -14.7,
      "Em": -8.4
+    },
+    {
+     "d": "2026-11-26",
+     "E": 52.7,
+     "Em": 78.3
     }
    ],
    "ny": true
@@ -539,15 +582,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 5,
+   "dagarMedAff": 6,
    "dagarKrav": 10,
-   "dagarGatt": 5,
-   "delta": 37.9,
-   "t": 1.08,
-   "p": 0.1706,
+   "dagarGatt": 6,
+   "delta": 27.9,
+   "t": 0.92,
+   "p": 0.1999,
    "krav": 0.0019,
-   "E": 17.7,
-   "aff": 82,
+   "E": 10.8,
+   "aff": 96,
    "vinnare": false,
    "tidigast": "2026-12-02",
    "perDag": [
@@ -575,6 +618,11 @@
      "d": "2026-11-25",
      "E": 38.7,
      "Em": 31.0
+    },
+    {
+     "d": "2026-11-26",
+     "E": -29.1,
+     "Em": -11.6
     }
    ],
    "ny": true
@@ -588,15 +636,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 8,
+   "dagarMedAff": 9,
    "dagarKrav": 10,
-   "dagarGatt": 10,
-   "delta": -27.5,
-   "t": -1.01,
-   "p": 0.8266,
+   "dagarGatt": 11,
+   "delta": -21.0,
+   "t": -0.84,
+   "p": 0.788,
    "krav": 0.0019,
-   "E": 16.0,
-   "aff": 97,
+   "E": 16.8,
+   "aff": 108,
    "vinnare": false,
    "tidigast": "2026-11-25",
    "perDag": [
@@ -649,6 +697,11 @@
      "d": "2026-11-25",
      "E": -80.3,
      "Em": -40.5
+    },
+    {
+     "d": "2026-11-26",
+     "E": 24.0,
+     "Em": 33.8
     }
    ],
    "ny": false
@@ -662,27 +715,32 @@
    "mot": "katalogen",
    "motNamn": "katalogen",
    "neutral": false,
-   "dagarMedAff": 2,
+   "dagarMedAff": 3,
    "dagarKrav": 10,
-   "dagarGatt": 2,
-   "delta": 0.1,
-   "t": null,
-   "p": null,
+   "dagarGatt": 3,
+   "delta": 0.0,
+   "t": 1.0,
+   "p": 0.2112,
    "krav": 0.0019,
-   "E": 17.7,
-   "aff": 943,
+   "E": 14.4,
+   "aff": 1450,
    "vinnare": false,
    "tidigast": "2026-12-07",
    "perDag": [
     {
      "d": "2026-11-24",
-     "E": 16.1,
-     "Em": 8.6
+     "E": 16.5,
+     "Em": 9.1
     },
     {
      "d": "2026-11-25",
-     "E": 19.4,
-     "Em": 15.3
+     "E": 21.2,
+     "Em": 16.9
+    },
+    {
+     "d": "2026-11-26",
+     "E": 6.8,
+     "Em": 6.0
     }
    ],
    "ny": true
@@ -696,15 +754,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 14,
+   "dagarMedAff": 15,
    "dagarKrav": 10,
-   "dagarGatt": 15,
-   "delta": 1.2,
-   "t": 0.11,
-   "p": 0.4572,
+   "dagarGatt": 16,
+   "delta": 0.3,
+   "t": 0.02,
+   "p": 0.4905,
    "krav": 0.0019,
-   "E": 10.8,
-   "aff": 195,
+   "E": 9.3,
+   "aff": 205,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
@@ -782,6 +840,11 @@
      "d": "2026-11-25",
      "E": 54.1,
      "Em": 40.3
+    },
+    {
+     "d": "2026-11-26",
+     "E": -20.5,
+     "Em": -9.7
     }
    ],
    "ny": false
@@ -795,15 +858,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 15,
+   "dagarMedAff": 16,
    "dagarKrav": 10,
-   "dagarGatt": 15,
-   "delta": 4.7,
-   "t": 0.37,
-   "p": 0.3585,
+   "dagarGatt": 16,
+   "delta": 6.3,
+   "t": 0.52,
+   "p": 0.3047,
    "krav": 0.0019,
-   "E": 14.2,
-   "aff": 208,
+   "E": 14.6,
+   "aff": 219,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
@@ -881,6 +944,11 @@
      "d": "2026-11-25",
      "E": 38.4,
      "Em": -1.8
+    },
+    {
+     "d": "2026-11-26",
+     "E": 22.7,
+     "Em": 32.9
     }
    ],
    "ny": false
@@ -894,15 +962,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 15,
+   "dagarMedAff": 16,
    "dagarKrav": 10,
-   "dagarGatt": 15,
-   "delta": -0.2,
-   "t": -0.02,
-   "p": 0.5069,
+   "dagarGatt": 16,
+   "delta": 3.7,
+   "t": 0.31,
+   "p": 0.3814,
    "krav": 0.0019,
-   "E": 7.6,
-   "aff": 185,
+   "E": 8.9,
+   "aff": 190,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
@@ -980,6 +1048,11 @@
      "d": "2026-11-25",
      "E": 53.8,
      "Em": 39.9
+    },
+    {
+     "d": "2026-11-26",
+     "E": 55.4,
+     "Em": 73.0
     }
    ],
    "ny": false
@@ -993,15 +1066,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 15,
+   "dagarMedAff": 16,
    "dagarKrav": 10,
-   "dagarGatt": 15,
-   "delta": 13.8,
-   "t": 0.44,
-   "p": 0.3344,
+   "dagarGatt": 16,
+   "delta": 12.0,
+   "t": 0.41,
+   "p": 0.3449,
    "krav": 0.0019,
-   "E": 3.5,
-   "aff": 191,
+   "E": 0.9,
+   "aff": 214,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
@@ -1079,6 +1152,11 @@
      "d": "2026-11-25",
      "E": 41.8,
      "Em": 22.8
+    },
+    {
+     "d": "2026-11-26",
+     "E": -21.5,
+     "Em": -15.1
     }
    ],
    "ny": false
@@ -1092,15 +1170,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 15,
+   "dagarMedAff": 16,
    "dagarKrav": 10,
-   "dagarGatt": 15,
-   "delta": 7.1,
-   "t": 1.17,
-   "p": 0.1311,
+   "dagarGatt": 16,
+   "delta": 7.4,
+   "t": 1.3,
+   "p": 0.1067,
    "krav": 0.0019,
-   "E": 9.4,
-   "aff": 291,
+   "E": 9.2,
+   "aff": 307,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
@@ -1178,6 +1256,11 @@
      "d": "2026-11-25",
      "E": 51.5,
      "Em": 34.6
+    },
+    {
+     "d": "2026-11-26",
+     "E": 4.8,
+     "Em": 13.3
     }
    ],
    "ny": false
@@ -1191,15 +1274,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 14,
+   "dagarMedAff": 15,
    "dagarKrav": 10,
-   "dagarGatt": 15,
-   "delta": -10.9,
-   "t": -0.49,
-   "p": 0.6837,
+   "dagarGatt": 16,
+   "delta": -8.0,
+   "t": -0.38,
+   "p": 0.6463,
    "krav": 0.0019,
-   "E": 2.7,
-   "aff": 125,
+   "E": 4.4,
+   "aff": 135,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
@@ -1277,6 +1360,11 @@
      "d": "2026-11-25",
      "E": 12.8,
      "Em": 15.1
+    },
+    {
+     "d": "2026-11-26",
+     "E": 25.3,
+     "Em": 35.8
     }
    ],
    "ny": false
@@ -1290,15 +1378,15 @@
    "mot": "drift",
    "motNamn": "urvalet",
    "neutral": false,
-   "dagarMedAff": 15,
+   "dagarMedAff": 16,
    "dagarKrav": 10,
-   "dagarGatt": 15,
+   "dagarGatt": 16,
    "delta": -0.7,
    "t": -0.19,
-   "p": 0.5722,
+   "p": 0.5757,
    "krav": 0.0019,
-   "E": 10.6,
-   "aff": 265,
+   "E": 9.4,
+   "aff": 283,
    "vinnare": false,
    "tidigast": "2026-11-18",
    "perDag": [
@@ -1376,6 +1464,11 @@
      "d": "2026-11-25",
      "E": 51.7,
      "Em": 34.6
+    },
+    {
+     "d": "2026-11-26",
+     "E": -7.6,
+     "Em": -13.4
     }
    ],
    "ny": false
@@ -1383,114 +1476,114 @@
  ],
  "vinnare": [],
  "bayesIdag": {
-  "datum": "2026-11-26",
+  "datum": "2026-11-27",
   "klasser": [
    {
     "klass": "PASS SILVER",
     "dom": "PASS",
     "sym": "SILVER",
-    "kant": 8.7,
-    "t": 0.85,
-    "p": 0.2087,
+    "kant": 10.1,
+    "t": 1.1,
+    "p": 0.1487,
     "krav": 0.0056,
-    "dagar": 10,
-    "aff": 759,
+    "dagar": 11,
+    "aff": 868,
     "godkand": false
    },
    {
     "klass": "FAIL GULD",
     "dom": "FAIL",
     "sym": "GULD",
-    "kant": 3.8,
-    "t": 0.37,
-    "p": 0.3601,
+    "kant": 1.7,
+    "t": 0.01,
+    "p": 0.495,
     "krav": 0.0111,
-    "dagar": 10,
-    "aff": 2360,
+    "dagar": 11,
+    "aff": 2509,
     "godkand": false
    },
    {
     "klass": "FAIL OLJA",
     "dom": "FAIL",
     "sym": "OLJA",
-    "kant": 0.2,
-    "t": -0.23,
-    "p": 0.5902,
+    "kant": 0.8,
+    "t": -0.15,
+    "p": 0.5598,
     "krav": 0.0167,
-    "dagar": 10,
-    "aff": 2240,
+    "dagar": 11,
+    "aff": 2408,
     "godkand": false
    },
    {
     "klass": "PASS GULD",
     "dom": "PASS",
     "sym": "GULD",
-    "kant": -5.7,
-    "t": -0.39,
-    "p": 0.6476,
+    "kant": -3.9,
+    "t": -0.33,
+    "p": 0.6264,
     "krav": 0.0222,
-    "dagar": 8,
-    "aff": 246,
+    "dagar": 9,
+    "aff": 270,
     "godkand": false
    },
    {
     "klass": "ingen SILVER",
     "dom": "ingen",
     "sym": "SILVER",
-    "kant": -2.5,
-    "t": -0.81,
-    "p": 0.7816,
-    "krav": 0.0278,
-    "dagar": 10,
-    "aff": 2782,
-    "godkand": false
-   },
-   {
-    "klass": "ingen GULD",
-    "dom": "ingen",
-    "sym": "GULD",
     "kant": -2.4,
-    "t": -1.01,
-    "p": 0.8305,
-    "krav": 0.0333,
-    "dagar": 10,
-    "aff": 2818,
+    "t": -0.9,
+    "p": 0.8047,
+    "krav": 0.0278,
+    "dagar": 11,
+    "aff": 2928,
     "godkand": false
    },
    {
     "klass": "PASS OLJA",
     "dom": "PASS",
     "sym": "OLJA",
-    "kant": -19.4,
-    "t": -1.21,
-    "p": 0.8713,
-    "krav": 0.0389,
-    "dagar": 10,
-    "aff": 258,
+    "kant": -14.5,
+    "t": -0.98,
+    "p": 0.8243,
+    "krav": 0.0333,
+    "dagar": 11,
+    "aff": 298,
     "godkand": false
    },
    {
     "klass": "FAIL SILVER",
     "dom": "FAIL",
     "sym": "SILVER",
-    "kant": -4.9,
-    "t": -1.45,
-    "p": 0.9101,
+    "kant": -4.2,
+    "t": -1.42,
+    "p": 0.9068,
+    "krav": 0.0389,
+    "dagar": 11,
+    "aff": 1546,
+    "godkand": false
+   },
+   {
+    "klass": "ingen GULD",
+    "dom": "ingen",
+    "sym": "GULD",
+    "kant": -5.3,
+    "t": -1.5,
+    "p": 0.9171,
     "krav": 0.0444,
-    "dagar": 10,
-    "aff": 1489,
+    "dagar": 11,
+    "aff": 2949,
     "godkand": false
    },
    {
     "klass": "ingen OLJA",
     "dom": "ingen",
     "sym": "OLJA",
-    "kant": -5.6,
-    "t": -1.46,
-    "p": 0.9111,
+    "kant": -7.0,
+    "t": -1.84,
+    "p": 0.9519,
     "krav": 0.05,
-    "dagar": 10,
-    "aff": 3207,
+    "dagar": 11,
+    "aff": 3494,
     "godkand": false
    }
   ],
@@ -1654,12 +1747,63 @@
      "kant": -5.6
     }
    }
+  },
+  {
+   "datum": "2026-11-27",
+   "valda": 4,
+   "klasser": {
+    "PASS SILVER": {
+     "p": 0.1487,
+     "krav": 0.0056,
+     "kant": 10.1
+    },
+    "FAIL GULD": {
+     "p": 0.495,
+     "krav": 0.0111,
+     "kant": 1.7
+    },
+    "FAIL OLJA": {
+     "p": 0.5598,
+     "krav": 0.0167,
+     "kant": 0.8
+    },
+    "PASS GULD": {
+     "p": 0.6264,
+     "krav": 0.0222,
+     "kant": -3.9
+    },
+    "ingen SILVER": {
+     "p": 0.8047,
+     "krav": 0.0278,
+     "kant": -2.4
+    },
+    "PASS OLJA": {
+     "p": 0.8243,
+     "krav": 0.0333,
+     "kant": -14.5
+    },
+    "FAIL SILVER": {
+     "p": 0.9068,
+     "krav": 0.0389,
+     "kant": -4.2
+    },
+    "ingen GULD": {
+     "p": 0.9171,
+     "krav": 0.0444,
+     "kant": -5.3
+    },
+    "ingen OLJA": {
+     "p": 0.9519,
+     "krav": 0.05,
+     "kant": -7.0
+    }
+   }
   }
  ],
  "regler": {
-  "genererad": "2026-11-26T05:01:20",
+  "genererad": "2026-11-27T05:00:56",
   "fran": "2026-11-12",
-  "dagar": 10,
+  "dagar": 11,
   "lista": [
    {
     "id": "HANDELSTID",
@@ -1668,27 +1812,27 @@
     "varde": 0,
     "enhet": "kr/dag",
     "t": null,
-    "dagar": 10,
+    "dagar": 11,
     "dom": "skydd"
    },
    {
     "id": "KÖPSTOPP",
     "namn": "Köpstopp före stängning",
     "beskr": "inget köp om genomets vinnartid inte ryms före stängning",
-    "varde": 36.0,
+    "varde": 32.7,
     "enhet": "kr/dag",
-    "t": 1.5,
-    "dagar": 10,
+    "t": 1.49,
+    "dagar": 11,
     "dom": "obevisad"
    },
    {
     "id": "FÖRLUST-COOLDOWN",
     "namn": "Paus efter förlust",
     "beskr": "paus efter förlust i samma riktning",
-    "varde": -15.2,
+    "varde": -27.1,
     "enhet": "kr/dag",
-    "t": -0.95,
-    "dagar": 10,
+    "t": -1.45,
+    "dagar": 11,
     "dom": "obevisad"
    },
    {
@@ -1698,7 +1842,7 @@
     "varde": 0,
     "enhet": "kr/dag",
     "t": null,
-    "dagar": 10,
+    "dagar": 11,
     "dom": "avstängd"
    },
    {
@@ -1708,47 +1852,47 @@
     "varde": 0,
     "enhet": "kr/dag",
     "t": null,
-    "dagar": 10,
+    "dagar": 11,
     "dom": "avstängd"
    },
    {
     "id": "MAKRO",
     "namn": "Makrogrinden",
     "beskr": "vänta runt makrohändelser",
-    "varde": -400.8,
+    "varde": -353.6,
     "enhet": "kr/dag",
-    "t": -2.63,
-    "dagar": 10,
+    "t": -2.54,
+    "dagar": 11,
     "dom": "kostar"
    },
    {
     "id": "SIGNALÅLDER",
     "namn": "Signalålder",
     "beskr": "köp inte en signal äldre än MaxSignalAgeBars",
-    "varde": -158.5,
+    "varde": -144.1,
     "enhet": "kr/dag",
     "t": -1.38,
-    "dagar": 10,
+    "dagar": 11,
     "dom": "obevisad"
    },
    {
     "id": "URVALSKRAVEN",
     "namn": "Urvalets krav (≥ 8 vinster)",
     "beskr": "≥ 8 vinster m.m. (lotten bland godkända mot katalogen)",
-    "varde": 0.8,
+    "varde": -1.1,
     "enhet": "kr/aff",
-    "t": 0.03,
-    "dagar": 15,
+    "t": -0.05,
+    "dagar": 16,
     "dom": "obevisad"
    },
    {
     "id": "URVALSRANKNINGEN",
     "namn": "Urvalets rangordning",
     "beskr": "kr-rankningen (urvalet mot lotten bland godkända)",
-    "varde": -13.8,
+    "varde": -12.0,
     "enhet": "kr/aff",
-    "t": -0.44,
-    "dagar": 15,
+    "t": -0.41,
+    "dagar": 16,
     "dom": "obevisad"
    }
   ]
@@ -1758,8 +1902,8 @@
    "nr": 1,
    "titel": "Ett urval med bevisad kant",
    "status": "pagar",
-   "text": "Korgen ska tjäna mer än kostnaden när riktningen räknats bort: ≥ 10 handelsdagar, 97,5 % bevisgrad. Läge: 1 av 10 dagar.",
-   "progress": 0.1
+   "text": "Korgen ska tjäna mer än kostnaden när riktningen räknats bort: ≥ 10 handelsdagar, 97,5 % bevisgrad. Läge: 2 av 10 dagar.",
+   "progress": 0.2
   },
   {
    "nr": 2,
