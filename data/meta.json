@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T05:00",
+ "uppdaterad": "2026-11-28T05:00",
  "konton": {
   "godis": "Godispåsen",
   "basen": "Basen",
@@ -19,12 +19,12 @@
   "1m": 21
  },
  "saldo": {
-  "godis": 3931.68,
-  "basen": 4338.88,
+  "godis": 3644.94,
+  "basen": 4020.28,
   "hink": 7.76
  },
  "svept": 444.75,
- "total": 8715.31,
+ "total": 8109.97,
  "malHink": 10000.0,
  "mal100k": 100000.0,
  "mal1m": 1000000.0
